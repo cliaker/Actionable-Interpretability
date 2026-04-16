@@ -144,7 +144,7 @@ If you use this work, please cite:
 ```
 @misc{neighborhood-framing-bias-2025,
   title={Place-Based Framing Bias in LLMs: Mechanistic Interpretability of Neighborhood-Driven Policy Recommendations},
-  author={Chengyu},
+  author={Chengyu, Abhishek},
   year={2025},
   url={https://github.com/YOUR_USERNAME/YOUR_REPO}
 }
@@ -152,7 +152,7 @@ If you use this work, please cite:
 
 ## License
 
-[MIT](LICENSE) — or specify your preferred license.
+[MIT](LICENSE) 
 
 ## Acknowledgments
 
