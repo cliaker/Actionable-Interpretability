@@ -146,7 +146,7 @@ If you use this work, please cite:
   title={Place-Based Framing Bias in LLMs: Mechanistic Interpretability of Neighborhood-Driven Policy Recommendations},
   author={Chengyu, Abhishek},
   year={2025},
-  url={https://github.com/YOUR_USERNAME/YOUR_REPO}
+  url={https://github.com/cliaker/Actionable-Interpretability}
 }
 ```
 
