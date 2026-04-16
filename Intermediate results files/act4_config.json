@@ -1,0 +1,8 @@
+{
+  "DEBIAS_LAYER": 20,
+  "OPTIMAL_ALPHA": -1.0,
+  "debias_direction_norm": 1.765965461730957,
+  "original_gap": 0.2421875,
+  "steered_gap": 0.23668981481481485,
+  "prompt_debiased_gap": 0.23408564814814814
+}

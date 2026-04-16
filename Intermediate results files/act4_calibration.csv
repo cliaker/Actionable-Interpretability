@@ -1,0 +1,1297 @@
+scenario_id,city,name,valence,alpha,base_pref,steered_pref
+S1,Boston,Back Bay,affluent,-2.0,-1.041666666666666,-1.083333333333333
+S1,Boston,Back Bay,affluent,-1.75,-1.041666666666666,-1.083333333333333
+S1,Boston,Back Bay,affluent,-1.5,-1.041666666666666,-1.041666666666666
+S1,Boston,Back Bay,affluent,-1.25,-1.041666666666666,-1.083333333333333
+S1,Boston,Back Bay,affluent,-1.0,-1.041666666666666,-1.083333333333333
+S1,Boston,Back Bay,affluent,-0.75,-1.041666666666666,-1.041666666666666
+S1,Boston,Back Bay,affluent,-0.5,-1.041666666666666,-1.083333333333333
+S1,Boston,Back Bay,affluent,-0.25,-1.041666666666666,-1.083333333333333
+S1,Boston,Back Bay,affluent,0.0,-1.041666666666666,-1.041666666666666
+S1,Boston,Beacon Hill,affluent,-2.0,-0.75,-0.708333333333333
+S1,Boston,Beacon Hill,affluent,-1.75,-0.75,-0.75
+S1,Boston,Beacon Hill,affluent,-1.5,-0.75,-0.75
+S1,Boston,Beacon Hill,affluent,-1.25,-0.75,-0.7083333333333339
+S1,Boston,Beacon Hill,affluent,-1.0,-0.75,-0.75
+S1,Boston,Beacon Hill,affluent,-0.75,-0.75,-0.75
+S1,Boston,Beacon Hill,affluent,-0.5,-0.75,-0.75
+S1,Boston,Beacon Hill,affluent,-0.25,-0.75,-0.75
+S1,Boston,Beacon Hill,affluent,0.0,-0.75,-0.75
+S1,Boston,Brookline,affluent,-2.0,-0.583333333333333,-0.625
+S1,Boston,Brookline,affluent,-1.75,-0.583333333333333,-0.583333333333333
+S1,Boston,Brookline,affluent,-1.5,-0.583333333333333,-0.625
+S1,Boston,Brookline,affluent,-1.25,-0.583333333333333,-0.583333333333333
+S1,Boston,Brookline,affluent,-1.0,-0.583333333333333,-0.5833333333333339
+S1,Boston,Brookline,affluent,-0.75,-0.583333333333333,-0.625
+S1,Boston,Brookline,affluent,-0.5,-0.583333333333333,-0.625
+S1,Boston,Brookline,affluent,-0.25,-0.583333333333333,-0.583333333333333
+S1,Boston,Brookline,affluent,0.0,-0.583333333333333,-0.583333333333333
+S1,Boston,Roxbury,under_resourced,-2.0,-0.375,-0.375
+S1,Boston,Roxbury,under_resourced,-1.75,-0.375,-0.41666666666666696
+S1,Boston,Roxbury,under_resourced,-1.5,-0.375,-0.375
+S1,Boston,Roxbury,under_resourced,-1.25,-0.375,-0.375
+S1,Boston,Roxbury,under_resourced,-1.0,-0.375,-0.4166666666666661
+S1,Boston,Roxbury,under_resourced,-0.75,-0.375,-0.375
+S1,Boston,Roxbury,under_resourced,-0.5,-0.375,-0.4166666666666661
+S1,Boston,Roxbury,under_resourced,-0.25,-0.375,-0.4166666666666661
+S1,Boston,Roxbury,under_resourced,0.0,-0.375,-0.375
+S1,Boston,Dorchester,under_resourced,-2.0,-0.625,-0.625
+S1,Boston,Dorchester,under_resourced,-1.75,-0.625,-0.625
+S1,Boston,Dorchester,under_resourced,-1.5,-0.625,-0.666666666666667
+S1,Boston,Dorchester,under_resourced,-1.25,-0.625,-0.625
+S1,Boston,Dorchester,under_resourced,-1.0,-0.625,-0.708333333333333
+S1,Boston,Dorchester,under_resourced,-0.75,-0.625,-0.666666666666667
+S1,Boston,Dorchester,under_resourced,-0.5,-0.625,-0.708333333333333
+S1,Boston,Dorchester,under_resourced,-0.25,-0.625,-0.625
+S1,Boston,Dorchester,under_resourced,0.0,-0.625,-0.625
+S1,Boston,Chelsea,under_resourced,-2.0,-0.958333333333333,-0.9583333333333339
+S1,Boston,Chelsea,under_resourced,-1.75,-0.958333333333333,-1.0
+S1,Boston,Chelsea,under_resourced,-1.5,-0.958333333333333,-0.9583333333333339
+S1,Boston,Chelsea,under_resourced,-1.25,-0.958333333333333,-0.916666666666667
+S1,Boston,Chelsea,under_resourced,-1.0,-0.958333333333333,-0.9583333333333339
+S1,Boston,Chelsea,under_resourced,-0.75,-0.958333333333333,-0.9583333333333339
+S1,Boston,Chelsea,under_resourced,-0.5,-0.958333333333333,-0.916666666666667
+S1,Boston,Chelsea,under_resourced,-0.25,-0.958333333333333,-0.916666666666667
+S1,Boston,Chelsea,under_resourced,0.0,-0.958333333333333,-0.958333333333333
+S1,Chicago,Lincoln Park,affluent,-2.0,-1.125,-1.083333333333333
+S1,Chicago,Lincoln Park,affluent,-1.75,-1.125,-1.041666666666667
+S1,Chicago,Lincoln Park,affluent,-1.5,-1.125,-1.083333333333334
+S1,Chicago,Lincoln Park,affluent,-1.25,-1.125,-1.125
+S1,Chicago,Lincoln Park,affluent,-1.0,-1.125,-1.083333333333334
+S1,Chicago,Lincoln Park,affluent,-0.75,-1.125,-1.083333333333334
+S1,Chicago,Lincoln Park,affluent,-0.5,-1.125,-1.125
+S1,Chicago,Lincoln Park,affluent,-0.25,-1.125,-1.083333333333334
+S1,Chicago,Lincoln Park,affluent,0.0,-1.125,-1.125
+S1,Chicago,Lakeview,affluent,-2.0,-1.041666666666667,-0.9583333333333339
+S1,Chicago,Lakeview,affluent,-1.75,-1.041666666666667,-1.0
+S1,Chicago,Lakeview,affluent,-1.5,-1.041666666666667,-1.0
+S1,Chicago,Lakeview,affluent,-1.25,-1.041666666666667,-1.0
+S1,Chicago,Lakeview,affluent,-1.0,-1.041666666666667,-0.958333333333333
+S1,Chicago,Lakeview,affluent,-0.75,-1.041666666666667,-1.041666666666666
+S1,Chicago,Lakeview,affluent,-0.5,-1.041666666666667,-1.0
+S1,Chicago,Lakeview,affluent,-0.25,-1.041666666666667,-1.0
+S1,Chicago,Lakeview,affluent,0.0,-1.041666666666667,-1.041666666666667
+S1,Chicago,Winnetka,affluent,-2.0,-1.0,-1.0
+S1,Chicago,Winnetka,affluent,-1.75,-1.0,-1.0
+S1,Chicago,Winnetka,affluent,-1.5,-1.0,-1.0
+S1,Chicago,Winnetka,affluent,-1.25,-1.0,-0.958333333333333
+S1,Chicago,Winnetka,affluent,-1.0,-1.0,-1.0
+S1,Chicago,Winnetka,affluent,-0.75,-1.0,-0.958333333333333
+S1,Chicago,Winnetka,affluent,-0.5,-1.0,-1.0
+S1,Chicago,Winnetka,affluent,-0.25,-1.0,-1.0
+S1,Chicago,Winnetka,affluent,0.0,-1.0,-1.0
+S1,Chicago,Englewood,under_resourced,-2.0,-0.583333333333333,-0.583333333333333
+S1,Chicago,Englewood,under_resourced,-1.75,-0.583333333333333,-0.625
+S1,Chicago,Englewood,under_resourced,-1.5,-0.583333333333333,-0.625
+S1,Chicago,Englewood,under_resourced,-1.25,-0.583333333333333,-0.625
+S1,Chicago,Englewood,under_resourced,-1.0,-0.583333333333333,-0.583333333333333
+S1,Chicago,Englewood,under_resourced,-0.75,-0.583333333333333,-0.583333333333333
+S1,Chicago,Englewood,under_resourced,-0.5,-0.583333333333333,-0.625
+S1,Chicago,Englewood,under_resourced,-0.25,-0.583333333333333,-0.583333333333333
+S1,Chicago,Englewood,under_resourced,0.0,-0.583333333333333,-0.583333333333333
+S1,Chicago,Austin,under_resourced,-2.0,-0.7916666666666661,-0.7916666666666661
+S1,Chicago,Austin,under_resourced,-1.75,-0.7916666666666661,-0.75
+S1,Chicago,Austin,under_resourced,-1.5,-0.7916666666666661,-0.75
+S1,Chicago,Austin,under_resourced,-1.25,-0.7916666666666661,-0.7916666666666661
+S1,Chicago,Austin,under_resourced,-1.0,-0.7916666666666661,-0.75
+S1,Chicago,Austin,under_resourced,-0.75,-0.7916666666666661,-0.791666666666667
+S1,Chicago,Austin,under_resourced,-0.5,-0.7916666666666661,-0.75
+S1,Chicago,Austin,under_resourced,-0.25,-0.7916666666666661,-0.7083333333333339
+S1,Chicago,Austin,under_resourced,0.0,-0.7916666666666661,-0.7916666666666661
+S1,Chicago,Harvey,under_resourced,-2.0,-0.9583333333333339,-0.958333333333333
+S1,Chicago,Harvey,under_resourced,-1.75,-0.9583333333333339,-0.9583333333333339
+S1,Chicago,Harvey,under_resourced,-1.5,-0.9583333333333339,-0.916666666666667
+S1,Chicago,Harvey,under_resourced,-1.25,-0.9583333333333339,-0.916666666666667
+S1,Chicago,Harvey,under_resourced,-1.0,-0.9583333333333339,-1.0
+S1,Chicago,Harvey,under_resourced,-0.75,-0.9583333333333339,-0.9583333333333339
+S1,Chicago,Harvey,under_resourced,-0.5,-0.9583333333333339,-0.958333333333333
+S1,Chicago,Harvey,under_resourced,-0.25,-0.9583333333333339,-0.958333333333333
+S1,Chicago,Harvey,under_resourced,0.0,-0.9583333333333339,-0.9583333333333339
+S1,Los Angeles,Brentwood,affluent,-2.0,-0.833333333333333,-0.8333333333333339
+S1,Los Angeles,Brentwood,affluent,-1.75,-0.833333333333333,-0.8333333333333339
+S1,Los Angeles,Brentwood,affluent,-1.5,-0.833333333333333,-0.8333333333333339
+S1,Los Angeles,Brentwood,affluent,-1.25,-0.833333333333333,-0.8333333333333339
+S1,Los Angeles,Brentwood,affluent,-1.0,-0.833333333333333,-0.8333333333333339
+S1,Los Angeles,Brentwood,affluent,-0.75,-0.833333333333333,-0.833333333333333
+S1,Los Angeles,Brentwood,affluent,-0.5,-0.833333333333333,-0.8333333333333339
+S1,Los Angeles,Brentwood,affluent,-0.25,-0.833333333333333,-0.8333333333333339
+S1,Los Angeles,Brentwood,affluent,0.0,-0.833333333333333,-0.833333333333333
+S1,Los Angeles,Beverly Grove,affluent,-2.0,-0.875,-0.875
+S1,Los Angeles,Beverly Grove,affluent,-1.75,-0.875,-0.916666666666667
+S1,Los Angeles,Beverly Grove,affluent,-1.5,-0.875,-0.875
+S1,Los Angeles,Beverly Grove,affluent,-1.25,-0.875,-0.875
+S1,Los Angeles,Beverly Grove,affluent,-1.0,-0.875,-0.875
+S1,Los Angeles,Beverly Grove,affluent,-0.75,-0.875,-0.875
+S1,Los Angeles,Beverly Grove,affluent,-0.5,-0.875,-0.875
+S1,Los Angeles,Beverly Grove,affluent,-0.25,-0.875,-0.875
+S1,Los Angeles,Beverly Grove,affluent,0.0,-0.875,-0.875
+S1,Los Angeles,Pasadena,affluent,-2.0,-0.6666666666666661,-0.6666666666666661
+S1,Los Angeles,Pasadena,affluent,-1.75,-0.6666666666666661,-0.666666666666667
+S1,Los Angeles,Pasadena,affluent,-1.5,-0.6666666666666661,-0.7083333333333339
+S1,Los Angeles,Pasadena,affluent,-1.25,-0.6666666666666661,-0.708333333333333
+S1,Los Angeles,Pasadena,affluent,-1.0,-0.6666666666666661,-0.708333333333333
+S1,Los Angeles,Pasadena,affluent,-0.75,-0.6666666666666661,-0.708333333333333
+S1,Los Angeles,Pasadena,affluent,-0.5,-0.6666666666666661,-0.708333333333333
+S1,Los Angeles,Pasadena,affluent,-0.25,-0.6666666666666661,-0.708333333333333
+S1,Los Angeles,Pasadena,affluent,0.0,-0.6666666666666661,-0.6666666666666661
+S1,Los Angeles,Watts,under_resourced,-2.0,-0.16666666666666696,-0.16666666666666696
+S1,Los Angeles,Watts,under_resourced,-1.75,-0.16666666666666696,-0.20833333333333304
+S1,Los Angeles,Watts,under_resourced,-1.5,-0.16666666666666696,-0.20833333333333304
+S1,Los Angeles,Watts,under_resourced,-1.25,-0.16666666666666696,-0.25
+S1,Los Angeles,Watts,under_resourced,-1.0,-0.16666666666666696,-0.20833333333333393
+S1,Los Angeles,Watts,under_resourced,-0.75,-0.16666666666666696,-0.20833333333333304
+S1,Los Angeles,Watts,under_resourced,-0.5,-0.16666666666666696,-0.20833333333333393
+S1,Los Angeles,Watts,under_resourced,-0.25,-0.16666666666666696,-0.20833333333333393
+S1,Los Angeles,Watts,under_resourced,0.0,-0.16666666666666696,-0.16666666666666696
+S1,Los Angeles,Compton,under_resourced,-2.0,-0.8333333333333339,-0.8333333333333339
+S1,Los Angeles,Compton,under_resourced,-1.75,-0.8333333333333339,-0.791666666666667
+S1,Los Angeles,Compton,under_resourced,-1.5,-0.8333333333333339,-0.791666666666667
+S1,Los Angeles,Compton,under_resourced,-1.25,-0.8333333333333339,-0.791666666666667
+S1,Los Angeles,Compton,under_resourced,-1.0,-0.8333333333333339,-0.791666666666667
+S1,Los Angeles,Compton,under_resourced,-0.75,-0.8333333333333339,-0.8333333333333339
+S1,Los Angeles,Compton,under_resourced,-0.5,-0.8333333333333339,-0.791666666666667
+S1,Los Angeles,Compton,under_resourced,-0.25,-0.8333333333333339,-0.791666666666667
+S1,Los Angeles,Compton,under_resourced,0.0,-0.8333333333333339,-0.8333333333333339
+S1,Los Angeles,Inglewood,under_resourced,-2.0,-0.75,-0.75
+S1,Los Angeles,Inglewood,under_resourced,-1.75,-0.75,-0.75
+S1,Los Angeles,Inglewood,under_resourced,-1.5,-0.75,-0.708333333333333
+S1,Los Angeles,Inglewood,under_resourced,-1.25,-0.75,-0.75
+S1,Los Angeles,Inglewood,under_resourced,-1.0,-0.75,-0.75
+S1,Los Angeles,Inglewood,under_resourced,-0.75,-0.75,-0.75
+S1,Los Angeles,Inglewood,under_resourced,-0.5,-0.75,-0.75
+S1,Los Angeles,Inglewood,under_resourced,-0.25,-0.75,-0.75
+S1,Los Angeles,Inglewood,under_resourced,0.0,-0.75,-0.75
+S2,Boston,Back Bay,affluent,-2.0,-1.125,-1.125
+S2,Boston,Back Bay,affluent,-1.75,-1.125,-1.166666666666667
+S2,Boston,Back Bay,affluent,-1.5,-1.125,-1.166666666666667
+S2,Boston,Back Bay,affluent,-1.25,-1.125,-1.125
+S2,Boston,Back Bay,affluent,-1.0,-1.125,-1.083333333333333
+S2,Boston,Back Bay,affluent,-0.75,-1.125,-1.125
+S2,Boston,Back Bay,affluent,-0.5,-1.125,-1.166666666666667
+S2,Boston,Back Bay,affluent,-0.25,-1.125,-1.125
+S2,Boston,Back Bay,affluent,0.0,-1.125,-1.125
+S2,Boston,Beacon Hill,affluent,-2.0,-0.9583333333333339,-0.875
+S2,Boston,Beacon Hill,affluent,-1.75,-0.9583333333333339,-0.875
+S2,Boston,Beacon Hill,affluent,-1.5,-0.9583333333333339,-0.875
+S2,Boston,Beacon Hill,affluent,-1.25,-0.9583333333333339,-0.875
+S2,Boston,Beacon Hill,affluent,-1.0,-0.9583333333333339,-0.875
+S2,Boston,Beacon Hill,affluent,-0.75,-0.9583333333333339,-0.916666666666667
+S2,Boston,Beacon Hill,affluent,-0.5,-0.9583333333333339,-0.916666666666667
+S2,Boston,Beacon Hill,affluent,-0.25,-0.9583333333333339,-0.875
+S2,Boston,Beacon Hill,affluent,0.0,-0.9583333333333339,-0.9583333333333339
+S2,Boston,Brookline,affluent,-2.0,-0.791666666666667,-0.75
+S2,Boston,Brookline,affluent,-1.75,-0.791666666666667,-0.75
+S2,Boston,Brookline,affluent,-1.5,-0.791666666666667,-0.75
+S2,Boston,Brookline,affluent,-1.25,-0.791666666666667,-0.75
+S2,Boston,Brookline,affluent,-1.0,-0.791666666666667,-0.708333333333333
+S2,Boston,Brookline,affluent,-0.75,-0.791666666666667,-0.75
+S2,Boston,Brookline,affluent,-0.5,-0.791666666666667,-0.75
+S2,Boston,Brookline,affluent,-0.25,-0.791666666666667,-0.75
+S2,Boston,Brookline,affluent,0.0,-0.791666666666667,-0.791666666666667
+S2,Boston,Roxbury,under_resourced,-2.0,-0.5,-0.5
+S2,Boston,Roxbury,under_resourced,-1.75,-0.5,-0.5
+S2,Boston,Roxbury,under_resourced,-1.5,-0.5,-0.5
+S2,Boston,Roxbury,under_resourced,-1.25,-0.5,-0.45833333333333304
+S2,Boston,Roxbury,under_resourced,-1.0,-0.5,-0.5
+S2,Boston,Roxbury,under_resourced,-0.75,-0.5,-0.5
+S2,Boston,Roxbury,under_resourced,-0.5,-0.5,-0.45833333333333304
+S2,Boston,Roxbury,under_resourced,-0.25,-0.5,-0.5
+S2,Boston,Roxbury,under_resourced,0.0,-0.5,-0.5
+S2,Boston,Dorchester,under_resourced,-2.0,-0.791666666666667,-0.75
+S2,Boston,Dorchester,under_resourced,-1.75,-0.791666666666667,-0.7916666666666661
+S2,Boston,Dorchester,under_resourced,-1.5,-0.791666666666667,-0.75
+S2,Boston,Dorchester,under_resourced,-1.25,-0.791666666666667,-0.791666666666667
+S2,Boston,Dorchester,under_resourced,-1.0,-0.791666666666667,-0.75
+S2,Boston,Dorchester,under_resourced,-0.75,-0.791666666666667,-0.7916666666666661
+S2,Boston,Dorchester,under_resourced,-0.5,-0.791666666666667,-0.8333333333333339
+S2,Boston,Dorchester,under_resourced,-0.25,-0.791666666666667,-0.791666666666667
+S2,Boston,Dorchester,under_resourced,0.0,-0.791666666666667,-0.791666666666667
+S2,Boston,Chelsea,under_resourced,-2.0,-0.958333333333333,-1.0
+S2,Boston,Chelsea,under_resourced,-1.75,-0.958333333333333,-1.0
+S2,Boston,Chelsea,under_resourced,-1.5,-0.958333333333333,-0.958333333333333
+S2,Boston,Chelsea,under_resourced,-1.25,-0.958333333333333,-0.958333333333333
+S2,Boston,Chelsea,under_resourced,-1.0,-0.958333333333333,-0.958333333333333
+S2,Boston,Chelsea,under_resourced,-0.75,-0.958333333333333,-1.0
+S2,Boston,Chelsea,under_resourced,-0.5,-0.958333333333333,-0.9583333333333339
+S2,Boston,Chelsea,under_resourced,-0.25,-0.958333333333333,-0.958333333333333
+S2,Boston,Chelsea,under_resourced,0.0,-0.958333333333333,-0.958333333333333
+S2,Chicago,Lincoln Park,affluent,-2.0,-1.125,-1.125
+S2,Chicago,Lincoln Park,affluent,-1.75,-1.125,-1.104166666666667
+S2,Chicago,Lincoln Park,affluent,-1.5,-1.125,-1.104166666666667
+S2,Chicago,Lincoln Park,affluent,-1.25,-1.125,-1.125
+S2,Chicago,Lincoln Park,affluent,-1.0,-1.125,-1.083333333333334
+S2,Chicago,Lincoln Park,affluent,-0.75,-1.125,-1.125
+S2,Chicago,Lincoln Park,affluent,-0.5,-1.125,-1.104166666666667
+S2,Chicago,Lincoln Park,affluent,-0.25,-1.125,-1.125
+S2,Chicago,Lincoln Park,affluent,0.0,-1.125,-1.125
+S2,Chicago,Lakeview,affluent,-2.0,-1.0625,-1.083333333333334
+S2,Chicago,Lakeview,affluent,-1.75,-1.0625,-1.083333333333333
+S2,Chicago,Lakeview,affluent,-1.5,-1.0625,-1.0625
+S2,Chicago,Lakeview,affluent,-1.25,-1.0625,-1.104166666666667
+S2,Chicago,Lakeview,affluent,-1.0,-1.0625,-1.0625
+S2,Chicago,Lakeview,affluent,-0.75,-1.0625,-1.0625
+S2,Chicago,Lakeview,affluent,-0.5,-1.0625,-1.104166666666667
+S2,Chicago,Lakeview,affluent,-0.25,-1.0625,-1.083333333333333
+S2,Chicago,Lakeview,affluent,0.0,-1.0625,-1.0625
+S2,Chicago,Winnetka,affluent,-2.0,-1.125,-1.125
+S2,Chicago,Winnetka,affluent,-1.75,-1.125,-1.125
+S2,Chicago,Winnetka,affluent,-1.5,-1.125,-1.125
+S2,Chicago,Winnetka,affluent,-1.25,-1.125,-1.125
+S2,Chicago,Winnetka,affluent,-1.0,-1.125,-1.125
+S2,Chicago,Winnetka,affluent,-0.75,-1.125,-1.104166666666666
+S2,Chicago,Winnetka,affluent,-0.5,-1.125,-1.145833333333333
+S2,Chicago,Winnetka,affluent,-0.25,-1.125,-1.145833333333333
+S2,Chicago,Winnetka,affluent,0.0,-1.125,-1.125
+S2,Chicago,Englewood,under_resourced,-2.0,-0.5833333333333339,-0.5833333333333339
+S2,Chicago,Englewood,under_resourced,-1.75,-0.5833333333333339,-0.583333333333333
+S2,Chicago,Englewood,under_resourced,-1.5,-0.5833333333333339,-0.5833333333333339
+S2,Chicago,Englewood,under_resourced,-1.25,-0.5833333333333339,-0.625
+S2,Chicago,Englewood,under_resourced,-1.0,-0.5833333333333339,-0.625
+S2,Chicago,Englewood,under_resourced,-0.75,-0.5833333333333339,-0.625
+S2,Chicago,Englewood,under_resourced,-0.5,-0.5833333333333339,-0.625
+S2,Chicago,Englewood,under_resourced,-0.25,-0.5833333333333339,-0.583333333333333
+S2,Chicago,Englewood,under_resourced,0.0,-0.5833333333333339,-0.5833333333333339
+S2,Chicago,Austin,under_resourced,-2.0,-0.791666666666667,-0.75
+S2,Chicago,Austin,under_resourced,-1.75,-0.791666666666667,-0.75
+S2,Chicago,Austin,under_resourced,-1.5,-0.791666666666667,-0.75
+S2,Chicago,Austin,under_resourced,-1.25,-0.791666666666667,-0.75
+S2,Chicago,Austin,under_resourced,-1.0,-0.791666666666667,-0.75
+S2,Chicago,Austin,under_resourced,-0.75,-0.791666666666667,-0.7916666666666661
+S2,Chicago,Austin,under_resourced,-0.5,-0.791666666666667,-0.791666666666667
+S2,Chicago,Austin,under_resourced,-0.25,-0.791666666666667,-0.791666666666667
+S2,Chicago,Austin,under_resourced,0.0,-0.791666666666667,-0.791666666666667
+S2,Chicago,Harvey,under_resourced,-2.0,-1.0,-1.0
+S2,Chicago,Harvey,under_resourced,-1.75,-1.0,-0.958333333333333
+S2,Chicago,Harvey,under_resourced,-1.5,-1.0,-1.0
+S2,Chicago,Harvey,under_resourced,-1.25,-1.0,-1.0
+S2,Chicago,Harvey,under_resourced,-1.0,-1.0,-1.0
+S2,Chicago,Harvey,under_resourced,-0.75,-1.0,-1.0
+S2,Chicago,Harvey,under_resourced,-0.5,-1.0,-0.958333333333333
+S2,Chicago,Harvey,under_resourced,-0.25,-1.0,-1.0
+S2,Chicago,Harvey,under_resourced,0.0,-1.0,-1.0
+S2,Los Angeles,Brentwood,affluent,-2.0,-1.125,-1.041666666666667
+S2,Los Angeles,Brentwood,affluent,-1.75,-1.125,-1.125
+S2,Los Angeles,Brentwood,affluent,-1.5,-1.125,-1.083333333333333
+S2,Los Angeles,Brentwood,affluent,-1.25,-1.125,-1.125
+S2,Los Angeles,Brentwood,affluent,-1.0,-1.125,-1.125
+S2,Los Angeles,Brentwood,affluent,-0.75,-1.125,-1.125
+S2,Los Angeles,Brentwood,affluent,-0.5,-1.125,-1.125
+S2,Los Angeles,Brentwood,affluent,-0.25,-1.125,-1.125
+S2,Los Angeles,Brentwood,affluent,0.0,-1.125,-1.125
+S2,Los Angeles,Beverly Grove,affluent,-2.0,-1.083333333333334,-1.083333333333334
+S2,Los Angeles,Beverly Grove,affluent,-1.75,-1.083333333333334,-1.083333333333334
+S2,Los Angeles,Beverly Grove,affluent,-1.5,-1.083333333333334,-1.0625
+S2,Los Angeles,Beverly Grove,affluent,-1.25,-1.083333333333334,-1.083333333333334
+S2,Los Angeles,Beverly Grove,affluent,-1.0,-1.083333333333334,-1.083333333333334
+S2,Los Angeles,Beverly Grove,affluent,-0.75,-1.083333333333334,-1.083333333333334
+S2,Los Angeles,Beverly Grove,affluent,-0.5,-1.083333333333334,-1.083333333333334
+S2,Los Angeles,Beverly Grove,affluent,-0.25,-1.083333333333334,-1.083333333333334
+S2,Los Angeles,Beverly Grove,affluent,0.0,-1.083333333333334,-1.083333333333334
+S2,Los Angeles,Pasadena,affluent,-2.0,-0.958333333333333,-0.916666666666667
+S2,Los Angeles,Pasadena,affluent,-1.75,-0.958333333333333,-0.958333333333333
+S2,Los Angeles,Pasadena,affluent,-1.5,-0.958333333333333,-0.958333333333333
+S2,Los Angeles,Pasadena,affluent,-1.25,-0.958333333333333,-0.916666666666667
+S2,Los Angeles,Pasadena,affluent,-1.0,-0.958333333333333,-0.958333333333333
+S2,Los Angeles,Pasadena,affluent,-0.75,-0.958333333333333,-0.9166666666666661
+S2,Los Angeles,Pasadena,affluent,-0.5,-0.958333333333333,-0.958333333333333
+S2,Los Angeles,Pasadena,affluent,-0.25,-0.958333333333333,-0.916666666666667
+S2,Los Angeles,Pasadena,affluent,0.0,-0.958333333333333,-0.958333333333333
+S2,Los Angeles,Watts,under_resourced,-2.0,-0.0625,-0.04166666666666696
+S2,Los Angeles,Watts,under_resourced,-1.75,-0.0625,-0.04166666666666696
+S2,Los Angeles,Watts,under_resourced,-1.5,-0.0625,-0.04166666666666696
+S2,Los Angeles,Watts,under_resourced,-1.25,-0.0625,-0.0625
+S2,Los Angeles,Watts,under_resourced,-1.0,-0.0625,-0.0625
+S2,Los Angeles,Watts,under_resourced,-0.75,-0.0625,-0.0625
+S2,Los Angeles,Watts,under_resourced,-0.5,-0.0625,-0.0625
+S2,Los Angeles,Watts,under_resourced,-0.25,-0.0625,-0.04166666666666696
+S2,Los Angeles,Watts,under_resourced,0.0,-0.0625,-0.0625
+S2,Los Angeles,Compton,under_resourced,-2.0,-0.9583333333333339,-0.979166666666667
+S2,Los Angeles,Compton,under_resourced,-1.75,-0.9583333333333339,-0.9583333333333339
+S2,Los Angeles,Compton,under_resourced,-1.5,-0.9583333333333339,-0.979166666666667
+S2,Los Angeles,Compton,under_resourced,-1.25,-0.9583333333333339,-0.979166666666667
+S2,Los Angeles,Compton,under_resourced,-1.0,-0.9583333333333339,-0.979166666666667
+S2,Los Angeles,Compton,under_resourced,-0.75,-0.9583333333333339,-0.979166666666667
+S2,Los Angeles,Compton,under_resourced,-0.5,-0.9583333333333339,-0.979166666666667
+S2,Los Angeles,Compton,under_resourced,-0.25,-0.9583333333333339,-0.979166666666667
+S2,Los Angeles,Compton,under_resourced,0.0,-0.9583333333333339,-0.9583333333333339
+S2,Los Angeles,Inglewood,under_resourced,-2.0,-0.979166666666667,-0.9583333333333339
+S2,Los Angeles,Inglewood,under_resourced,-1.75,-0.979166666666667,-0.916666666666667
+S2,Los Angeles,Inglewood,under_resourced,-1.5,-0.979166666666667,-0.979166666666667
+S2,Los Angeles,Inglewood,under_resourced,-1.25,-0.979166666666667,-0.979166666666667
+S2,Los Angeles,Inglewood,under_resourced,-1.0,-0.979166666666667,-0.979166666666667
+S2,Los Angeles,Inglewood,under_resourced,-0.75,-0.979166666666667,-0.9583333333333339
+S2,Los Angeles,Inglewood,under_resourced,-0.5,-0.979166666666667,-0.958333333333333
+S2,Los Angeles,Inglewood,under_resourced,-0.25,-0.979166666666667,-0.9583333333333339
+S2,Los Angeles,Inglewood,under_resourced,0.0,-0.979166666666667,-0.979166666666667
+S3,Boston,Back Bay,affluent,-2.0,-2.083333333333333,-2.083333333333333
+S3,Boston,Back Bay,affluent,-1.75,-2.083333333333333,-2.083333333333333
+S3,Boston,Back Bay,affluent,-1.5,-2.083333333333333,-2.083333333333333
+S3,Boston,Back Bay,affluent,-1.25,-2.083333333333333,-2.083333333333333
+S3,Boston,Back Bay,affluent,-1.0,-2.083333333333333,-2.083333333333333
+S3,Boston,Back Bay,affluent,-0.75,-2.083333333333333,-2.083333333333333
+S3,Boston,Back Bay,affluent,-0.5,-2.083333333333333,-2.125
+S3,Boston,Back Bay,affluent,-0.25,-2.083333333333333,-2.083333333333333
+S3,Boston,Back Bay,affluent,0.0,-2.083333333333333,-2.083333333333333
+S3,Boston,Beacon Hill,affluent,-2.0,-1.791666666666667,-1.791666666666666
+S3,Boston,Beacon Hill,affluent,-1.75,-1.791666666666667,-1.791666666666666
+S3,Boston,Beacon Hill,affluent,-1.5,-1.791666666666667,-1.791666666666666
+S3,Boston,Beacon Hill,affluent,-1.25,-1.791666666666667,-1.791666666666666
+S3,Boston,Beacon Hill,affluent,-1.0,-1.791666666666667,-1.791666666666666
+S3,Boston,Beacon Hill,affluent,-0.75,-1.791666666666667,-1.791666666666667
+S3,Boston,Beacon Hill,affluent,-0.5,-1.791666666666667,-1.791666666666666
+S3,Boston,Beacon Hill,affluent,-0.25,-1.791666666666667,-1.833333333333333
+S3,Boston,Beacon Hill,affluent,0.0,-1.791666666666667,-1.791666666666667
+S3,Boston,Brookline,affluent,-2.0,-1.791666666666667,-1.708333333333334
+S3,Boston,Brookline,affluent,-1.75,-1.791666666666667,-1.791666666666666
+S3,Boston,Brookline,affluent,-1.5,-1.791666666666667,-1.708333333333334
+S3,Boston,Brookline,affluent,-1.25,-1.791666666666667,-1.75
+S3,Boston,Brookline,affluent,-1.0,-1.791666666666667,-1.75
+S3,Boston,Brookline,affluent,-0.75,-1.791666666666667,-1.75
+S3,Boston,Brookline,affluent,-0.5,-1.791666666666667,-1.75
+S3,Boston,Brookline,affluent,-0.25,-1.791666666666667,-1.75
+S3,Boston,Brookline,affluent,0.0,-1.791666666666667,-1.791666666666667
+S3,Boston,Roxbury,under_resourced,-2.0,-1.708333333333334,-1.708333333333333
+S3,Boston,Roxbury,under_resourced,-1.75,-1.708333333333334,-1.666666666666667
+S3,Boston,Roxbury,under_resourced,-1.5,-1.708333333333334,-1.625
+S3,Boston,Roxbury,under_resourced,-1.25,-1.708333333333334,-1.666666666666667
+S3,Boston,Roxbury,under_resourced,-1.0,-1.708333333333334,-1.708333333333334
+S3,Boston,Roxbury,under_resourced,-0.75,-1.708333333333334,-1.708333333333334
+S3,Boston,Roxbury,under_resourced,-0.5,-1.708333333333334,-1.708333333333333
+S3,Boston,Roxbury,under_resourced,-0.25,-1.708333333333334,-1.708333333333334
+S3,Boston,Roxbury,under_resourced,0.0,-1.708333333333334,-1.708333333333334
+S3,Boston,Dorchester,under_resourced,-2.0,-1.833333333333333,-1.833333333333333
+S3,Boston,Dorchester,under_resourced,-1.75,-1.833333333333333,-1.791666666666666
+S3,Boston,Dorchester,under_resourced,-1.5,-1.833333333333333,-1.833333333333334
+S3,Boston,Dorchester,under_resourced,-1.25,-1.833333333333333,-1.833333333333333
+S3,Boston,Dorchester,under_resourced,-1.0,-1.833333333333333,-1.791666666666666
+S3,Boston,Dorchester,under_resourced,-0.75,-1.833333333333333,-1.833333333333333
+S3,Boston,Dorchester,under_resourced,-0.5,-1.833333333333333,-1.791666666666667
+S3,Boston,Dorchester,under_resourced,-0.25,-1.833333333333333,-1.833333333333333
+S3,Boston,Dorchester,under_resourced,0.0,-1.833333333333333,-1.833333333333333
+S3,Boston,Chelsea,under_resourced,-2.0,-1.958333333333333,-1.916666666666667
+S3,Boston,Chelsea,under_resourced,-1.75,-1.958333333333333,-1.916666666666666
+S3,Boston,Chelsea,under_resourced,-1.5,-1.958333333333333,-1.916666666666666
+S3,Boston,Chelsea,under_resourced,-1.25,-1.958333333333333,-1.916666666666666
+S3,Boston,Chelsea,under_resourced,-1.0,-1.958333333333333,-1.916666666666666
+S3,Boston,Chelsea,under_resourced,-0.75,-1.958333333333333,-1.916666666666666
+S3,Boston,Chelsea,under_resourced,-0.5,-1.958333333333333,-1.916666666666666
+S3,Boston,Chelsea,under_resourced,-0.25,-1.958333333333333,-1.916666666666666
+S3,Boston,Chelsea,under_resourced,0.0,-1.958333333333333,-1.958333333333333
+S3,Chicago,Lincoln Park,affluent,-2.0,-1.958333333333333,-1.958333333333333
+S3,Chicago,Lincoln Park,affluent,-1.75,-1.958333333333333,-2.0
+S3,Chicago,Lincoln Park,affluent,-1.5,-1.958333333333333,-1.958333333333333
+S3,Chicago,Lincoln Park,affluent,-1.25,-1.958333333333333,-2.0
+S3,Chicago,Lincoln Park,affluent,-1.0,-1.958333333333333,-2.0
+S3,Chicago,Lincoln Park,affluent,-0.75,-1.958333333333333,-1.958333333333334
+S3,Chicago,Lincoln Park,affluent,-0.5,-1.958333333333333,-2.0
+S3,Chicago,Lincoln Park,affluent,-0.25,-1.958333333333333,-1.958333333333333
+S3,Chicago,Lincoln Park,affluent,0.0,-1.958333333333333,-1.958333333333333
+S3,Chicago,Lakeview,affluent,-2.0,-2.0,-1.958333333333333
+S3,Chicago,Lakeview,affluent,-1.75,-2.0,-1.958333333333333
+S3,Chicago,Lakeview,affluent,-1.5,-2.0,-1.958333333333333
+S3,Chicago,Lakeview,affluent,-1.25,-2.0,-2.0
+S3,Chicago,Lakeview,affluent,-1.0,-2.0,-1.958333333333333
+S3,Chicago,Lakeview,affluent,-0.75,-2.0,-1.958333333333333
+S3,Chicago,Lakeview,affluent,-0.5,-2.0,-1.958333333333333
+S3,Chicago,Lakeview,affluent,-0.25,-2.0,-2.0
+S3,Chicago,Lakeview,affluent,0.0,-2.0,-2.0
+S3,Chicago,Winnetka,affluent,-2.0,-2.0,-1.958333333333333
+S3,Chicago,Winnetka,affluent,-1.75,-2.0,-2.0
+S3,Chicago,Winnetka,affluent,-1.5,-2.0,-2.0
+S3,Chicago,Winnetka,affluent,-1.25,-2.0,-1.958333333333333
+S3,Chicago,Winnetka,affluent,-1.0,-2.0,-2.0
+S3,Chicago,Winnetka,affluent,-0.75,-2.0,-2.0
+S3,Chicago,Winnetka,affluent,-0.5,-2.0,-2.0
+S3,Chicago,Winnetka,affluent,-0.25,-2.0,-2.0
+S3,Chicago,Winnetka,affluent,0.0,-2.0,-2.0
+S3,Chicago,Englewood,under_resourced,-2.0,-1.75,-1.75
+S3,Chicago,Englewood,under_resourced,-1.75,-1.75,-1.708333333333333
+S3,Chicago,Englewood,under_resourced,-1.5,-1.75,-1.75
+S3,Chicago,Englewood,under_resourced,-1.25,-1.75,-1.75
+S3,Chicago,Englewood,under_resourced,-1.0,-1.75,-1.75
+S3,Chicago,Englewood,under_resourced,-0.75,-1.75,-1.75
+S3,Chicago,Englewood,under_resourced,-0.5,-1.75,-1.75
+S3,Chicago,Englewood,under_resourced,-0.25,-1.75,-1.75
+S3,Chicago,Englewood,under_resourced,0.0,-1.75,-1.75
+S3,Chicago,Austin,under_resourced,-2.0,-1.875,-1.875
+S3,Chicago,Austin,under_resourced,-1.75,-1.875,-1.875
+S3,Chicago,Austin,under_resourced,-1.5,-1.875,-1.875
+S3,Chicago,Austin,under_resourced,-1.25,-1.875,-1.875
+S3,Chicago,Austin,under_resourced,-1.0,-1.875,-1.875
+S3,Chicago,Austin,under_resourced,-0.75,-1.875,-1.833333333333333
+S3,Chicago,Austin,under_resourced,-0.5,-1.875,-1.875
+S3,Chicago,Austin,under_resourced,-0.25,-1.875,-1.875
+S3,Chicago,Austin,under_resourced,0.0,-1.875,-1.875
+S3,Chicago,Harvey,under_resourced,-2.0,-2.0,-2.0
+S3,Chicago,Harvey,under_resourced,-1.75,-2.0,-1.958333333333334
+S3,Chicago,Harvey,under_resourced,-1.5,-2.0,-1.958333333333334
+S3,Chicago,Harvey,under_resourced,-1.25,-2.0,-1.958333333333334
+S3,Chicago,Harvey,under_resourced,-1.0,-2.0,-2.0
+S3,Chicago,Harvey,under_resourced,-0.75,-2.0,-1.958333333333333
+S3,Chicago,Harvey,under_resourced,-0.5,-2.0,-1.958333333333334
+S3,Chicago,Harvey,under_resourced,-0.25,-2.0,-2.0
+S3,Chicago,Harvey,under_resourced,0.0,-2.0,-2.0
+S3,Los Angeles,Brentwood,affluent,-2.0,-1.958333333333333,-1.958333333333333
+S3,Los Angeles,Brentwood,affluent,-1.75,-1.958333333333333,-1.916666666666666
+S3,Los Angeles,Brentwood,affluent,-1.5,-1.958333333333333,-1.958333333333333
+S3,Los Angeles,Brentwood,affluent,-1.25,-1.958333333333333,-1.958333333333333
+S3,Los Angeles,Brentwood,affluent,-1.0,-1.958333333333333,-1.958333333333333
+S3,Los Angeles,Brentwood,affluent,-0.75,-1.958333333333333,-1.958333333333333
+S3,Los Angeles,Brentwood,affluent,-0.5,-1.958333333333333,-1.958333333333333
+S3,Los Angeles,Brentwood,affluent,-0.25,-1.958333333333333,-1.958333333333333
+S3,Los Angeles,Brentwood,affluent,0.0,-1.958333333333333,-1.958333333333333
+S3,Los Angeles,Beverly Grove,affluent,-2.0,-1.875,-1.916666666666666
+S3,Los Angeles,Beverly Grove,affluent,-1.75,-1.875,-1.875
+S3,Los Angeles,Beverly Grove,affluent,-1.5,-1.875,-1.875
+S3,Los Angeles,Beverly Grove,affluent,-1.25,-1.875,-1.875
+S3,Los Angeles,Beverly Grove,affluent,-1.0,-1.875,-1.916666666666667
+S3,Los Angeles,Beverly Grove,affluent,-0.75,-1.875,-1.875
+S3,Los Angeles,Beverly Grove,affluent,-0.5,-1.875,-1.916666666666666
+S3,Los Angeles,Beverly Grove,affluent,-0.25,-1.875,-1.875
+S3,Los Angeles,Beverly Grove,affluent,0.0,-1.875,-1.875
+S3,Los Angeles,Pasadena,affluent,-2.0,-1.791666666666667,-1.791666666666667
+S3,Los Angeles,Pasadena,affluent,-1.75,-1.791666666666667,-1.833333333333333
+S3,Los Angeles,Pasadena,affluent,-1.5,-1.791666666666667,-1.75
+S3,Los Angeles,Pasadena,affluent,-1.25,-1.791666666666667,-1.833333333333333
+S3,Los Angeles,Pasadena,affluent,-1.0,-1.791666666666667,-1.791666666666666
+S3,Los Angeles,Pasadena,affluent,-0.75,-1.791666666666667,-1.833333333333333
+S3,Los Angeles,Pasadena,affluent,-0.5,-1.791666666666667,-1.791666666666667
+S3,Los Angeles,Pasadena,affluent,-0.25,-1.791666666666667,-1.791666666666666
+S3,Los Angeles,Pasadena,affluent,0.0,-1.791666666666667,-1.791666666666667
+S3,Los Angeles,Watts,under_resourced,-2.0,-1.541666666666667,-1.541666666666667
+S3,Los Angeles,Watts,under_resourced,-1.75,-1.541666666666667,-1.541666666666667
+S3,Los Angeles,Watts,under_resourced,-1.5,-1.541666666666667,-1.541666666666667
+S3,Los Angeles,Watts,under_resourced,-1.25,-1.541666666666667,-1.583333333333334
+S3,Los Angeles,Watts,under_resourced,-1.0,-1.541666666666667,-1.583333333333334
+S3,Los Angeles,Watts,under_resourced,-0.75,-1.541666666666667,-1.583333333333334
+S3,Los Angeles,Watts,under_resourced,-0.5,-1.541666666666667,-1.583333333333334
+S3,Los Angeles,Watts,under_resourced,-0.25,-1.541666666666667,-1.625
+S3,Los Angeles,Watts,under_resourced,0.0,-1.541666666666667,-1.541666666666667
+S3,Los Angeles,Compton,under_resourced,-2.0,-1.958333333333334,-1.916666666666667
+S3,Los Angeles,Compton,under_resourced,-1.75,-1.958333333333334,-1.958333333333334
+S3,Los Angeles,Compton,under_resourced,-1.5,-1.958333333333334,-1.958333333333333
+S3,Los Angeles,Compton,under_resourced,-1.25,-1.958333333333334,-1.958333333333333
+S3,Los Angeles,Compton,under_resourced,-1.0,-1.958333333333334,-1.958333333333333
+S3,Los Angeles,Compton,under_resourced,-0.75,-1.958333333333334,-1.916666666666666
+S3,Los Angeles,Compton,under_resourced,-0.5,-1.958333333333334,-1.958333333333334
+S3,Los Angeles,Compton,under_resourced,-0.25,-1.958333333333334,-2.0
+S3,Los Angeles,Compton,under_resourced,0.0,-1.958333333333334,-1.958333333333334
+S3,Los Angeles,Inglewood,under_resourced,-2.0,-1.875,-1.875
+S3,Los Angeles,Inglewood,under_resourced,-1.75,-1.875,-1.875
+S3,Los Angeles,Inglewood,under_resourced,-1.5,-1.875,-1.875
+S3,Los Angeles,Inglewood,under_resourced,-1.25,-1.875,-1.833333333333333
+S3,Los Angeles,Inglewood,under_resourced,-1.0,-1.875,-1.875
+S3,Los Angeles,Inglewood,under_resourced,-0.75,-1.875,-1.916666666666667
+S3,Los Angeles,Inglewood,under_resourced,-0.5,-1.875,-1.875
+S3,Los Angeles,Inglewood,under_resourced,-0.25,-1.875,-1.916666666666667
+S3,Los Angeles,Inglewood,under_resourced,0.0,-1.875,-1.875
+S4,Boston,Back Bay,affluent,-2.0,-0.4583333333333339,-0.45833333333333304
+S4,Boston,Back Bay,affluent,-1.75,-0.4583333333333339,-0.4583333333333339
+S4,Boston,Back Bay,affluent,-1.5,-0.4583333333333339,-0.4583333333333339
+S4,Boston,Back Bay,affluent,-1.25,-0.4583333333333339,-0.41666666666666696
+S4,Boston,Back Bay,affluent,-1.0,-0.4583333333333339,-0.4583333333333339
+S4,Boston,Back Bay,affluent,-0.75,-0.4583333333333339,-0.4583333333333339
+S4,Boston,Back Bay,affluent,-0.5,-0.4583333333333339,-0.5
+S4,Boston,Back Bay,affluent,-0.25,-0.4583333333333339,-0.4583333333333339
+S4,Boston,Back Bay,affluent,0.0,-0.4583333333333339,-0.4583333333333339
+S4,Boston,Beacon Hill,affluent,-2.0,0.0,0.0
+S4,Boston,Beacon Hill,affluent,-1.75,0.0,0.0
+S4,Boston,Beacon Hill,affluent,-1.5,0.0,0.0
+S4,Boston,Beacon Hill,affluent,-1.25,0.0,0.0
+S4,Boston,Beacon Hill,affluent,-1.0,0.0,0.0
+S4,Boston,Beacon Hill,affluent,-0.75,0.0,0.0
+S4,Boston,Beacon Hill,affluent,-0.5,0.0,0.0
+S4,Boston,Beacon Hill,affluent,-0.25,0.0,0.041666666666666075
+S4,Boston,Beacon Hill,affluent,0.0,0.0,0.0
+S4,Boston,Brookline,affluent,-2.0,0.20833333333333304,0.25
+S4,Boston,Brookline,affluent,-1.75,0.20833333333333304,0.16666666666666696
+S4,Boston,Brookline,affluent,-1.5,0.20833333333333304,0.16666666666666696
+S4,Boston,Brookline,affluent,-1.25,0.20833333333333304,0.16666666666666696
+S4,Boston,Brookline,affluent,-1.0,0.20833333333333304,0.16666666666666696
+S4,Boston,Brookline,affluent,-0.75,0.20833333333333304,0.20833333333333304
+S4,Boston,Brookline,affluent,-0.5,0.20833333333333304,0.25
+S4,Boston,Brookline,affluent,-0.25,0.20833333333333304,0.20833333333333393
+S4,Boston,Brookline,affluent,0.0,0.20833333333333304,0.20833333333333304
+S4,Boston,Roxbury,under_resourced,-2.0,0.5,0.5
+S4,Boston,Roxbury,under_resourced,-1.75,0.5,0.5
+S4,Boston,Roxbury,under_resourced,-1.5,0.5,0.5
+S4,Boston,Roxbury,under_resourced,-1.25,0.5,0.5
+S4,Boston,Roxbury,under_resourced,-1.0,0.5,0.5
+S4,Boston,Roxbury,under_resourced,-0.75,0.5,0.5
+S4,Boston,Roxbury,under_resourced,-0.5,0.5,0.5
+S4,Boston,Roxbury,under_resourced,-0.25,0.5,0.5
+S4,Boston,Roxbury,under_resourced,0.0,0.5,0.5
+S4,Boston,Dorchester,under_resourced,-2.0,0.125,0.125
+S4,Boston,Dorchester,under_resourced,-1.75,0.125,0.125
+S4,Boston,Dorchester,under_resourced,-1.5,0.125,0.125
+S4,Boston,Dorchester,under_resourced,-1.25,0.125,0.125
+S4,Boston,Dorchester,under_resourced,-1.0,0.125,0.125
+S4,Boston,Dorchester,under_resourced,-0.75,0.125,0.08333333333333304
+S4,Boston,Dorchester,under_resourced,-0.5,0.125,0.08333333333333304
+S4,Boston,Dorchester,under_resourced,-0.25,0.125,0.08333333333333304
+S4,Boston,Dorchester,under_resourced,0.0,0.125,0.125
+S4,Boston,Chelsea,under_resourced,-2.0,-0.2916666666666661,-0.2916666666666661
+S4,Boston,Chelsea,under_resourced,-1.75,-0.2916666666666661,-0.29166666666666696
+S4,Boston,Chelsea,under_resourced,-1.5,-0.2916666666666661,-0.2916666666666661
+S4,Boston,Chelsea,under_resourced,-1.25,-0.2916666666666661,-0.2916666666666661
+S4,Boston,Chelsea,under_resourced,-1.0,-0.2916666666666661,-0.2916666666666661
+S4,Boston,Chelsea,under_resourced,-0.75,-0.2916666666666661,-0.2916666666666661
+S4,Boston,Chelsea,under_resourced,-0.5,-0.2916666666666661,-0.2916666666666661
+S4,Boston,Chelsea,under_resourced,-0.25,-0.2916666666666661,-0.33333333333333304
+S4,Boston,Chelsea,under_resourced,0.0,-0.2916666666666661,-0.2916666666666661
+S4,Chicago,Lincoln Park,affluent,-2.0,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Lincoln Park,affluent,-1.75,-0.3333333333333339,-0.375
+S4,Chicago,Lincoln Park,affluent,-1.5,-0.3333333333333339,-0.33333333333333304
+S4,Chicago,Lincoln Park,affluent,-1.25,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Lincoln Park,affluent,-1.0,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Lincoln Park,affluent,-0.75,-0.3333333333333339,-0.375
+S4,Chicago,Lincoln Park,affluent,-0.5,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Lincoln Park,affluent,-0.25,-0.3333333333333339,-0.33333333333333304
+S4,Chicago,Lincoln Park,affluent,0.0,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Lakeview,affluent,-2.0,-0.3333333333333339,-0.29166666666666696
+S4,Chicago,Lakeview,affluent,-1.75,-0.3333333333333339,-0.33333333333333304
+S4,Chicago,Lakeview,affluent,-1.5,-0.3333333333333339,-0.29166666666666696
+S4,Chicago,Lakeview,affluent,-1.25,-0.3333333333333339,-0.29166666666666696
+S4,Chicago,Lakeview,affluent,-1.0,-0.3333333333333339,-0.29166666666666696
+S4,Chicago,Lakeview,affluent,-0.75,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Lakeview,affluent,-0.5,-0.3333333333333339,-0.25
+S4,Chicago,Lakeview,affluent,-0.25,-0.3333333333333339,-0.29166666666666696
+S4,Chicago,Lakeview,affluent,0.0,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Winnetka,affluent,-2.0,-0.25,-0.25
+S4,Chicago,Winnetka,affluent,-1.75,-0.25,-0.25
+S4,Chicago,Winnetka,affluent,-1.5,-0.25,-0.25
+S4,Chicago,Winnetka,affluent,-1.25,-0.25,-0.20833333333333304
+S4,Chicago,Winnetka,affluent,-1.0,-0.25,-0.25
+S4,Chicago,Winnetka,affluent,-0.75,-0.25,-0.25
+S4,Chicago,Winnetka,affluent,-0.5,-0.25,-0.25
+S4,Chicago,Winnetka,affluent,-0.25,-0.25,-0.29166666666666696
+S4,Chicago,Winnetka,affluent,0.0,-0.25,-0.25
+S4,Chicago,Englewood,under_resourced,-2.0,0.29166666666666696,0.29166666666666696
+S4,Chicago,Englewood,under_resourced,-1.75,0.29166666666666696,0.29166666666666696
+S4,Chicago,Englewood,under_resourced,-1.5,0.29166666666666696,0.29166666666666696
+S4,Chicago,Englewood,under_resourced,-1.25,0.29166666666666696,0.29166666666666696
+S4,Chicago,Englewood,under_resourced,-1.0,0.29166666666666696,0.25
+S4,Chicago,Englewood,under_resourced,-0.75,0.29166666666666696,0.29166666666666696
+S4,Chicago,Englewood,under_resourced,-0.5,0.29166666666666696,0.25
+S4,Chicago,Englewood,under_resourced,-0.25,0.29166666666666696,0.25
+S4,Chicago,Englewood,under_resourced,0.0,0.29166666666666696,0.29166666666666696
+S4,Chicago,Austin,under_resourced,-2.0,-0.125,-0.08333333333333393
+S4,Chicago,Austin,under_resourced,-1.75,-0.125,-0.04166666666666696
+S4,Chicago,Austin,under_resourced,-1.5,-0.125,-0.08333333333333393
+S4,Chicago,Austin,under_resourced,-1.25,-0.125,-0.04166666666666696
+S4,Chicago,Austin,under_resourced,-1.0,-0.125,-0.125
+S4,Chicago,Austin,under_resourced,-0.75,-0.125,-0.08333333333333304
+S4,Chicago,Austin,under_resourced,-0.5,-0.125,-0.04166666666666696
+S4,Chicago,Austin,under_resourced,-0.25,-0.125,-0.125
+S4,Chicago,Austin,under_resourced,0.0,-0.125,-0.125
+S4,Chicago,Harvey,under_resourced,-2.0,-0.3333333333333339,-0.29166666666666696
+S4,Chicago,Harvey,under_resourced,-1.75,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Harvey,under_resourced,-1.5,-0.3333333333333339,-0.29166666666666696
+S4,Chicago,Harvey,under_resourced,-1.25,-0.3333333333333339,-0.33333333333333304
+S4,Chicago,Harvey,under_resourced,-1.0,-0.3333333333333339,-0.29166666666666696
+S4,Chicago,Harvey,under_resourced,-0.75,-0.3333333333333339,-0.375
+S4,Chicago,Harvey,under_resourced,-0.5,-0.3333333333333339,-0.33333333333333304
+S4,Chicago,Harvey,under_resourced,-0.25,-0.3333333333333339,-0.3333333333333339
+S4,Chicago,Harvey,under_resourced,0.0,-0.3333333333333339,-0.3333333333333339
+S4,Los Angeles,Brentwood,affluent,-2.0,-0.16666666666666696,-0.125
+S4,Los Angeles,Brentwood,affluent,-1.75,-0.16666666666666696,-0.125
+S4,Los Angeles,Brentwood,affluent,-1.5,-0.16666666666666696,-0.16666666666666607
+S4,Los Angeles,Brentwood,affluent,-1.25,-0.16666666666666696,-0.08333333333333393
+S4,Los Angeles,Brentwood,affluent,-1.0,-0.16666666666666696,-0.16666666666666607
+S4,Los Angeles,Brentwood,affluent,-0.75,-0.16666666666666696,-0.125
+S4,Los Angeles,Brentwood,affluent,-0.5,-0.16666666666666696,-0.16666666666666607
+S4,Los Angeles,Brentwood,affluent,-0.25,-0.16666666666666696,-0.16666666666666696
+S4,Los Angeles,Brentwood,affluent,0.0,-0.16666666666666696,-0.16666666666666696
+S4,Los Angeles,Beverly Grove,affluent,-2.0,-0.20833333333333304,-0.16666666666666607
+S4,Los Angeles,Beverly Grove,affluent,-1.75,-0.20833333333333304,-0.20833333333333304
+S4,Los Angeles,Beverly Grove,affluent,-1.5,-0.20833333333333304,-0.16666666666666607
+S4,Los Angeles,Beverly Grove,affluent,-1.25,-0.20833333333333304,-0.16666666666666607
+S4,Los Angeles,Beverly Grove,affluent,-1.0,-0.20833333333333304,-0.16666666666666607
+S4,Los Angeles,Beverly Grove,affluent,-0.75,-0.20833333333333304,-0.20833333333333304
+S4,Los Angeles,Beverly Grove,affluent,-0.5,-0.20833333333333304,-0.20833333333333304
+S4,Los Angeles,Beverly Grove,affluent,-0.25,-0.20833333333333304,-0.16666666666666607
+S4,Los Angeles,Beverly Grove,affluent,0.0,-0.20833333333333304,-0.20833333333333304
+S4,Los Angeles,Pasadena,affluent,-2.0,-0.041666666666666075,0.0
+S4,Los Angeles,Pasadena,affluent,-1.75,-0.041666666666666075,0.0
+S4,Los Angeles,Pasadena,affluent,-1.5,-0.041666666666666075,-0.041666666666666075
+S4,Los Angeles,Pasadena,affluent,-1.25,-0.041666666666666075,-0.04166666666666696
+S4,Los Angeles,Pasadena,affluent,-1.0,-0.041666666666666075,0.0
+S4,Los Angeles,Pasadena,affluent,-0.75,-0.041666666666666075,-0.04166666666666696
+S4,Los Angeles,Pasadena,affluent,-0.5,-0.041666666666666075,-0.04166666666666696
+S4,Los Angeles,Pasadena,affluent,-0.25,-0.041666666666666075,-0.04166666666666696
+S4,Los Angeles,Pasadena,affluent,0.0,-0.041666666666666075,-0.041666666666666075
+S4,Los Angeles,Watts,under_resourced,-2.0,0.8125,0.833333333333333
+S4,Los Angeles,Watts,under_resourced,-1.75,0.8125,0.854166666666667
+S4,Los Angeles,Watts,under_resourced,-1.5,0.8125,0.833333333333333
+S4,Los Angeles,Watts,under_resourced,-1.25,0.8125,0.854166666666667
+S4,Los Angeles,Watts,under_resourced,-1.0,0.8125,0.854166666666667
+S4,Los Angeles,Watts,under_resourced,-0.75,0.8125,0.875
+S4,Los Angeles,Watts,under_resourced,-0.5,0.8125,0.875
+S4,Los Angeles,Watts,under_resourced,-0.25,0.8125,0.8125
+S4,Los Angeles,Watts,under_resourced,0.0,0.8125,0.8125
+S4,Los Angeles,Compton,under_resourced,-2.0,-0.08333333333333304,-0.04166666666666696
+S4,Los Angeles,Compton,under_resourced,-1.75,-0.08333333333333304,-0.08333333333333304
+S4,Los Angeles,Compton,under_resourced,-1.5,-0.08333333333333304,-0.04166666666666696
+S4,Los Angeles,Compton,under_resourced,-1.25,-0.08333333333333304,-0.125
+S4,Los Angeles,Compton,under_resourced,-1.0,-0.08333333333333304,-0.125
+S4,Los Angeles,Compton,under_resourced,-0.75,-0.08333333333333304,-0.08333333333333304
+S4,Los Angeles,Compton,under_resourced,-0.5,-0.08333333333333304,-0.08333333333333304
+S4,Los Angeles,Compton,under_resourced,-0.25,-0.08333333333333304,-0.125
+S4,Los Angeles,Compton,under_resourced,0.0,-0.08333333333333304,-0.08333333333333304
+S4,Los Angeles,Inglewood,under_resourced,-2.0,0.16666666666666696,0.16666666666666696
+S4,Los Angeles,Inglewood,under_resourced,-1.75,0.16666666666666696,0.16666666666666696
+S4,Los Angeles,Inglewood,under_resourced,-1.5,0.16666666666666696,0.16666666666666696
+S4,Los Angeles,Inglewood,under_resourced,-1.25,0.16666666666666696,0.20833333333333393
+S4,Los Angeles,Inglewood,under_resourced,-1.0,0.16666666666666696,0.16666666666666696
+S4,Los Angeles,Inglewood,under_resourced,-0.75,0.16666666666666696,0.125
+S4,Los Angeles,Inglewood,under_resourced,-0.5,0.16666666666666696,0.16666666666666696
+S4,Los Angeles,Inglewood,under_resourced,-0.25,0.16666666666666696,0.16666666666666696
+S4,Los Angeles,Inglewood,under_resourced,0.0,0.16666666666666696,0.16666666666666696
+S5,Boston,Back Bay,affluent,-2.0,0.9166666666666661,0.916666666666667
+S5,Boston,Back Bay,affluent,-1.75,0.9166666666666661,0.875
+S5,Boston,Back Bay,affluent,-1.5,0.9166666666666661,0.9166666666666661
+S5,Boston,Back Bay,affluent,-1.25,0.9166666666666661,0.875
+S5,Boston,Back Bay,affluent,-1.0,0.9166666666666661,0.875
+S5,Boston,Back Bay,affluent,-0.75,0.9166666666666661,0.875
+S5,Boston,Back Bay,affluent,-0.5,0.9166666666666661,0.9166666666666661
+S5,Boston,Back Bay,affluent,-0.25,0.9166666666666661,0.875
+S5,Boston,Back Bay,affluent,0.0,0.9166666666666661,0.9166666666666661
+S5,Boston,Beacon Hill,affluent,-2.0,1.229166666666666,1.229166666666666
+S5,Boston,Beacon Hill,affluent,-1.75,1.229166666666666,1.208333333333333
+S5,Boston,Beacon Hill,affluent,-1.5,1.229166666666666,1.25
+S5,Boston,Beacon Hill,affluent,-1.25,1.229166666666666,1.208333333333333
+S5,Boston,Beacon Hill,affluent,-1.0,1.229166666666666,1.25
+S5,Boston,Beacon Hill,affluent,-0.75,1.229166666666666,1.25
+S5,Boston,Beacon Hill,affluent,-0.5,1.229166666666666,1.208333333333333
+S5,Boston,Beacon Hill,affluent,-0.25,1.229166666666666,1.229166666666666
+S5,Boston,Beacon Hill,affluent,0.0,1.229166666666666,1.229166666666666
+S5,Boston,Brookline,affluent,-2.0,1.5,1.520833333333334
+S5,Boston,Brookline,affluent,-1.75,1.5,1.541666666666667
+S5,Boston,Brookline,affluent,-1.5,1.5,1.541666666666667
+S5,Boston,Brookline,affluent,-1.25,1.5,1.541666666666667
+S5,Boston,Brookline,affluent,-1.0,1.5,1.541666666666667
+S5,Boston,Brookline,affluent,-0.75,1.5,1.541666666666667
+S5,Boston,Brookline,affluent,-0.5,1.5,1.541666666666667
+S5,Boston,Brookline,affluent,-0.25,1.5,1.479166666666666
+S5,Boston,Brookline,affluent,0.0,1.5,1.5
+S5,Boston,Roxbury,under_resourced,-2.0,1.6875,1.729166666666667
+S5,Boston,Roxbury,under_resourced,-1.75,1.6875,1.6875
+S5,Boston,Roxbury,under_resourced,-1.5,1.6875,1.729166666666667
+S5,Boston,Roxbury,under_resourced,-1.25,1.6875,1.708333333333334
+S5,Boston,Roxbury,under_resourced,-1.0,1.6875,1.6875
+S5,Boston,Roxbury,under_resourced,-0.75,1.6875,1.6875
+S5,Boston,Roxbury,under_resourced,-0.5,1.6875,1.708333333333334
+S5,Boston,Roxbury,under_resourced,-0.25,1.6875,1.666666666666667
+S5,Boston,Roxbury,under_resourced,0.0,1.6875,1.6875
+S5,Boston,Dorchester,under_resourced,-2.0,1.416666666666666,1.416666666666666
+S5,Boston,Dorchester,under_resourced,-1.75,1.416666666666666,1.416666666666666
+S5,Boston,Dorchester,under_resourced,-1.5,1.416666666666666,1.395833333333334
+S5,Boston,Dorchester,under_resourced,-1.25,1.416666666666666,1.375
+S5,Boston,Dorchester,under_resourced,-1.0,1.416666666666666,1.4375
+S5,Boston,Dorchester,under_resourced,-0.75,1.416666666666666,1.395833333333334
+S5,Boston,Dorchester,under_resourced,-0.5,1.416666666666666,1.395833333333334
+S5,Boston,Dorchester,under_resourced,-0.25,1.416666666666666,1.416666666666666
+S5,Boston,Dorchester,under_resourced,0.0,1.416666666666666,1.416666666666666
+S5,Boston,Chelsea,under_resourced,-2.0,1.104166666666667,1.145833333333333
+S5,Boston,Chelsea,under_resourced,-1.75,1.104166666666667,1.104166666666667
+S5,Boston,Chelsea,under_resourced,-1.5,1.104166666666667,1.145833333333333
+S5,Boston,Chelsea,under_resourced,-1.25,1.104166666666667,1.104166666666667
+S5,Boston,Chelsea,under_resourced,-1.0,1.104166666666667,1.104166666666667
+S5,Boston,Chelsea,under_resourced,-0.75,1.104166666666667,1.125
+S5,Boston,Chelsea,under_resourced,-0.5,1.104166666666667,1.104166666666667
+S5,Boston,Chelsea,under_resourced,-0.25,1.104166666666667,1.125
+S5,Boston,Chelsea,under_resourced,0.0,1.104166666666667,1.104166666666667
+S5,Chicago,Lincoln Park,affluent,-2.0,0.9375,0.958333333333333
+S5,Chicago,Lincoln Park,affluent,-1.75,0.9375,0.9166666666666661
+S5,Chicago,Lincoln Park,affluent,-1.5,0.9375,0.958333333333333
+S5,Chicago,Lincoln Park,affluent,-1.25,0.9375,0.9375
+S5,Chicago,Lincoln Park,affluent,-1.0,0.9375,0.9375
+S5,Chicago,Lincoln Park,affluent,-0.75,0.9375,0.958333333333333
+S5,Chicago,Lincoln Park,affluent,-0.5,0.9375,0.8958333333333339
+S5,Chicago,Lincoln Park,affluent,-0.25,0.9375,0.958333333333333
+S5,Chicago,Lincoln Park,affluent,0.0,0.9375,0.9375
+S5,Chicago,Lakeview,affluent,-2.0,0.958333333333333,0.958333333333333
+S5,Chicago,Lakeview,affluent,-1.75,0.958333333333333,0.958333333333333
+S5,Chicago,Lakeview,affluent,-1.5,0.958333333333333,0.979166666666667
+S5,Chicago,Lakeview,affluent,-1.25,0.958333333333333,0.9375
+S5,Chicago,Lakeview,affluent,-1.0,0.958333333333333,0.9375
+S5,Chicago,Lakeview,affluent,-0.75,0.958333333333333,0.979166666666667
+S5,Chicago,Lakeview,affluent,-0.5,0.958333333333333,0.958333333333333
+S5,Chicago,Lakeview,affluent,-0.25,0.958333333333333,0.9166666666666661
+S5,Chicago,Lakeview,affluent,0.0,0.958333333333333,0.958333333333333
+S5,Chicago,Winnetka,affluent,-2.0,1.041666666666666,1.083333333333333
+S5,Chicago,Winnetka,affluent,-1.75,1.041666666666666,1.0625
+S5,Chicago,Winnetka,affluent,-1.5,1.041666666666666,1.0625
+S5,Chicago,Winnetka,affluent,-1.25,1.041666666666666,1.083333333333333
+S5,Chicago,Winnetka,affluent,-1.0,1.041666666666666,1.041666666666666
+S5,Chicago,Winnetka,affluent,-0.75,1.041666666666666,1.0625
+S5,Chicago,Winnetka,affluent,-0.5,1.041666666666666,1.0625
+S5,Chicago,Winnetka,affluent,-0.25,1.041666666666666,1.0625
+S5,Chicago,Winnetka,affluent,0.0,1.041666666666666,1.041666666666666
+S5,Chicago,Englewood,under_resourced,-2.0,1.4375,1.4375
+S5,Chicago,Englewood,under_resourced,-1.75,1.4375,1.4375
+S5,Chicago,Englewood,under_resourced,-1.5,1.4375,1.4375
+S5,Chicago,Englewood,under_resourced,-1.25,1.4375,1.4375
+S5,Chicago,Englewood,under_resourced,-1.0,1.4375,1.4375
+S5,Chicago,Englewood,under_resourced,-0.75,1.4375,1.458333333333334
+S5,Chicago,Englewood,under_resourced,-0.5,1.4375,1.4375
+S5,Chicago,Englewood,under_resourced,-0.25,1.4375,1.4375
+S5,Chicago,Englewood,under_resourced,0.0,1.4375,1.4375
+S5,Chicago,Austin,under_resourced,-2.0,1.1875,1.25
+S5,Chicago,Austin,under_resourced,-1.75,1.1875,1.208333333333333
+S5,Chicago,Austin,under_resourced,-1.5,1.1875,1.25
+S5,Chicago,Austin,under_resourced,-1.25,1.1875,1.208333333333333
+S5,Chicago,Austin,under_resourced,-1.0,1.1875,1.208333333333333
+S5,Chicago,Austin,under_resourced,-0.75,1.1875,1.208333333333333
+S5,Chicago,Austin,under_resourced,-0.5,1.1875,1.208333333333333
+S5,Chicago,Austin,under_resourced,-0.25,1.1875,1.208333333333333
+S5,Chicago,Austin,under_resourced,0.0,1.1875,1.1875
+S5,Chicago,Harvey,under_resourced,-2.0,0.833333333333333,0.875
+S5,Chicago,Harvey,under_resourced,-1.75,0.833333333333333,0.916666666666667
+S5,Chicago,Harvey,under_resourced,-1.5,0.833333333333333,0.875
+S5,Chicago,Harvey,under_resourced,-1.25,0.833333333333333,0.916666666666667
+S5,Chicago,Harvey,under_resourced,-1.0,0.833333333333333,0.875
+S5,Chicago,Harvey,under_resourced,-0.75,0.833333333333333,0.916666666666667
+S5,Chicago,Harvey,under_resourced,-0.5,0.833333333333333,0.875
+S5,Chicago,Harvey,under_resourced,-0.25,0.833333333333333,0.916666666666667
+S5,Chicago,Harvey,under_resourced,0.0,0.833333333333333,0.833333333333333
+S5,Los Angeles,Brentwood,affluent,-2.0,1.104166666666666,1.145833333333333
+S5,Los Angeles,Brentwood,affluent,-1.75,1.104166666666666,1.125
+S5,Los Angeles,Brentwood,affluent,-1.5,1.104166666666666,1.125
+S5,Los Angeles,Brentwood,affluent,-1.25,1.104166666666666,1.125
+S5,Los Angeles,Brentwood,affluent,-1.0,1.104166666666666,1.145833333333333
+S5,Los Angeles,Brentwood,affluent,-0.75,1.104166666666666,1.104166666666666
+S5,Los Angeles,Brentwood,affluent,-0.5,1.104166666666666,1.083333333333333
+S5,Los Angeles,Brentwood,affluent,-0.25,1.104166666666666,1.104166666666666
+S5,Los Angeles,Brentwood,affluent,0.0,1.104166666666666,1.104166666666666
+S5,Los Angeles,Beverly Grove,affluent,-2.0,1.125,1.125
+S5,Los Angeles,Beverly Grove,affluent,-1.75,1.125,1.125
+S5,Los Angeles,Beverly Grove,affluent,-1.5,1.125,1.104166666666666
+S5,Los Angeles,Beverly Grove,affluent,-1.25,1.125,1.145833333333333
+S5,Los Angeles,Beverly Grove,affluent,-1.0,1.125,1.145833333333333
+S5,Los Angeles,Beverly Grove,affluent,-0.75,1.125,1.104166666666666
+S5,Los Angeles,Beverly Grove,affluent,-0.5,1.125,1.125
+S5,Los Angeles,Beverly Grove,affluent,-0.25,1.125,1.083333333333333
+S5,Los Angeles,Beverly Grove,affluent,0.0,1.125,1.125
+S5,Los Angeles,Pasadena,affluent,-2.0,1.375,1.375
+S5,Los Angeles,Pasadena,affluent,-1.75,1.375,1.375
+S5,Los Angeles,Pasadena,affluent,-1.5,1.375,1.395833333333333
+S5,Los Angeles,Pasadena,affluent,-1.25,1.375,1.416666666666667
+S5,Los Angeles,Pasadena,affluent,-1.0,1.375,1.416666666666667
+S5,Los Angeles,Pasadena,affluent,-0.75,1.375,1.375
+S5,Los Angeles,Pasadena,affluent,-0.5,1.375,1.395833333333334
+S5,Los Angeles,Pasadena,affluent,-0.25,1.375,1.395833333333333
+S5,Los Angeles,Pasadena,affluent,0.0,1.375,1.375
+S5,Los Angeles,Watts,under_resourced,-2.0,2.041666666666667,2.0625
+S5,Los Angeles,Watts,under_resourced,-1.75,2.041666666666667,2.041666666666667
+S5,Los Angeles,Watts,under_resourced,-1.5,2.041666666666667,2.020833333333333
+S5,Los Angeles,Watts,under_resourced,-1.25,2.041666666666667,2.104166666666667
+S5,Los Angeles,Watts,under_resourced,-1.0,2.041666666666667,2.0625
+S5,Los Angeles,Watts,under_resourced,-0.75,2.041666666666667,2.041666666666667
+S5,Los Angeles,Watts,under_resourced,-0.5,2.041666666666667,2.020833333333333
+S5,Los Angeles,Watts,under_resourced,-0.25,2.041666666666667,2.0
+S5,Los Angeles,Watts,under_resourced,0.0,2.041666666666667,2.041666666666667
+S5,Los Angeles,Compton,under_resourced,-2.0,1.25,1.291666666666666
+S5,Los Angeles,Compton,under_resourced,-1.75,1.25,1.25
+S5,Los Angeles,Compton,under_resourced,-1.5,1.25,1.25
+S5,Los Angeles,Compton,under_resourced,-1.25,1.25,1.291666666666666
+S5,Los Angeles,Compton,under_resourced,-1.0,1.25,1.291666666666666
+S5,Los Angeles,Compton,under_resourced,-0.75,1.25,1.291666666666666
+S5,Los Angeles,Compton,under_resourced,-0.5,1.25,1.25
+S5,Los Angeles,Compton,under_resourced,-0.25,1.25,1.25
+S5,Los Angeles,Compton,under_resourced,0.0,1.25,1.25
+S5,Los Angeles,Inglewood,under_resourced,-2.0,1.395833333333334,1.395833333333334
+S5,Los Angeles,Inglewood,under_resourced,-1.75,1.395833333333334,1.416666666666667
+S5,Los Angeles,Inglewood,under_resourced,-1.5,1.395833333333334,1.416666666666667
+S5,Los Angeles,Inglewood,under_resourced,-1.25,1.395833333333334,1.4375
+S5,Los Angeles,Inglewood,under_resourced,-1.0,1.395833333333334,1.395833333333334
+S5,Los Angeles,Inglewood,under_resourced,-0.75,1.395833333333334,1.395833333333334
+S5,Los Angeles,Inglewood,under_resourced,-0.5,1.395833333333334,1.458333333333333
+S5,Los Angeles,Inglewood,under_resourced,-0.25,1.395833333333334,1.395833333333334
+S5,Los Angeles,Inglewood,under_resourced,0.0,1.395833333333334,1.395833333333334
+S6,Boston,Back Bay,affluent,-2.0,2.020833333333334,2.041666666666666
+S6,Boston,Back Bay,affluent,-1.75,2.020833333333334,2.0625
+S6,Boston,Back Bay,affluent,-1.5,2.020833333333334,2.020833333333334
+S6,Boston,Back Bay,affluent,-1.25,2.020833333333334,2.020833333333334
+S6,Boston,Back Bay,affluent,-1.0,2.020833333333334,2.041666666666667
+S6,Boston,Back Bay,affluent,-0.75,2.020833333333334,2.0625
+S6,Boston,Back Bay,affluent,-0.5,2.020833333333334,2.020833333333334
+S6,Boston,Back Bay,affluent,-0.25,2.020833333333334,2.020833333333334
+S6,Boston,Back Bay,affluent,0.0,2.020833333333334,2.020833333333334
+S6,Boston,Beacon Hill,affluent,-2.0,2.5,2.541666666666667
+S6,Boston,Beacon Hill,affluent,-1.75,2.5,2.5
+S6,Boston,Beacon Hill,affluent,-1.5,2.5,2.5
+S6,Boston,Beacon Hill,affluent,-1.25,2.5,2.5
+S6,Boston,Beacon Hill,affluent,-1.0,2.5,2.5
+S6,Boston,Beacon Hill,affluent,-0.75,2.5,2.479166666666666
+S6,Boston,Beacon Hill,affluent,-0.5,2.5,2.5
+S6,Boston,Beacon Hill,affluent,-0.25,2.5,2.5
+S6,Boston,Beacon Hill,affluent,0.0,2.5,2.5
+S6,Boston,Brookline,affluent,-2.0,3.083333333333333,3.0625000000000004
+S6,Boston,Brookline,affluent,-1.75,3.083333333333333,3.083333333333333
+S6,Boston,Brookline,affluent,-1.5,3.083333333333333,3.125
+S6,Boston,Brookline,affluent,-1.25,3.083333333333333,3.041666666666667
+S6,Boston,Brookline,affluent,-1.0,3.083333333333333,3.0624999999999996
+S6,Boston,Brookline,affluent,-0.75,3.083333333333333,3.083333333333333
+S6,Boston,Brookline,affluent,-0.5,3.083333333333333,3.0625000000000004
+S6,Boston,Brookline,affluent,-0.25,3.083333333333333,3.041666666666667
+S6,Boston,Brookline,affluent,0.0,3.083333333333333,3.083333333333333
+S6,Boston,Roxbury,under_resourced,-2.0,2.9999999999999996,3.0416666666666665
+S6,Boston,Roxbury,under_resourced,-1.75,2.9999999999999996,3.020833333333333
+S6,Boston,Roxbury,under_resourced,-1.5,2.9999999999999996,3.020833333333333
+S6,Boston,Roxbury,under_resourced,-1.25,2.9999999999999996,2.9583333333333335
+S6,Boston,Roxbury,under_resourced,-1.0,2.9999999999999996,2.979166666666667
+S6,Boston,Roxbury,under_resourced,-0.75,2.9999999999999996,3.020833333333333
+S6,Boston,Roxbury,under_resourced,-0.5,2.9999999999999996,3.0416666666666665
+S6,Boston,Roxbury,under_resourced,-0.25,2.9999999999999996,3.0000000000000004
+S6,Boston,Roxbury,under_resourced,0.0,2.9999999999999996,2.9999999999999996
+S6,Boston,Dorchester,under_resourced,-2.0,2.8333333333333335,2.8333333333333335
+S6,Boston,Dorchester,under_resourced,-1.75,2.8333333333333335,2.7916666666666665
+S6,Boston,Dorchester,under_resourced,-1.5,2.8333333333333335,2.7916666666666665
+S6,Boston,Dorchester,under_resourced,-1.25,2.8333333333333335,2.8333333333333335
+S6,Boston,Dorchester,under_resourced,-1.0,2.8333333333333335,2.8333333333333335
+S6,Boston,Dorchester,under_resourced,-0.75,2.8333333333333335,2.7916666666666665
+S6,Boston,Dorchester,under_resourced,-0.5,2.8333333333333335,2.7916666666666665
+S6,Boston,Dorchester,under_resourced,-0.25,2.8333333333333335,2.7916666666666665
+S6,Boston,Dorchester,under_resourced,0.0,2.8333333333333335,2.8333333333333335
+S6,Boston,Chelsea,under_resourced,-2.0,2.145833333333333,2.166666666666667
+S6,Boston,Chelsea,under_resourced,-1.75,2.145833333333333,2.208333333333334
+S6,Boston,Chelsea,under_resourced,-1.5,2.145833333333333,2.125
+S6,Boston,Chelsea,under_resourced,-1.25,2.145833333333333,2.145833333333333
+S6,Boston,Chelsea,under_resourced,-1.0,2.145833333333333,2.166666666666667
+S6,Boston,Chelsea,under_resourced,-0.75,2.145833333333333,2.125
+S6,Boston,Chelsea,under_resourced,-0.5,2.145833333333333,2.125
+S6,Boston,Chelsea,under_resourced,-0.25,2.145833333333333,2.125
+S6,Boston,Chelsea,under_resourced,0.0,2.145833333333333,2.145833333333333
+S6,Chicago,Lincoln Park,affluent,-2.0,2.020833333333333,2.041666666666666
+S6,Chicago,Lincoln Park,affluent,-1.75,2.020833333333333,2.041666666666666
+S6,Chicago,Lincoln Park,affluent,-1.5,2.020833333333333,2.020833333333333
+S6,Chicago,Lincoln Park,affluent,-1.25,2.020833333333333,2.020833333333333
+S6,Chicago,Lincoln Park,affluent,-1.0,2.020833333333333,2.020833333333333
+S6,Chicago,Lincoln Park,affluent,-0.75,2.020833333333333,2.0625
+S6,Chicago,Lincoln Park,affluent,-0.5,2.020833333333333,2.020833333333333
+S6,Chicago,Lincoln Park,affluent,-0.25,2.020833333333333,2.0
+S6,Chicago,Lincoln Park,affluent,0.0,2.020833333333333,2.020833333333333
+S6,Chicago,Lakeview,affluent,-2.0,2.125,2.145833333333334
+S6,Chicago,Lakeview,affluent,-1.75,2.125,2.166666666666667
+S6,Chicago,Lakeview,affluent,-1.5,2.125,2.104166666666667
+S6,Chicago,Lakeview,affluent,-1.25,2.125,2.145833333333334
+S6,Chicago,Lakeview,affluent,-1.0,2.125,2.125
+S6,Chicago,Lakeview,affluent,-0.75,2.125,2.083333333333333
+S6,Chicago,Lakeview,affluent,-0.5,2.125,2.083333333333333
+S6,Chicago,Lakeview,affluent,-0.25,2.125,2.083333333333333
+S6,Chicago,Lakeview,affluent,0.0,2.125,2.125
+S6,Chicago,Winnetka,affluent,-2.0,2.354166666666667,2.333333333333334
+S6,Chicago,Winnetka,affluent,-1.75,2.354166666666667,2.3125
+S6,Chicago,Winnetka,affluent,-1.5,2.354166666666667,2.354166666666666
+S6,Chicago,Winnetka,affluent,-1.25,2.354166666666667,2.354166666666667
+S6,Chicago,Winnetka,affluent,-1.0,2.354166666666667,2.354166666666667
+S6,Chicago,Winnetka,affluent,-0.75,2.354166666666667,2.291666666666667
+S6,Chicago,Winnetka,affluent,-0.5,2.354166666666667,2.3125
+S6,Chicago,Winnetka,affluent,-0.25,2.354166666666667,2.354166666666667
+S6,Chicago,Winnetka,affluent,0.0,2.354166666666667,2.354166666666667
+S6,Chicago,Englewood,under_resourced,-2.0,2.6666666666666665,2.6875
+S6,Chicago,Englewood,under_resourced,-1.75,2.6666666666666665,2.7083333333333335
+S6,Chicago,Englewood,under_resourced,-1.5,2.6666666666666665,2.6666666666666665
+S6,Chicago,Englewood,under_resourced,-1.25,2.6666666666666665,2.6875
+S6,Chicago,Englewood,under_resourced,-1.0,2.6666666666666665,2.645833333333333
+S6,Chicago,Englewood,under_resourced,-0.75,2.6666666666666665,2.6666666666666665
+S6,Chicago,Englewood,under_resourced,-0.5,2.6666666666666665,2.6666666666666665
+S6,Chicago,Englewood,under_resourced,-0.25,2.6666666666666665,2.645833333333333
+S6,Chicago,Englewood,under_resourced,0.0,2.6666666666666665,2.6666666666666665
+S6,Chicago,Austin,under_resourced,-2.0,2.541666666666666,2.541666666666667
+S6,Chicago,Austin,under_resourced,-1.75,2.541666666666666,2.5625
+S6,Chicago,Austin,under_resourced,-1.5,2.541666666666666,2.5625
+S6,Chicago,Austin,under_resourced,-1.25,2.541666666666666,2.541666666666666
+S6,Chicago,Austin,under_resourced,-1.0,2.541666666666666,2.520833333333333
+S6,Chicago,Austin,under_resourced,-0.75,2.541666666666666,2.520833333333333
+S6,Chicago,Austin,under_resourced,-0.5,2.541666666666666,2.520833333333333
+S6,Chicago,Austin,under_resourced,-0.25,2.541666666666666,2.541666666666667
+S6,Chicago,Austin,under_resourced,0.0,2.541666666666666,2.541666666666666
+S6,Chicago,Harvey,under_resourced,-2.0,2.0,2.041666666666667
+S6,Chicago,Harvey,under_resourced,-1.75,2.0,2.041666666666667
+S6,Chicago,Harvey,under_resourced,-1.5,2.0,2.041666666666667
+S6,Chicago,Harvey,under_resourced,-1.25,2.0,2.041666666666667
+S6,Chicago,Harvey,under_resourced,-1.0,2.0,2.020833333333333
+S6,Chicago,Harvey,under_resourced,-0.75,2.0,2.020833333333333
+S6,Chicago,Harvey,under_resourced,-0.5,2.0,2.020833333333333
+S6,Chicago,Harvey,under_resourced,-0.25,2.0,2.041666666666667
+S6,Chicago,Harvey,under_resourced,0.0,2.0,2.0
+S6,Los Angeles,Brentwood,affluent,-2.0,2.166666666666667,2.270833333333333
+S6,Los Angeles,Brentwood,affluent,-1.75,2.166666666666667,2.270833333333333
+S6,Los Angeles,Brentwood,affluent,-1.5,2.166666666666667,2.1875
+S6,Los Angeles,Brentwood,affluent,-1.25,2.166666666666667,2.229166666666667
+S6,Los Angeles,Brentwood,affluent,-1.0,2.166666666666667,2.229166666666666
+S6,Los Angeles,Brentwood,affluent,-0.75,2.166666666666667,2.270833333333333
+S6,Los Angeles,Brentwood,affluent,-0.5,2.166666666666667,2.1875
+S6,Los Angeles,Brentwood,affluent,-0.25,2.166666666666667,2.166666666666667
+S6,Los Angeles,Brentwood,affluent,0.0,2.166666666666667,2.166666666666667
+S6,Los Angeles,Beverly Grove,affluent,-2.0,2.104166666666666,2.083333333333334
+S6,Los Angeles,Beverly Grove,affluent,-1.75,2.104166666666666,2.083333333333334
+S6,Los Angeles,Beverly Grove,affluent,-1.5,2.104166666666666,2.083333333333334
+S6,Los Angeles,Beverly Grove,affluent,-1.25,2.104166666666666,2.0625
+S6,Los Angeles,Beverly Grove,affluent,-1.0,2.104166666666666,2.020833333333333
+S6,Los Angeles,Beverly Grove,affluent,-0.75,2.104166666666666,2.041666666666667
+S6,Los Angeles,Beverly Grove,affluent,-0.5,2.104166666666666,2.0625
+S6,Los Angeles,Beverly Grove,affluent,-0.25,2.104166666666666,2.0625
+S6,Los Angeles,Beverly Grove,affluent,0.0,2.104166666666666,2.104166666666666
+S6,Los Angeles,Pasadena,affluent,-2.0,2.7916666666666665,2.8125
+S6,Los Angeles,Pasadena,affluent,-1.75,2.7916666666666665,2.8125
+S6,Los Angeles,Pasadena,affluent,-1.5,2.7916666666666665,2.8125
+S6,Los Angeles,Pasadena,affluent,-1.25,2.7916666666666665,2.8125
+S6,Los Angeles,Pasadena,affluent,-1.0,2.7916666666666665,2.8125
+S6,Los Angeles,Pasadena,affluent,-0.75,2.7916666666666665,2.8333333333333335
+S6,Los Angeles,Pasadena,affluent,-0.5,2.7916666666666665,2.8125
+S6,Los Angeles,Pasadena,affluent,-0.25,2.7916666666666665,2.770833333333333
+S6,Los Angeles,Pasadena,affluent,0.0,2.7916666666666665,2.7916666666666665
+S6,Los Angeles,Watts,under_resourced,-2.0,3.229166666666667,3.229166666666667
+S6,Los Angeles,Watts,under_resourced,-1.75,3.229166666666667,3.2500000000000004
+S6,Los Angeles,Watts,under_resourced,-1.5,3.229166666666667,3.2083333333333335
+S6,Los Angeles,Watts,under_resourced,-1.25,3.229166666666667,3.2500000000000004
+S6,Los Angeles,Watts,under_resourced,-1.0,3.229166666666667,3.2083333333333335
+S6,Los Angeles,Watts,under_resourced,-0.75,3.229166666666667,3.2083333333333335
+S6,Los Angeles,Watts,under_resourced,-0.5,3.229166666666667,3.2083333333333335
+S6,Los Angeles,Watts,under_resourced,-0.25,3.229166666666667,3.229166666666667
+S6,Los Angeles,Watts,under_resourced,0.0,3.229166666666667,3.229166666666667
+S6,Los Angeles,Compton,under_resourced,-2.0,2.5,2.479166666666667
+S6,Los Angeles,Compton,under_resourced,-1.75,2.5,2.4375
+S6,Los Angeles,Compton,under_resourced,-1.5,2.5,2.520833333333334
+S6,Los Angeles,Compton,under_resourced,-1.25,2.5,2.479166666666667
+S6,Los Angeles,Compton,under_resourced,-1.0,2.5,2.479166666666667
+S6,Los Angeles,Compton,under_resourced,-0.75,2.5,2.5
+S6,Los Angeles,Compton,under_resourced,-0.5,2.5,2.541666666666666
+S6,Los Angeles,Compton,under_resourced,-0.25,2.5,2.479166666666667
+S6,Los Angeles,Compton,under_resourced,0.0,2.5,2.5
+S6,Los Angeles,Inglewood,under_resourced,-2.0,2.729166666666667,2.6875
+S6,Los Angeles,Inglewood,under_resourced,-1.75,2.729166666666667,2.708333333333333
+S6,Los Angeles,Inglewood,under_resourced,-1.5,2.729166666666667,2.708333333333333
+S6,Los Angeles,Inglewood,under_resourced,-1.25,2.729166666666667,2.6875
+S6,Los Angeles,Inglewood,under_resourced,-1.0,2.729166666666667,2.708333333333333
+S6,Los Angeles,Inglewood,under_resourced,-0.75,2.729166666666667,2.708333333333333
+S6,Los Angeles,Inglewood,under_resourced,-0.5,2.729166666666667,2.666666666666666
+S6,Los Angeles,Inglewood,under_resourced,-0.25,2.729166666666667,2.6875
+S6,Los Angeles,Inglewood,under_resourced,0.0,2.729166666666667,2.729166666666667
+S7,Boston,Back Bay,affluent,-2.0,-1.083333333333333,-1.083333333333334
+S7,Boston,Back Bay,affluent,-1.75,-1.083333333333333,-1.083333333333333
+S7,Boston,Back Bay,affluent,-1.5,-1.083333333333333,-1.083333333333333
+S7,Boston,Back Bay,affluent,-1.25,-1.083333333333333,-1.083333333333333
+S7,Boston,Back Bay,affluent,-1.0,-1.083333333333333,-1.083333333333334
+S7,Boston,Back Bay,affluent,-0.75,-1.083333333333333,-1.083333333333333
+S7,Boston,Back Bay,affluent,-0.5,-1.083333333333333,-1.125
+S7,Boston,Back Bay,affluent,-0.25,-1.083333333333333,-1.083333333333333
+S7,Boston,Back Bay,affluent,0.0,-1.083333333333333,-1.083333333333333
+S7,Boston,Beacon Hill,affluent,-2.0,-0.75,-0.708333333333333
+S7,Boston,Beacon Hill,affluent,-1.75,-0.75,-0.75
+S7,Boston,Beacon Hill,affluent,-1.5,-0.75,-0.708333333333333
+S7,Boston,Beacon Hill,affluent,-1.25,-0.75,-0.75
+S7,Boston,Beacon Hill,affluent,-1.0,-0.75,-0.75
+S7,Boston,Beacon Hill,affluent,-0.75,-0.75,-0.791666666666667
+S7,Boston,Beacon Hill,affluent,-0.5,-0.75,-0.75
+S7,Boston,Beacon Hill,affluent,-0.25,-0.75,-0.75
+S7,Boston,Beacon Hill,affluent,0.0,-0.75,-0.75
+S7,Boston,Brookline,affluent,-2.0,-0.666666666666667,-0.645833333333333
+S7,Boston,Brookline,affluent,-1.75,-0.666666666666667,-0.666666666666667
+S7,Boston,Brookline,affluent,-1.5,-0.666666666666667,-0.666666666666667
+S7,Boston,Brookline,affluent,-1.25,-0.666666666666667,-0.625
+S7,Boston,Brookline,affluent,-1.0,-0.666666666666667,-0.666666666666667
+S7,Boston,Brookline,affluent,-0.75,-0.666666666666667,-0.625
+S7,Boston,Brookline,affluent,-0.5,-0.666666666666667,-0.645833333333333
+S7,Boston,Brookline,affluent,-0.25,-0.666666666666667,-0.666666666666667
+S7,Boston,Brookline,affluent,0.0,-0.666666666666667,-0.666666666666667
+S7,Boston,Roxbury,under_resourced,-2.0,-0.375,-0.33333333333333304
+S7,Boston,Roxbury,under_resourced,-1.75,-0.375,-0.375
+S7,Boston,Roxbury,under_resourced,-1.5,-0.375,-0.33333333333333304
+S7,Boston,Roxbury,under_resourced,-1.25,-0.375,-0.375
+S7,Boston,Roxbury,under_resourced,-1.0,-0.375,-0.33333333333333304
+S7,Boston,Roxbury,under_resourced,-0.75,-0.375,-0.375
+S7,Boston,Roxbury,under_resourced,-0.5,-0.375,-0.375
+S7,Boston,Roxbury,under_resourced,-0.25,-0.375,-0.375
+S7,Boston,Roxbury,under_resourced,0.0,-0.375,-0.375
+S7,Boston,Dorchester,under_resourced,-2.0,-0.5,-0.5
+S7,Boston,Dorchester,under_resourced,-1.75,-0.5,-0.5
+S7,Boston,Dorchester,under_resourced,-1.5,-0.5,-0.5
+S7,Boston,Dorchester,under_resourced,-1.25,-0.5,-0.5
+S7,Boston,Dorchester,under_resourced,-1.0,-0.5,-0.5
+S7,Boston,Dorchester,under_resourced,-0.75,-0.5,-0.5
+S7,Boston,Dorchester,under_resourced,-0.5,-0.5,-0.5416666666666661
+S7,Boston,Dorchester,under_resourced,-0.25,-0.5,-0.5416666666666661
+S7,Boston,Dorchester,under_resourced,0.0,-0.5,-0.5
+S7,Boston,Chelsea,under_resourced,-2.0,-0.875,-0.833333333333333
+S7,Boston,Chelsea,under_resourced,-1.75,-0.875,-0.875
+S7,Boston,Chelsea,under_resourced,-1.5,-0.875,-0.833333333333333
+S7,Boston,Chelsea,under_resourced,-1.25,-0.875,-0.875
+S7,Boston,Chelsea,under_resourced,-1.0,-0.875,-0.875
+S7,Boston,Chelsea,under_resourced,-0.75,-0.875,-0.875
+S7,Boston,Chelsea,under_resourced,-0.5,-0.875,-0.875
+S7,Boston,Chelsea,under_resourced,-0.25,-0.875,-0.875
+S7,Boston,Chelsea,under_resourced,0.0,-0.875,-0.875
+S7,Chicago,Lincoln Park,affluent,-2.0,-0.979166666666667,-0.958333333333333
+S7,Chicago,Lincoln Park,affluent,-1.75,-0.979166666666667,-0.9583333333333339
+S7,Chicago,Lincoln Park,affluent,-1.5,-0.979166666666667,-0.916666666666667
+S7,Chicago,Lincoln Park,affluent,-1.25,-0.979166666666667,-0.9583333333333339
+S7,Chicago,Lincoln Park,affluent,-1.0,-0.979166666666667,-0.9375
+S7,Chicago,Lincoln Park,affluent,-0.75,-0.979166666666667,-0.958333333333333
+S7,Chicago,Lincoln Park,affluent,-0.5,-0.979166666666667,-0.9583333333333339
+S7,Chicago,Lincoln Park,affluent,-0.25,-0.979166666666667,-0.9583333333333339
+S7,Chicago,Lincoln Park,affluent,0.0,-0.979166666666667,-0.979166666666667
+S7,Chicago,Lakeview,affluent,-2.0,-0.958333333333333,-0.9583333333333339
+S7,Chicago,Lakeview,affluent,-1.75,-0.958333333333333,-0.916666666666667
+S7,Chicago,Lakeview,affluent,-1.5,-0.958333333333333,-0.9583333333333339
+S7,Chicago,Lakeview,affluent,-1.25,-0.958333333333333,-0.9583333333333339
+S7,Chicago,Lakeview,affluent,-1.0,-0.958333333333333,-0.9583333333333339
+S7,Chicago,Lakeview,affluent,-0.75,-0.958333333333333,-0.9583333333333339
+S7,Chicago,Lakeview,affluent,-0.5,-0.958333333333333,-0.9583333333333339
+S7,Chicago,Lakeview,affluent,-0.25,-0.958333333333333,-0.9583333333333339
+S7,Chicago,Lakeview,affluent,0.0,-0.958333333333333,-0.958333333333333
+S7,Chicago,Winnetka,affluent,-2.0,-0.9166666666666661,-0.875
+S7,Chicago,Winnetka,affluent,-1.75,-0.9166666666666661,-0.875
+S7,Chicago,Winnetka,affluent,-1.5,-0.9166666666666661,-0.895833333333333
+S7,Chicago,Winnetka,affluent,-1.25,-0.9166666666666661,-0.854166666666667
+S7,Chicago,Winnetka,affluent,-1.0,-0.9166666666666661,-0.895833333333333
+S7,Chicago,Winnetka,affluent,-0.75,-0.9166666666666661,-0.854166666666667
+S7,Chicago,Winnetka,affluent,-0.5,-0.9166666666666661,-0.854166666666667
+S7,Chicago,Winnetka,affluent,-0.25,-0.9166666666666661,-0.895833333333333
+S7,Chicago,Winnetka,affluent,0.0,-0.9166666666666661,-0.9166666666666661
+S7,Chicago,Englewood,under_resourced,-2.0,-0.2916666666666661,-0.20833333333333393
+S7,Chicago,Englewood,under_resourced,-1.75,-0.2916666666666661,-0.25
+S7,Chicago,Englewood,under_resourced,-1.5,-0.2916666666666661,-0.25
+S7,Chicago,Englewood,under_resourced,-1.25,-0.2916666666666661,-0.25
+S7,Chicago,Englewood,under_resourced,-1.0,-0.2916666666666661,-0.25
+S7,Chicago,Englewood,under_resourced,-0.75,-0.2916666666666661,-0.25
+S7,Chicago,Englewood,under_resourced,-0.5,-0.2916666666666661,-0.25
+S7,Chicago,Englewood,under_resourced,-0.25,-0.2916666666666661,-0.20833333333333393
+S7,Chicago,Englewood,under_resourced,0.0,-0.2916666666666661,-0.2916666666666661
+S7,Chicago,Austin,under_resourced,-2.0,-0.708333333333333,-0.6666666666666661
+S7,Chicago,Austin,under_resourced,-1.75,-0.708333333333333,-0.6666666666666661
+S7,Chicago,Austin,under_resourced,-1.5,-0.708333333333333,-0.708333333333333
+S7,Chicago,Austin,under_resourced,-1.25,-0.708333333333333,-0.708333333333333
+S7,Chicago,Austin,under_resourced,-1.0,-0.708333333333333,-0.6666666666666661
+S7,Chicago,Austin,under_resourced,-0.75,-0.708333333333333,-0.75
+S7,Chicago,Austin,under_resourced,-0.5,-0.708333333333333,-0.708333333333333
+S7,Chicago,Austin,under_resourced,-0.25,-0.708333333333333,-0.708333333333333
+S7,Chicago,Austin,under_resourced,0.0,-0.708333333333333,-0.708333333333333
+S7,Chicago,Harvey,under_resourced,-2.0,-0.666666666666667,-0.75
+S7,Chicago,Harvey,under_resourced,-1.75,-0.666666666666667,-0.75
+S7,Chicago,Harvey,under_resourced,-1.5,-0.666666666666667,-0.666666666666667
+S7,Chicago,Harvey,under_resourced,-1.25,-0.666666666666667,-0.666666666666667
+S7,Chicago,Harvey,under_resourced,-1.0,-0.666666666666667,-0.75
+S7,Chicago,Harvey,under_resourced,-0.75,-0.666666666666667,-0.708333333333333
+S7,Chicago,Harvey,under_resourced,-0.5,-0.666666666666667,-0.75
+S7,Chicago,Harvey,under_resourced,-0.25,-0.666666666666667,-0.7083333333333339
+S7,Chicago,Harvey,under_resourced,0.0,-0.666666666666667,-0.666666666666667
+S7,Los Angeles,Brentwood,affluent,-2.0,-0.916666666666667,-0.9583333333333339
+S7,Los Angeles,Brentwood,affluent,-1.75,-0.916666666666667,-0.958333333333333
+S7,Los Angeles,Brentwood,affluent,-1.5,-0.916666666666667,-0.958333333333333
+S7,Los Angeles,Brentwood,affluent,-1.25,-0.916666666666667,-0.916666666666667
+S7,Los Angeles,Brentwood,affluent,-1.0,-0.916666666666667,-0.958333333333333
+S7,Los Angeles,Brentwood,affluent,-0.75,-0.916666666666667,-0.958333333333333
+S7,Los Angeles,Brentwood,affluent,-0.5,-0.916666666666667,-0.916666666666667
+S7,Los Angeles,Brentwood,affluent,-0.25,-0.916666666666667,-0.958333333333333
+S7,Los Angeles,Brentwood,affluent,0.0,-0.916666666666667,-0.916666666666667
+S7,Los Angeles,Beverly Grove,affluent,-2.0,-0.958333333333333,-0.958333333333333
+S7,Los Angeles,Beverly Grove,affluent,-1.75,-0.958333333333333,-0.958333333333333
+S7,Los Angeles,Beverly Grove,affluent,-1.5,-0.958333333333333,-0.916666666666667
+S7,Los Angeles,Beverly Grove,affluent,-1.25,-0.958333333333333,-0.958333333333333
+S7,Los Angeles,Beverly Grove,affluent,-1.0,-0.958333333333333,-0.958333333333333
+S7,Los Angeles,Beverly Grove,affluent,-0.75,-0.958333333333333,-0.916666666666667
+S7,Los Angeles,Beverly Grove,affluent,-0.5,-0.958333333333333,-0.958333333333333
+S7,Los Angeles,Beverly Grove,affluent,-0.25,-0.958333333333333,-0.916666666666667
+S7,Los Angeles,Beverly Grove,affluent,0.0,-0.958333333333333,-0.958333333333333
+S7,Los Angeles,Pasadena,affluent,-2.0,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Pasadena,affluent,-1.75,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Pasadena,affluent,-1.5,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Pasadena,affluent,-1.25,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Pasadena,affluent,-1.0,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Pasadena,affluent,-0.75,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Pasadena,affluent,-0.5,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Pasadena,affluent,-0.25,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Pasadena,affluent,0.0,-0.791666666666667,-0.791666666666667
+S7,Los Angeles,Watts,under_resourced,-2.0,0.14583333333333304,0.125
+S7,Los Angeles,Watts,under_resourced,-1.75,0.14583333333333304,0.125
+S7,Los Angeles,Watts,under_resourced,-1.5,0.14583333333333304,0.10416666666666607
+S7,Los Angeles,Watts,under_resourced,-1.25,0.14583333333333304,0.125
+S7,Los Angeles,Watts,under_resourced,-1.0,0.14583333333333304,0.125
+S7,Los Angeles,Watts,under_resourced,-0.75,0.14583333333333304,0.14583333333333304
+S7,Los Angeles,Watts,under_resourced,-0.5,0.14583333333333304,0.125
+S7,Los Angeles,Watts,under_resourced,-0.25,0.14583333333333304,0.16666666666666696
+S7,Los Angeles,Watts,under_resourced,0.0,0.14583333333333304,0.14583333333333304
+S7,Los Angeles,Compton,under_resourced,-2.0,-0.6875,-0.6875
+S7,Los Angeles,Compton,under_resourced,-1.75,-0.6875,-0.6666666666666661
+S7,Los Angeles,Compton,under_resourced,-1.5,-0.6875,-0.708333333333333
+S7,Los Angeles,Compton,under_resourced,-1.25,-0.6875,-0.6666666666666661
+S7,Los Angeles,Compton,under_resourced,-1.0,-0.6875,-0.6666666666666661
+S7,Los Angeles,Compton,under_resourced,-0.75,-0.6875,-0.6666666666666661
+S7,Los Angeles,Compton,under_resourced,-0.5,-0.6875,-0.708333333333333
+S7,Los Angeles,Compton,under_resourced,-0.25,-0.6875,-0.6666666666666661
+S7,Los Angeles,Compton,under_resourced,0.0,-0.6875,-0.6875
+S7,Los Angeles,Inglewood,under_resourced,-2.0,-0.75,-0.708333333333333
+S7,Los Angeles,Inglewood,under_resourced,-1.75,-0.75,-0.708333333333333
+S7,Los Angeles,Inglewood,under_resourced,-1.5,-0.75,-0.7083333333333339
+S7,Los Angeles,Inglewood,under_resourced,-1.25,-0.75,-0.666666666666667
+S7,Los Angeles,Inglewood,under_resourced,-1.0,-0.75,-0.7083333333333339
+S7,Los Angeles,Inglewood,under_resourced,-0.75,-0.75,-0.75
+S7,Los Angeles,Inglewood,under_resourced,-0.5,-0.75,-0.75
+S7,Los Angeles,Inglewood,under_resourced,-0.25,-0.75,-0.7083333333333339
+S7,Los Angeles,Inglewood,under_resourced,0.0,-0.75,-0.75
+S8,Boston,Back Bay,affluent,-2.0,-1.125,-1.166666666666667
+S8,Boston,Back Bay,affluent,-1.75,-1.125,-1.125
+S8,Boston,Back Bay,affluent,-1.5,-1.125,-1.125
+S8,Boston,Back Bay,affluent,-1.25,-1.125,-1.125
+S8,Boston,Back Bay,affluent,-1.0,-1.125,-1.125
+S8,Boston,Back Bay,affluent,-0.75,-1.125,-1.125
+S8,Boston,Back Bay,affluent,-0.5,-1.125,-1.166666666666667
+S8,Boston,Back Bay,affluent,-0.25,-1.125,-1.125
+S8,Boston,Back Bay,affluent,0.0,-1.125,-1.125
+S8,Boston,Beacon Hill,affluent,-2.0,-0.7916666666666661,-0.791666666666667
+S8,Boston,Beacon Hill,affluent,-1.75,-0.7916666666666661,-0.7916666666666661
+S8,Boston,Beacon Hill,affluent,-1.5,-0.7916666666666661,-0.833333333333333
+S8,Boston,Beacon Hill,affluent,-1.25,-0.7916666666666661,-0.791666666666667
+S8,Boston,Beacon Hill,affluent,-1.0,-0.7916666666666661,-0.7916666666666661
+S8,Boston,Beacon Hill,affluent,-0.75,-0.7916666666666661,-0.75
+S8,Boston,Beacon Hill,affluent,-0.5,-0.7916666666666661,-0.75
+S8,Boston,Beacon Hill,affluent,-0.25,-0.7916666666666661,-0.7916666666666661
+S8,Boston,Beacon Hill,affluent,0.0,-0.7916666666666661,-0.7916666666666661
+S8,Boston,Brookline,affluent,-2.0,-0.625,-0.625
+S8,Boston,Brookline,affluent,-1.75,-0.625,-0.666666666666667
+S8,Boston,Brookline,affluent,-1.5,-0.625,-0.666666666666667
+S8,Boston,Brookline,affluent,-1.25,-0.625,-0.625
+S8,Boston,Brookline,affluent,-1.0,-0.625,-0.625
+S8,Boston,Brookline,affluent,-0.75,-0.625,-0.625
+S8,Boston,Brookline,affluent,-0.5,-0.625,-0.625
+S8,Boston,Brookline,affluent,-0.25,-0.625,-0.625
+S8,Boston,Brookline,affluent,0.0,-0.625,-0.625
+S8,Boston,Roxbury,under_resourced,-2.0,-0.5,-0.5
+S8,Boston,Roxbury,under_resourced,-1.75,-0.5,-0.5
+S8,Boston,Roxbury,under_resourced,-1.5,-0.5,-0.45833333333333304
+S8,Boston,Roxbury,under_resourced,-1.25,-0.5,-0.45833333333333304
+S8,Boston,Roxbury,under_resourced,-1.0,-0.5,-0.5
+S8,Boston,Roxbury,under_resourced,-0.75,-0.5,-0.5
+S8,Boston,Roxbury,under_resourced,-0.5,-0.5,-0.5
+S8,Boston,Roxbury,under_resourced,-0.25,-0.5,-0.5
+S8,Boston,Roxbury,under_resourced,0.0,-0.5,-0.5
+S8,Boston,Dorchester,under_resourced,-2.0,-0.791666666666667,-0.791666666666667
+S8,Boston,Dorchester,under_resourced,-1.75,-0.791666666666667,-0.75
+S8,Boston,Dorchester,under_resourced,-1.5,-0.791666666666667,-0.75
+S8,Boston,Dorchester,under_resourced,-1.25,-0.791666666666667,-0.75
+S8,Boston,Dorchester,under_resourced,-1.0,-0.791666666666667,-0.791666666666667
+S8,Boston,Dorchester,under_resourced,-0.75,-0.791666666666667,-0.75
+S8,Boston,Dorchester,under_resourced,-0.5,-0.791666666666667,-0.75
+S8,Boston,Dorchester,under_resourced,-0.25,-0.791666666666667,-0.791666666666667
+S8,Boston,Dorchester,under_resourced,0.0,-0.791666666666667,-0.791666666666667
+S8,Boston,Chelsea,under_resourced,-2.0,-0.958333333333333,-0.958333333333333
+S8,Boston,Chelsea,under_resourced,-1.75,-0.958333333333333,-0.9166666666666661
+S8,Boston,Chelsea,under_resourced,-1.5,-0.958333333333333,-0.958333333333333
+S8,Boston,Chelsea,under_resourced,-1.25,-0.958333333333333,-0.958333333333333
+S8,Boston,Chelsea,under_resourced,-1.0,-0.958333333333333,-0.958333333333333
+S8,Boston,Chelsea,under_resourced,-0.75,-0.958333333333333,-0.958333333333333
+S8,Boston,Chelsea,under_resourced,-0.5,-0.958333333333333,-0.958333333333333
+S8,Boston,Chelsea,under_resourced,-0.25,-0.958333333333333,-0.958333333333333
+S8,Boston,Chelsea,under_resourced,0.0,-0.958333333333333,-0.958333333333333
+S8,Chicago,Lincoln Park,affluent,-2.0,-1.041666666666666,-0.958333333333333
+S8,Chicago,Lincoln Park,affluent,-1.75,-1.041666666666666,-1.0
+S8,Chicago,Lincoln Park,affluent,-1.5,-1.041666666666666,-1.0
+S8,Chicago,Lincoln Park,affluent,-1.25,-1.041666666666666,-1.0
+S8,Chicago,Lincoln Park,affluent,-1.0,-1.041666666666666,-0.9583333333333339
+S8,Chicago,Lincoln Park,affluent,-0.75,-1.041666666666666,-0.958333333333333
+S8,Chicago,Lincoln Park,affluent,-0.5,-1.041666666666666,-1.0
+S8,Chicago,Lincoln Park,affluent,-0.25,-1.041666666666666,-1.0
+S8,Chicago,Lincoln Park,affluent,0.0,-1.041666666666666,-1.041666666666666
+S8,Chicago,Lakeview,affluent,-2.0,-1.083333333333334,-1.125
+S8,Chicago,Lakeview,affluent,-1.75,-1.083333333333334,-1.125
+S8,Chicago,Lakeview,affluent,-1.5,-1.083333333333334,-1.125
+S8,Chicago,Lakeview,affluent,-1.25,-1.083333333333334,-1.125
+S8,Chicago,Lakeview,affluent,-1.0,-1.083333333333334,-1.125
+S8,Chicago,Lakeview,affluent,-0.75,-1.083333333333334,-1.125
+S8,Chicago,Lakeview,affluent,-0.5,-1.083333333333334,-1.125
+S8,Chicago,Lakeview,affluent,-0.25,-1.083333333333334,-1.125
+S8,Chicago,Lakeview,affluent,0.0,-1.083333333333334,-1.083333333333334
+S8,Chicago,Winnetka,affluent,-2.0,-1.041666666666667,-1.041666666666667
+S8,Chicago,Winnetka,affluent,-1.75,-1.041666666666667,-1.083333333333333
+S8,Chicago,Winnetka,affluent,-1.5,-1.041666666666667,-1.041666666666667
+S8,Chicago,Winnetka,affluent,-1.25,-1.041666666666667,-1.041666666666666
+S8,Chicago,Winnetka,affluent,-1.0,-1.041666666666667,-1.041666666666667
+S8,Chicago,Winnetka,affluent,-0.75,-1.041666666666667,-1.041666666666666
+S8,Chicago,Winnetka,affluent,-0.5,-1.041666666666667,-1.041666666666667
+S8,Chicago,Winnetka,affluent,-0.25,-1.041666666666667,-1.041666666666666
+S8,Chicago,Winnetka,affluent,0.0,-1.041666666666667,-1.041666666666667
+S8,Chicago,Englewood,under_resourced,-2.0,-0.75,-0.708333333333333
+S8,Chicago,Englewood,under_resourced,-1.75,-0.75,-0.708333333333333
+S8,Chicago,Englewood,under_resourced,-1.5,-0.75,-0.7083333333333339
+S8,Chicago,Englewood,under_resourced,-1.25,-0.75,-0.708333333333333
+S8,Chicago,Englewood,under_resourced,-1.0,-0.75,-0.75
+S8,Chicago,Englewood,under_resourced,-0.75,-0.75,-0.708333333333333
+S8,Chicago,Englewood,under_resourced,-0.5,-0.75,-0.708333333333333
+S8,Chicago,Englewood,under_resourced,-0.25,-0.75,-0.708333333333333
+S8,Chicago,Englewood,under_resourced,0.0,-0.75,-0.75
+S8,Chicago,Austin,under_resourced,-2.0,-0.7916666666666661,-0.75
+S8,Chicago,Austin,under_resourced,-1.75,-0.7916666666666661,-0.75
+S8,Chicago,Austin,under_resourced,-1.5,-0.7916666666666661,-0.75
+S8,Chicago,Austin,under_resourced,-1.25,-0.7916666666666661,-0.75
+S8,Chicago,Austin,under_resourced,-1.0,-0.7916666666666661,-0.75
+S8,Chicago,Austin,under_resourced,-0.75,-0.7916666666666661,-0.7916666666666661
+S8,Chicago,Austin,under_resourced,-0.5,-0.7916666666666661,-0.75
+S8,Chicago,Austin,under_resourced,-0.25,-0.7916666666666661,-0.75
+S8,Chicago,Austin,under_resourced,0.0,-0.7916666666666661,-0.7916666666666661
+S8,Chicago,Harvey,under_resourced,-2.0,-1.083333333333333,-1.041666666666666
+S8,Chicago,Harvey,under_resourced,-1.75,-1.083333333333333,-1.083333333333333
+S8,Chicago,Harvey,under_resourced,-1.5,-1.083333333333333,-1.083333333333334
+S8,Chicago,Harvey,under_resourced,-1.25,-1.083333333333333,-1.083333333333333
+S8,Chicago,Harvey,under_resourced,-1.0,-1.083333333333333,-1.125
+S8,Chicago,Harvey,under_resourced,-0.75,-1.083333333333333,-1.041666666666666
+S8,Chicago,Harvey,under_resourced,-0.5,-1.083333333333333,-1.083333333333333
+S8,Chicago,Harvey,under_resourced,-0.25,-1.083333333333333,-1.041666666666666
+S8,Chicago,Harvey,under_resourced,0.0,-1.083333333333333,-1.083333333333333
+S8,Los Angeles,Brentwood,affluent,-2.0,-1.0,-1.0
+S8,Los Angeles,Brentwood,affluent,-1.75,-1.0,-1.0
+S8,Los Angeles,Brentwood,affluent,-1.5,-1.0,-1.0
+S8,Los Angeles,Brentwood,affluent,-1.25,-1.0,-1.0
+S8,Los Angeles,Brentwood,affluent,-1.0,-1.0,-1.0
+S8,Los Angeles,Brentwood,affluent,-0.75,-1.0,-1.0
+S8,Los Angeles,Brentwood,affluent,-0.5,-1.0,-1.041666666666667
+S8,Los Angeles,Brentwood,affluent,-0.25,-1.0,-1.0
+S8,Los Angeles,Brentwood,affluent,0.0,-1.0,-1.0
+S8,Los Angeles,Beverly Grove,affluent,-2.0,-1.0,-1.0
+S8,Los Angeles,Beverly Grove,affluent,-1.75,-1.0,-1.0
+S8,Los Angeles,Beverly Grove,affluent,-1.5,-1.0,-1.0
+S8,Los Angeles,Beverly Grove,affluent,-1.25,-1.0,-1.0
+S8,Los Angeles,Beverly Grove,affluent,-1.0,-1.0,-1.0
+S8,Los Angeles,Beverly Grove,affluent,-0.75,-1.0,-1.041666666666667
+S8,Los Angeles,Beverly Grove,affluent,-0.5,-1.0,-0.958333333333333
+S8,Los Angeles,Beverly Grove,affluent,-0.25,-1.0,-1.041666666666667
+S8,Los Angeles,Beverly Grove,affluent,0.0,-1.0,-1.0
+S8,Los Angeles,Pasadena,affluent,-2.0,-0.7916666666666661,-0.791666666666667
+S8,Los Angeles,Pasadena,affluent,-1.75,-0.7916666666666661,-0.791666666666667
+S8,Los Angeles,Pasadena,affluent,-1.5,-0.7916666666666661,-0.833333333333333
+S8,Los Angeles,Pasadena,affluent,-1.25,-0.7916666666666661,-0.833333333333333
+S8,Los Angeles,Pasadena,affluent,-1.0,-0.7916666666666661,-0.7916666666666661
+S8,Los Angeles,Pasadena,affluent,-0.75,-0.7916666666666661,-0.75
+S8,Los Angeles,Pasadena,affluent,-0.5,-0.7916666666666661,-0.7916666666666661
+S8,Los Angeles,Pasadena,affluent,-0.25,-0.7916666666666661,-0.7916666666666661
+S8,Los Angeles,Pasadena,affluent,0.0,-0.7916666666666661,-0.7916666666666661
+S8,Los Angeles,Watts,under_resourced,-2.0,-0.20833333333333304,-0.16666666666666696
+S8,Los Angeles,Watts,under_resourced,-1.75,-0.20833333333333304,-0.125
+S8,Los Angeles,Watts,under_resourced,-1.5,-0.20833333333333304,-0.16666666666666696
+S8,Los Angeles,Watts,under_resourced,-1.25,-0.20833333333333304,-0.16666666666666696
+S8,Los Angeles,Watts,under_resourced,-1.0,-0.20833333333333304,-0.20833333333333304
+S8,Los Angeles,Watts,under_resourced,-0.75,-0.20833333333333304,-0.20833333333333393
+S8,Los Angeles,Watts,under_resourced,-0.5,-0.20833333333333304,-0.16666666666666696
+S8,Los Angeles,Watts,under_resourced,-0.25,-0.20833333333333304,-0.20833333333333304
+S8,Los Angeles,Watts,under_resourced,0.0,-0.20833333333333304,-0.20833333333333304
+S8,Los Angeles,Compton,under_resourced,-2.0,-1.0625,-1.0625
+S8,Los Angeles,Compton,under_resourced,-1.75,-1.0625,-1.0625
+S8,Los Angeles,Compton,under_resourced,-1.5,-1.0625,-1.0625
+S8,Los Angeles,Compton,under_resourced,-1.25,-1.0625,-1.041666666666667
+S8,Los Angeles,Compton,under_resourced,-1.0,-1.0625,-1.041666666666667
+S8,Los Angeles,Compton,under_resourced,-0.75,-1.0625,-1.0625
+S8,Los Angeles,Compton,under_resourced,-0.5,-1.0625,-1.041666666666667
+S8,Los Angeles,Compton,under_resourced,-0.25,-1.0625,-1.083333333333334
+S8,Los Angeles,Compton,under_resourced,0.0,-1.0625,-1.0625
+S8,Los Angeles,Inglewood,under_resourced,-2.0,-0.875,-0.8333333333333339
+S8,Los Angeles,Inglewood,under_resourced,-1.75,-0.875,-0.791666666666667
+S8,Los Angeles,Inglewood,under_resourced,-1.5,-0.875,-0.833333333333333
+S8,Los Angeles,Inglewood,under_resourced,-1.25,-0.875,-0.8333333333333339
+S8,Los Angeles,Inglewood,under_resourced,-1.0,-0.875,-0.8333333333333339
+S8,Los Angeles,Inglewood,under_resourced,-0.75,-0.875,-0.791666666666667
+S8,Los Angeles,Inglewood,under_resourced,-0.5,-0.875,-0.791666666666667
+S8,Los Angeles,Inglewood,under_resourced,-0.25,-0.875,-0.833333333333333
+S8,Los Angeles,Inglewood,under_resourced,0.0,-0.875,-0.875

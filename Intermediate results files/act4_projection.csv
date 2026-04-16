@@ -1,0 +1,609 @@
+layer,scenario_id,city,name,valence,swap_order,base_pref,proj_pref
+20,S1,baseline,baseline,baseline,False,-1.708333333333333,-1.625
+20,S1,Boston,Back Bay,affluent,False,-1.041666666666666,-1.041666666666666
+20,S1,Boston,Beacon Hill,affluent,False,-0.75,-0.708333333333333
+20,S1,Boston,Brookline,affluent,False,-0.583333333333333,-0.5416666666666661
+20,S1,Boston,Roxbury,under_resourced,False,-0.375,-0.33333333333333304
+20,S1,Boston,Dorchester,under_resourced,False,-0.625,-0.5416666666666661
+20,S1,Boston,Chelsea,under_resourced,False,-0.958333333333333,-0.916666666666667
+20,S1,Chicago,Lincoln Park,affluent,False,-1.125,-1.041666666666666
+20,S1,Chicago,Lakeview,affluent,False,-1.041666666666667,-0.916666666666667
+20,S1,Chicago,Winnetka,affluent,False,-1.0,-0.916666666666667
+20,S1,Chicago,Englewood,under_resourced,False,-0.583333333333333,-0.541666666666667
+20,S1,Chicago,Austin,under_resourced,False,-0.7916666666666661,-0.708333333333333
+20,S1,Chicago,Harvey,under_resourced,False,-0.9583333333333339,-0.875
+20,S1,Los Angeles,Brentwood,affluent,False,-0.833333333333333,-0.791666666666667
+20,S1,Los Angeles,Beverly Grove,affluent,False,-0.875,-0.833333333333333
+20,S1,Los Angeles,Pasadena,affluent,False,-0.6666666666666661,-0.625
+20,S1,Los Angeles,Watts,under_resourced,False,-0.16666666666666696,-0.16666666666666696
+20,S1,Los Angeles,Compton,under_resourced,False,-0.8333333333333339,-0.75
+20,S1,Los Angeles,Inglewood,under_resourced,False,-0.75,-0.708333333333333
+20,S1,baseline,baseline,baseline,True,-2.9999999999999996,-2.9583333333333335
+20,S1,Boston,Back Bay,affluent,True,-1.8333333333333335,-1.7708333333333335
+20,S1,Boston,Beacon Hill,affluent,True,-0.8750000000000004,-0.7291666666666665
+20,S1,Boston,Brookline,affluent,True,-0.20833333333333304,-0.020833333333333037
+20,S1,Boston,Roxbury,under_resourced,True,0.04166666666666696,0.2916666666666665
+20,S1,Boston,Dorchester,under_resourced,True,-0.8125000000000004,-0.604166666666667
+20,S1,Boston,Chelsea,under_resourced,True,-1.5833333333333335,-1.4374999999999996
+20,S1,Chicago,Lincoln Park,affluent,True,-1.1458333333333335,-1.0416666666666665
+20,S1,Chicago,Lakeview,affluent,True,-1.0000000000000004,-0.854166666666667
+20,S1,Chicago,Winnetka,affluent,True,-1.0208333333333335,-0.8333333333333335
+20,S1,Chicago,Englewood,under_resourced,True,-0.08333333333333393,0.10416666666666696
+20,S1,Chicago,Austin,under_resourced,True,-0.8541666666666665,-0.5833333333333335
+20,S1,Chicago,Harvey,under_resourced,True,-1.5,-1.3333333333333335
+20,S1,Los Angeles,Brentwood,affluent,True,-1.1666666666666665,-0.9583333333333335
+20,S1,Los Angeles,Beverly Grove,affluent,True,-1.0833333333333335,-0.9166666666666665
+20,S1,Los Angeles,Pasadena,affluent,True,-0.6666666666666665,-0.375
+20,S1,Los Angeles,Watts,under_resourced,True,0.43749999999999956,0.6666666666666665
+20,S1,Los Angeles,Compton,under_resourced,True,-1.020833333333333,-0.8541666666666665
+20,S1,Los Angeles,Inglewood,under_resourced,True,-0.5208333333333335,-0.25000000000000044
+20,S2,baseline,baseline,baseline,False,-1.708333333333333,-1.625
+20,S2,Boston,Back Bay,affluent,False,-1.125,-1.125
+20,S2,Boston,Beacon Hill,affluent,False,-0.9583333333333339,-0.833333333333333
+20,S2,Boston,Brookline,affluent,False,-0.791666666666667,-0.708333333333333
+20,S2,Boston,Roxbury,under_resourced,False,-0.5,-0.375
+20,S2,Boston,Dorchester,under_resourced,False,-0.791666666666667,-0.708333333333333
+20,S2,Boston,Chelsea,under_resourced,False,-0.958333333333333,-0.875
+20,S2,Chicago,Lincoln Park,affluent,False,-1.125,-1.0625
+20,S2,Chicago,Lakeview,affluent,False,-1.0625,-1.020833333333333
+20,S2,Chicago,Winnetka,affluent,False,-1.125,-1.041666666666667
+20,S2,Chicago,Englewood,under_resourced,False,-0.5833333333333339,-0.541666666666667
+20,S2,Chicago,Austin,under_resourced,False,-0.791666666666667,-0.708333333333333
+20,S2,Chicago,Harvey,under_resourced,False,-1.0,-0.875
+20,S2,Los Angeles,Brentwood,affluent,False,-1.125,-1.041666666666667
+20,S2,Los Angeles,Beverly Grove,affluent,False,-1.083333333333334,-1.041666666666667
+20,S2,Los Angeles,Pasadena,affluent,False,-0.958333333333333,-0.875
+20,S2,Los Angeles,Watts,under_resourced,False,-0.0625,0.0
+20,S2,Los Angeles,Compton,under_resourced,False,-0.9583333333333339,-0.875
+20,S2,Los Angeles,Inglewood,under_resourced,False,-0.979166666666667,-0.916666666666667
+20,S2,baseline,baseline,baseline,True,-1.0833333333333335,-0.9166666666666665
+20,S2,Boston,Back Bay,affluent,True,0.6875000000000004,0.8958333333333335
+20,S2,Boston,Beacon Hill,affluent,True,1.9791666666666665,2.1666666666666665
+20,S2,Boston,Brookline,affluent,True,2.2083333333333335,2.3124999999999996
+20,S2,Boston,Roxbury,under_resourced,True,2.4791666666666665,2.6666666666666665
+20,S2,Boston,Dorchester,under_resourced,True,1.729166666666667,1.958333333333333
+20,S2,Boston,Chelsea,under_resourced,True,1.3333333333333335,1.5624999999999996
+20,S2,Chicago,Lincoln Park,affluent,True,1.7083333333333335,1.8958333333333335
+20,S2,Chicago,Lakeview,affluent,True,1.6250000000000004,1.8124999999999996
+20,S2,Chicago,Winnetka,affluent,True,1.666666666666667,1.875
+20,S2,Chicago,Englewood,under_resourced,True,2.1666666666666665,2.3958333333333335
+20,S2,Chicago,Austin,under_resourced,True,1.9375,2.0625000000000004
+20,S2,Chicago,Harvey,under_resourced,True,0.8541666666666665,1.208333333333333
+20,S2,Los Angeles,Brentwood,affluent,True,1.5208333333333335,1.7499999999999996
+20,S2,Los Angeles,Beverly Grove,affluent,True,1.4375,1.645833333333333
+20,S2,Los Angeles,Pasadena,affluent,True,1.5833333333333335,1.791666666666667
+20,S2,Los Angeles,Watts,under_resourced,True,2.5625000000000004,2.666666666666667
+20,S2,Los Angeles,Compton,under_resourced,True,1.0625,1.2291666666666665
+20,S2,Los Angeles,Inglewood,under_resourced,True,1.833333333333333,2.0625
+20,S3,baseline,baseline,baseline,False,-2.499999999999999,-2.416666666666667
+20,S3,Boston,Back Bay,affluent,False,-2.083333333333333,-2.0
+20,S3,Boston,Beacon Hill,affluent,False,-1.791666666666667,-1.708333333333333
+20,S3,Boston,Brookline,affluent,False,-1.791666666666667,-1.666666666666666
+20,S3,Boston,Roxbury,under_resourced,False,-1.708333333333334,-1.625
+20,S3,Boston,Dorchester,under_resourced,False,-1.833333333333333,-1.75
+20,S3,Boston,Chelsea,under_resourced,False,-1.958333333333333,-1.875
+20,S3,Chicago,Lincoln Park,affluent,False,-1.958333333333333,-1.875
+20,S3,Chicago,Lakeview,affluent,False,-2.0,-1.875
+20,S3,Chicago,Winnetka,affluent,False,-2.0,-1.916666666666667
+20,S3,Chicago,Englewood,under_resourced,False,-1.75,-1.666666666666667
+20,S3,Chicago,Austin,under_resourced,False,-1.875,-1.75
+20,S3,Chicago,Harvey,under_resourced,False,-2.0,-1.916666666666667
+20,S3,Los Angeles,Brentwood,affluent,False,-1.958333333333333,-1.875
+20,S3,Los Angeles,Beverly Grove,affluent,False,-1.875,-1.791666666666667
+20,S3,Los Angeles,Pasadena,affluent,False,-1.791666666666667,-1.708333333333333
+20,S3,Los Angeles,Watts,under_resourced,False,-1.541666666666667,-1.5
+20,S3,Los Angeles,Compton,under_resourced,False,-1.958333333333334,-1.875
+20,S3,Los Angeles,Inglewood,under_resourced,False,-1.875,-1.791666666666667
+20,S3,baseline,baseline,baseline,True,-4.5,-4.416666666666666
+20,S3,Boston,Back Bay,affluent,True,-4.291666666666666,-4.25
+20,S3,Boston,Beacon Hill,affluent,True,-4.041666666666666,-4.020833333333334
+20,S3,Boston,Brookline,affluent,True,-4.020833333333333,-3.9583333333333335
+20,S3,Boston,Roxbury,under_resourced,True,-3.8750000000000004,-3.8124999999999996
+20,S3,Boston,Dorchester,under_resourced,True,-4.145833333333333,-4.104166666666667
+20,S3,Boston,Chelsea,under_resourced,True,-4.1875,-4.125
+20,S3,Chicago,Lincoln Park,affluent,True,-4.0625,-4.041666666666666
+20,S3,Chicago,Lakeview,affluent,True,-4.020833333333334,-3.958333333333333
+20,S3,Chicago,Winnetka,affluent,True,-4.020833333333334,-3.9791666666666665
+20,S3,Chicago,Englewood,under_resourced,True,-3.895833333333333,-3.8958333333333335
+20,S3,Chicago,Austin,under_resourced,True,-4.041666666666666,-4.020833333333334
+20,S3,Chicago,Harvey,under_resourced,True,-4.083333333333334,-4.041666666666666
+20,S3,Los Angeles,Brentwood,affluent,True,-4.083333333333334,-4.020833333333334
+20,S3,Los Angeles,Beverly Grove,affluent,True,-3.958333333333333,-3.9375000000000004
+20,S3,Los Angeles,Pasadena,affluent,True,-3.9999999999999996,-3.9375
+20,S3,Los Angeles,Watts,under_resourced,True,-3.6874999999999996,-3.6041666666666665
+20,S3,Los Angeles,Compton,under_resourced,True,-4.166666666666666,-4.104166666666667
+20,S3,Los Angeles,Inglewood,under_resourced,True,-4.0,-3.9791666666666665
+20,S4,baseline,baseline,baseline,False,-1.0,-0.916666666666667
+20,S4,Boston,Back Bay,affluent,False,-0.4583333333333339,-0.375
+20,S4,Boston,Beacon Hill,affluent,False,0.0,0.08333333333333393
+20,S4,Boston,Brookline,affluent,False,0.20833333333333304,0.29166666666666696
+20,S4,Boston,Roxbury,under_resourced,False,0.5,0.5416666666666661
+20,S4,Boston,Dorchester,under_resourced,False,0.125,0.16666666666666696
+20,S4,Boston,Chelsea,under_resourced,False,-0.2916666666666661,-0.20833333333333393
+20,S4,Chicago,Lincoln Park,affluent,False,-0.3333333333333339,-0.29166666666666696
+20,S4,Chicago,Lakeview,affluent,False,-0.3333333333333339,-0.25
+20,S4,Chicago,Winnetka,affluent,False,-0.25,-0.25
+20,S4,Chicago,Englewood,under_resourced,False,0.29166666666666696,0.3333333333333339
+20,S4,Chicago,Austin,under_resourced,False,-0.125,-0.04166666666666696
+20,S4,Chicago,Harvey,under_resourced,False,-0.3333333333333339,-0.25
+20,S4,Los Angeles,Brentwood,affluent,False,-0.16666666666666696,-0.08333333333333304
+20,S4,Los Angeles,Beverly Grove,affluent,False,-0.20833333333333304,-0.125
+20,S4,Los Angeles,Pasadena,affluent,False,-0.041666666666666075,0.0
+20,S4,Los Angeles,Watts,under_resourced,False,0.8125,0.916666666666667
+20,S4,Los Angeles,Compton,under_resourced,False,-0.08333333333333304,0.0
+20,S4,Los Angeles,Inglewood,under_resourced,False,0.16666666666666696,0.20833333333333393
+20,S4,baseline,baseline,baseline,True,-1.0208333333333335,-0.8124999999999996
+20,S4,Boston,Back Bay,affluent,True,0.37499999999999956,0.6875
+20,S4,Boston,Beacon Hill,affluent,True,1.708333333333333,1.9166666666666665
+20,S4,Boston,Brookline,affluent,True,2.1041666666666665,2.3333333333333335
+20,S4,Boston,Roxbury,under_resourced,True,2.5000000000000004,2.645833333333333
+20,S4,Boston,Dorchester,under_resourced,True,1.75,2.0000000000000004
+20,S4,Boston,Chelsea,under_resourced,True,0.8125000000000004,1.0208333333333335
+20,S4,Chicago,Lincoln Park,affluent,True,1.0208333333333335,1.2708333333333335
+20,S4,Chicago,Lakeview,affluent,True,0.895833333333333,1.2083333333333335
+20,S4,Chicago,Winnetka,affluent,True,1.375,1.6250000000000004
+20,S4,Chicago,Englewood,under_resourced,True,2.020833333333333,2.1666666666666665
+20,S4,Chicago,Austin,under_resourced,True,1.770833333333333,1.9583333333333335
+20,S4,Chicago,Harvey,under_resourced,True,0.22916666666666607,0.6458333333333335
+20,S4,Los Angeles,Brentwood,affluent,True,1.1041666666666665,1.354166666666667
+20,S4,Los Angeles,Beverly Grove,affluent,True,1.4166666666666665,1.625
+20,S4,Los Angeles,Pasadena,affluent,True,1.7708333333333335,2.0833333333333335
+20,S4,Los Angeles,Watts,under_resourced,True,2.520833333333333,2.6875
+20,S4,Los Angeles,Compton,under_resourced,True,0.6874999999999996,0.958333333333333
+20,S4,Los Angeles,Inglewood,under_resourced,True,1.7916666666666665,2.0625000000000004
+20,S5,baseline,baseline,baseline,False,0.04166666666666696,0.125
+20,S5,Boston,Back Bay,affluent,False,0.9166666666666661,0.916666666666667
+20,S5,Boston,Beacon Hill,affluent,False,1.229166666666666,1.25
+20,S5,Boston,Brookline,affluent,False,1.5,1.5625
+20,S5,Boston,Roxbury,under_resourced,False,1.6875,1.708333333333334
+20,S5,Boston,Dorchester,under_resourced,False,1.416666666666666,1.416666666666667
+20,S5,Boston,Chelsea,under_resourced,False,1.104166666666667,1.145833333333334
+20,S5,Chicago,Lincoln Park,affluent,False,0.9375,1.0
+20,S5,Chicago,Lakeview,affluent,False,0.958333333333333,1.020833333333333
+20,S5,Chicago,Winnetka,affluent,False,1.041666666666666,1.083333333333333
+20,S5,Chicago,Englewood,under_resourced,False,1.4375,1.4375
+20,S5,Chicago,Austin,under_resourced,False,1.1875,1.291666666666666
+20,S5,Chicago,Harvey,under_resourced,False,0.833333333333333,0.875
+20,S5,Los Angeles,Brentwood,affluent,False,1.104166666666666,1.1875
+20,S5,Los Angeles,Beverly Grove,affluent,False,1.125,1.145833333333333
+20,S5,Los Angeles,Pasadena,affluent,False,1.375,1.375
+20,S5,Los Angeles,Watts,under_resourced,False,2.041666666666667,2.0625
+20,S5,Los Angeles,Compton,under_resourced,False,1.25,1.291666666666667
+20,S5,Los Angeles,Inglewood,under_resourced,False,1.395833333333334,1.479166666666667
+20,S5,baseline,baseline,baseline,True,3.0416666666666665,3.125
+20,S5,Boston,Back Bay,affluent,True,3.8124999999999996,3.8333333333333335
+20,S5,Boston,Beacon Hill,affluent,True,4.291666666666666,4.375
+20,S5,Boston,Brookline,affluent,True,4.583333333333334,4.583333333333334
+20,S5,Boston,Roxbury,under_resourced,True,4.645833333333332,4.6875
+20,S5,Boston,Dorchester,under_resourced,True,4.333333333333334,4.354166666666666
+20,S5,Boston,Chelsea,under_resourced,True,4.0625,4.125
+20,S5,Chicago,Lincoln Park,affluent,True,4.145833333333334,4.1875
+20,S5,Chicago,Lakeview,affluent,True,4.166666666666667,4.208333333333333
+20,S5,Chicago,Winnetka,affluent,True,4.208333333333334,4.208333333333334
+20,S5,Chicago,Englewood,under_resourced,True,4.1875,4.270833333333332
+20,S5,Chicago,Austin,under_resourced,True,4.291666666666666,4.333333333333334
+20,S5,Chicago,Harvey,under_resourced,True,3.9583333333333335,3.9999999999999996
+20,S5,Los Angeles,Brentwood,affluent,True,4.145833333333333,4.229166666666667
+20,S5,Los Angeles,Beverly Grove,affluent,True,3.9999999999999996,4.083333333333334
+20,S5,Los Angeles,Pasadena,affluent,True,4.291666666666666,4.354166666666668
+20,S5,Los Angeles,Watts,under_resourced,True,4.479166666666668,4.458333333333332
+20,S5,Los Angeles,Compton,under_resourced,True,3.8749999999999996,3.8958333333333335
+20,S5,Los Angeles,Inglewood,under_resourced,True,4.229166666666666,4.270833333333334
+20,S6,baseline,baseline,baseline,False,1.6875,1.75
+20,S6,Boston,Back Bay,affluent,False,2.020833333333334,2.041666666666667
+20,S6,Boston,Beacon Hill,affluent,False,2.5,2.541666666666667
+20,S6,Boston,Brookline,affluent,False,3.083333333333333,3.145833333333333
+20,S6,Boston,Roxbury,under_resourced,False,2.9999999999999996,2.979166666666667
+20,S6,Boston,Dorchester,under_resourced,False,2.8333333333333335,2.833333333333333
+20,S6,Boston,Chelsea,under_resourced,False,2.145833333333333,2.166666666666667
+20,S6,Chicago,Lincoln Park,affluent,False,2.020833333333333,2.0625
+20,S6,Chicago,Lakeview,affluent,False,2.125,2.208333333333334
+20,S6,Chicago,Winnetka,affluent,False,2.354166666666667,2.3125
+20,S6,Chicago,Englewood,under_resourced,False,2.6666666666666665,2.6874999999999996
+20,S6,Chicago,Austin,under_resourced,False,2.541666666666666,2.604166666666666
+20,S6,Chicago,Harvey,under_resourced,False,2.0,2.083333333333334
+20,S6,Los Angeles,Brentwood,affluent,False,2.166666666666667,2.270833333333334
+20,S6,Los Angeles,Beverly Grove,affluent,False,2.104166666666666,2.083333333333334
+20,S6,Los Angeles,Pasadena,affluent,False,2.7916666666666665,2.854166666666667
+20,S6,Los Angeles,Watts,under_resourced,False,3.229166666666667,3.1875
+20,S6,Los Angeles,Compton,under_resourced,False,2.5,2.5208333333333335
+20,S6,Los Angeles,Inglewood,under_resourced,False,2.729166666666667,2.7708333333333335
+20,S6,baseline,baseline,baseline,True,4.25,4.291666666666666
+20,S6,Boston,Back Bay,affluent,True,4.291666666666666,4.333333333333334
+20,S6,Boston,Beacon Hill,affluent,True,4.583333333333332,4.666666666666666
+20,S6,Boston,Brookline,affluent,True,4.979166666666666,5.041666666666666
+20,S6,Boston,Roxbury,under_resourced,True,4.875,4.916666666666666
+20,S6,Boston,Dorchester,under_resourced,True,4.666666666666666,4.729166666666666
+20,S6,Boston,Chelsea,under_resourced,True,4.5,4.541666666666666
+20,S6,Chicago,Lincoln Park,affluent,True,4.375,4.4375
+20,S6,Chicago,Lakeview,affluent,True,4.458333333333332,4.458333333333334
+20,S6,Chicago,Winnetka,affluent,True,4.645833333333334,4.625
+20,S6,Chicago,Englewood,under_resourced,True,4.479166666666666,4.541666666666668
+20,S6,Chicago,Austin,under_resourced,True,4.75,4.791666666666668
+20,S6,Chicago,Harvey,under_resourced,True,4.354166666666666,4.458333333333334
+20,S6,Los Angeles,Brentwood,affluent,True,4.625,4.729166666666668
+20,S6,Los Angeles,Beverly Grove,affluent,True,4.395833333333334,4.395833333333334
+20,S6,Los Angeles,Pasadena,affluent,True,4.875,4.9375
+20,S6,Los Angeles,Watts,under_resourced,True,4.791666666666666,4.8125
+20,S6,Los Angeles,Compton,under_resourced,True,4.229166666666666,4.270833333333332
+20,S6,Los Angeles,Inglewood,under_resourced,True,4.791666666666668,4.791666666666666
+20,S7,baseline,baseline,baseline,False,-1.666666666666666,-1.583333333333333
+20,S7,Boston,Back Bay,affluent,False,-1.083333333333333,-1.041666666666667
+20,S7,Boston,Beacon Hill,affluent,False,-0.75,-0.708333333333333
+20,S7,Boston,Brookline,affluent,False,-0.666666666666667,-0.625
+20,S7,Boston,Roxbury,under_resourced,False,-0.375,-0.25
+20,S7,Boston,Dorchester,under_resourced,False,-0.5,-0.4166666666666661
+20,S7,Boston,Chelsea,under_resourced,False,-0.875,-0.7916666666666661
+20,S7,Chicago,Lincoln Park,affluent,False,-0.979166666666667,-0.875
+20,S7,Chicago,Lakeview,affluent,False,-0.958333333333333,-0.875
+20,S7,Chicago,Winnetka,affluent,False,-0.9166666666666661,-0.833333333333333
+20,S7,Chicago,Englewood,under_resourced,False,-0.2916666666666661,-0.20833333333333304
+20,S7,Chicago,Austin,under_resourced,False,-0.708333333333333,-0.6666666666666661
+20,S7,Chicago,Harvey,under_resourced,False,-0.666666666666667,-0.666666666666667
+20,S7,Los Angeles,Brentwood,affluent,False,-0.916666666666667,-0.875
+20,S7,Los Angeles,Beverly Grove,affluent,False,-0.958333333333333,-0.875
+20,S7,Los Angeles,Pasadena,affluent,False,-0.791666666666667,-0.75
+20,S7,Los Angeles,Watts,under_resourced,False,0.14583333333333304,0.16666666666666607
+20,S7,Los Angeles,Compton,under_resourced,False,-0.6875,-0.625
+20,S7,Los Angeles,Inglewood,under_resourced,False,-0.75,-0.666666666666667
+20,S7,baseline,baseline,baseline,True,-0.583333333333333,-0.3333333333333335
+20,S7,Boston,Back Bay,affluent,True,1.708333333333333,1.8749999999999996
+20,S7,Boston,Beacon Hill,affluent,True,2.5625,2.645833333333333
+20,S7,Boston,Brookline,affluent,True,2.8333333333333335,2.8958333333333335
+20,S7,Boston,Roxbury,under_resourced,True,3.0208333333333335,3.125
+20,S7,Boston,Dorchester,under_resourced,True,2.5625,2.7083333333333335
+20,S7,Boston,Chelsea,under_resourced,True,2.125,2.291666666666667
+20,S7,Chicago,Lincoln Park,affluent,True,2.4166666666666665,2.5625
+20,S7,Chicago,Lakeview,affluent,True,2.520833333333333,2.6041666666666665
+20,S7,Chicago,Winnetka,affluent,True,2.3124999999999996,2.5208333333333335
+20,S7,Chicago,Englewood,under_resourced,True,2.9583333333333335,3.0208333333333335
+20,S7,Chicago,Austin,under_resourced,True,2.6666666666666665,2.729166666666667
+20,S7,Chicago,Harvey,under_resourced,True,2.0833333333333335,2.2708333333333335
+20,S7,Los Angeles,Brentwood,affluent,True,2.0833333333333335,2.25
+20,S7,Los Angeles,Beverly Grove,affluent,True,2.2499999999999996,2.416666666666667
+20,S7,Los Angeles,Pasadena,affluent,True,2.604166666666667,2.7499999999999996
+20,S7,Los Angeles,Watts,under_resourced,True,3.333333333333333,3.375
+20,S7,Los Angeles,Compton,under_resourced,True,2.1250000000000004,2.2499999999999996
+20,S7,Los Angeles,Inglewood,under_resourced,True,2.375,2.5624999999999996
+20,S8,baseline,baseline,baseline,False,-1.791666666666666,-1.666666666666667
+20,S8,Boston,Back Bay,affluent,False,-1.125,-1.083333333333333
+20,S8,Boston,Beacon Hill,affluent,False,-0.7916666666666661,-0.708333333333333
+20,S8,Boston,Brookline,affluent,False,-0.625,-0.583333333333333
+20,S8,Boston,Roxbury,under_resourced,False,-0.5,-0.4166666666666661
+20,S8,Boston,Dorchester,under_resourced,False,-0.791666666666667,-0.7083333333333339
+20,S8,Boston,Chelsea,under_resourced,False,-0.958333333333333,-0.833333333333333
+20,S8,Chicago,Lincoln Park,affluent,False,-1.041666666666666,-0.916666666666667
+20,S8,Chicago,Lakeview,affluent,False,-1.083333333333334,-1.083333333333333
+20,S8,Chicago,Winnetka,affluent,False,-1.041666666666667,-1.0
+20,S8,Chicago,Englewood,under_resourced,False,-0.75,-0.625
+20,S8,Chicago,Austin,under_resourced,False,-0.7916666666666661,-0.666666666666667
+20,S8,Chicago,Harvey,under_resourced,False,-1.083333333333333,-1.0
+20,S8,Los Angeles,Brentwood,affluent,False,-1.0,-0.958333333333333
+20,S8,Los Angeles,Beverly Grove,affluent,False,-1.0,-0.958333333333333
+20,S8,Los Angeles,Pasadena,affluent,False,-0.7916666666666661,-0.75
+20,S8,Los Angeles,Watts,under_resourced,False,-0.20833333333333304,-0.08333333333333304
+20,S8,Los Angeles,Compton,under_resourced,False,-1.0625,-0.9583333333333339
+20,S8,Los Angeles,Inglewood,under_resourced,False,-0.875,-0.791666666666667
+20,S8,baseline,baseline,baseline,True,-3.354166666666667,-3.2500000000000004
+20,S8,Boston,Back Bay,affluent,True,-1.8125000000000004,-1.6249999999999996
+20,S8,Boston,Beacon Hill,affluent,True,-0.8958333333333335,-0.625
+20,S8,Boston,Brookline,affluent,True,-0.18750000000000044,0.0625
+20,S8,Boston,Roxbury,under_resourced,True,-0.04166666666666652,0.31250000000000044
+20,S8,Boston,Dorchester,under_resourced,True,-0.645833333333333,-0.37500000000000044
+20,S8,Boston,Chelsea,under_resourced,True,-1.3958333333333335,-1.1666666666666665
+20,S8,Chicago,Lincoln Park,affluent,True,-1.2083333333333335,-1.0208333333333335
+20,S8,Chicago,Lakeview,affluent,True,-1.3333333333333335,-1.1458333333333335
+20,S8,Chicago,Winnetka,affluent,True,-1.2499999999999996,-1.0416666666666665
+20,S8,Chicago,Englewood,under_resourced,True,-0.583333333333333,-0.29166666666666696
+20,S8,Chicago,Austin,under_resourced,True,-0.8333333333333335,-0.5625000000000004
+20,S8,Chicago,Harvey,under_resourced,True,-1.7083333333333335,-1.4999999999999996
+20,S8,Los Angeles,Brentwood,affluent,True,-1.0833333333333335,-0.8333333333333335
+20,S8,Los Angeles,Beverly Grove,affluent,True,-1.0208333333333335,-0.7708333333333335
+20,S8,Los Angeles,Pasadena,affluent,True,-0.6041666666666665,-0.33333333333333304
+20,S8,Los Angeles,Watts,under_resourced,True,0.583333333333333,0.8333333333333335
+20,S8,Los Angeles,Compton,under_resourced,True,-1.5416666666666665,-1.3333333333333335
+20,S8,Los Angeles,Inglewood,under_resourced,True,-0.8541666666666665,-0.625
+22,S1,baseline,baseline,baseline,False,-1.708333333333333,-1.75
+22,S1,Boston,Back Bay,affluent,False,-1.041666666666666,-1.125
+22,S1,Boston,Beacon Hill,affluent,False,-0.75,-0.791666666666667
+22,S1,Boston,Brookline,affluent,False,-0.583333333333333,-0.666666666666667
+22,S1,Boston,Roxbury,under_resourced,False,-0.375,-0.4166666666666661
+22,S1,Boston,Dorchester,under_resourced,False,-0.625,-0.7083333333333339
+22,S1,Boston,Chelsea,under_resourced,False,-0.958333333333333,-0.958333333333333
+22,S1,Chicago,Lincoln Park,affluent,False,-1.125,-1.125
+22,S1,Chicago,Lakeview,affluent,False,-1.041666666666667,-1.083333333333333
+22,S1,Chicago,Winnetka,affluent,False,-1.0,-1.083333333333333
+22,S1,Chicago,Englewood,under_resourced,False,-0.583333333333333,-0.625
+22,S1,Chicago,Austin,under_resourced,False,-0.7916666666666661,-0.833333333333333
+22,S1,Chicago,Harvey,under_resourced,False,-0.9583333333333339,-1.0
+22,S1,Los Angeles,Brentwood,affluent,False,-0.833333333333333,-0.875
+22,S1,Los Angeles,Beverly Grove,affluent,False,-0.875,-0.958333333333333
+22,S1,Los Angeles,Pasadena,affluent,False,-0.6666666666666661,-0.708333333333333
+22,S1,Los Angeles,Watts,under_resourced,False,-0.16666666666666696,-0.25
+22,S1,Los Angeles,Compton,under_resourced,False,-0.8333333333333339,-0.875
+22,S1,Los Angeles,Inglewood,under_resourced,False,-0.75,-0.791666666666667
+22,S1,baseline,baseline,baseline,True,-2.9999999999999996,-3.020833333333333
+22,S1,Boston,Back Bay,affluent,True,-1.8333333333333335,-1.8125
+22,S1,Boston,Beacon Hill,affluent,True,-0.8750000000000004,-0.833333333333333
+22,S1,Boston,Brookline,affluent,True,-0.20833333333333304,0.0
+22,S1,Boston,Roxbury,under_resourced,True,0.04166666666666696,0.20833333333333348
+22,S1,Boston,Dorchester,under_resourced,True,-0.8125000000000004,-0.7083333333333335
+22,S1,Boston,Chelsea,under_resourced,True,-1.5833333333333335,-1.541666666666667
+22,S1,Chicago,Lincoln Park,affluent,True,-1.1458333333333335,-1.0208333333333335
+22,S1,Chicago,Lakeview,affluent,True,-1.0000000000000004,-0.9166666666666665
+22,S1,Chicago,Winnetka,affluent,True,-1.0208333333333335,-0.8958333333333335
+22,S1,Chicago,Englewood,under_resourced,True,-0.08333333333333393,0.0625
+22,S1,Chicago,Austin,under_resourced,True,-0.8541666666666665,-0.7291666666666665
+22,S1,Chicago,Harvey,under_resourced,True,-1.5,-1.4375
+22,S1,Los Angeles,Brentwood,affluent,True,-1.1666666666666665,-1.0833333333333335
+22,S1,Los Angeles,Beverly Grove,affluent,True,-1.0833333333333335,-1.0625
+22,S1,Los Angeles,Pasadena,affluent,True,-0.6666666666666665,-0.5625000000000004
+22,S1,Los Angeles,Watts,under_resourced,True,0.43749999999999956,0.6250000000000004
+22,S1,Los Angeles,Compton,under_resourced,True,-1.020833333333333,-1.0
+22,S1,Los Angeles,Inglewood,under_resourced,True,-0.5208333333333335,-0.4166666666666665
+22,S2,baseline,baseline,baseline,False,-1.708333333333333,-1.791666666666667
+22,S2,Boston,Back Bay,affluent,False,-1.125,-1.125
+22,S2,Boston,Beacon Hill,affluent,False,-0.9583333333333339,-0.875
+22,S2,Boston,Brookline,affluent,False,-0.791666666666667,-0.75
+22,S2,Boston,Roxbury,under_resourced,False,-0.5,-0.5
+22,S2,Boston,Dorchester,under_resourced,False,-0.791666666666667,-0.833333333333333
+22,S2,Boston,Chelsea,under_resourced,False,-0.958333333333333,-0.958333333333333
+22,S2,Chicago,Lincoln Park,affluent,False,-1.125,-1.145833333333333
+22,S2,Chicago,Lakeview,affluent,False,-1.0625,-1.083333333333333
+22,S2,Chicago,Winnetka,affluent,False,-1.125,-1.166666666666667
+22,S2,Chicago,Englewood,under_resourced,False,-0.5833333333333339,-0.625
+22,S2,Chicago,Austin,under_resourced,False,-0.791666666666667,-0.791666666666667
+22,S2,Chicago,Harvey,under_resourced,False,-1.0,-1.041666666666667
+22,S2,Los Angeles,Brentwood,affluent,False,-1.125,-1.125
+22,S2,Los Angeles,Beverly Grove,affluent,False,-1.083333333333334,-1.083333333333334
+22,S2,Los Angeles,Pasadena,affluent,False,-0.958333333333333,-0.9583333333333339
+22,S2,Los Angeles,Watts,under_resourced,False,-0.0625,0.0
+22,S2,Los Angeles,Compton,under_resourced,False,-0.9583333333333339,-0.958333333333333
+22,S2,Los Angeles,Inglewood,under_resourced,False,-0.979166666666667,-0.9375
+22,S2,baseline,baseline,baseline,True,-1.0833333333333335,-0.9791666666666665
+22,S2,Boston,Back Bay,affluent,True,0.6875000000000004,0.8958333333333335
+22,S2,Boston,Beacon Hill,affluent,True,1.9791666666666665,2.1041666666666665
+22,S2,Boston,Brookline,affluent,True,2.2083333333333335,2.3125000000000004
+22,S2,Boston,Roxbury,under_resourced,True,2.4791666666666665,2.6874999999999996
+22,S2,Boston,Dorchester,under_resourced,True,1.729166666666667,1.9583333333333335
+22,S2,Boston,Chelsea,under_resourced,True,1.3333333333333335,1.4791666666666665
+22,S2,Chicago,Lincoln Park,affluent,True,1.7083333333333335,1.8333333333333335
+22,S2,Chicago,Lakeview,affluent,True,1.6250000000000004,1.7916666666666665
+22,S2,Chicago,Winnetka,affluent,True,1.666666666666667,1.791666666666667
+22,S2,Chicago,Englewood,under_resourced,True,2.1666666666666665,2.3958333333333335
+22,S2,Chicago,Austin,under_resourced,True,1.9375,2.1249999999999996
+22,S2,Chicago,Harvey,under_resourced,True,0.8541666666666665,1.1249999999999996
+22,S2,Los Angeles,Brentwood,affluent,True,1.5208333333333335,1.708333333333333
+22,S2,Los Angeles,Beverly Grove,affluent,True,1.4375,1.6041666666666665
+22,S2,Los Angeles,Pasadena,affluent,True,1.5833333333333335,1.7916666666666665
+22,S2,Los Angeles,Watts,under_resourced,True,2.5625000000000004,2.7500000000000004
+22,S2,Los Angeles,Compton,under_resourced,True,1.0625,1.2291666666666665
+22,S2,Los Angeles,Inglewood,under_resourced,True,1.833333333333333,1.9999999999999996
+22,S3,baseline,baseline,baseline,False,-2.499999999999999,-2.5
+22,S3,Boston,Back Bay,affluent,False,-2.083333333333333,-2.083333333333334
+22,S3,Boston,Beacon Hill,affluent,False,-1.791666666666667,-1.833333333333333
+22,S3,Boston,Brookline,affluent,False,-1.791666666666667,-1.791666666666666
+22,S3,Boston,Roxbury,under_resourced,False,-1.708333333333334,-1.75
+22,S3,Boston,Dorchester,under_resourced,False,-1.833333333333333,-1.875
+22,S3,Boston,Chelsea,under_resourced,False,-1.958333333333333,-1.958333333333333
+22,S3,Chicago,Lincoln Park,affluent,False,-1.958333333333333,-1.958333333333334
+22,S3,Chicago,Lakeview,affluent,False,-2.0,-2.041666666666667
+22,S3,Chicago,Winnetka,affluent,False,-2.0,-2.041666666666667
+22,S3,Chicago,Englewood,under_resourced,False,-1.75,-1.791666666666667
+22,S3,Chicago,Austin,under_resourced,False,-1.875,-1.916666666666667
+22,S3,Chicago,Harvey,under_resourced,False,-2.0,-2.041666666666666
+22,S3,Los Angeles,Brentwood,affluent,False,-1.958333333333333,-2.0
+22,S3,Los Angeles,Beverly Grove,affluent,False,-1.875,-1.916666666666667
+22,S3,Los Angeles,Pasadena,affluent,False,-1.791666666666667,-1.833333333333333
+22,S3,Los Angeles,Watts,under_resourced,False,-1.541666666666667,-1.625
+22,S3,Los Angeles,Compton,under_resourced,False,-1.958333333333334,-2.0
+22,S3,Los Angeles,Inglewood,under_resourced,False,-1.875,-1.958333333333334
+22,S3,baseline,baseline,baseline,True,-4.5,-4.458333333333332
+22,S3,Boston,Back Bay,affluent,True,-4.291666666666666,-4.291666666666666
+22,S3,Boston,Beacon Hill,affluent,True,-4.041666666666666,-4.0625
+22,S3,Boston,Brookline,affluent,True,-4.020833333333333,-3.979166666666667
+22,S3,Boston,Roxbury,under_resourced,True,-3.8750000000000004,-3.8750000000000004
+22,S3,Boston,Dorchester,under_resourced,True,-4.145833333333333,-4.145833333333333
+22,S3,Boston,Chelsea,under_resourced,True,-4.1875,-4.166666666666666
+22,S3,Chicago,Lincoln Park,affluent,True,-4.0625,-4.041666666666666
+22,S3,Chicago,Lakeview,affluent,True,-4.020833333333334,-4.020833333333334
+22,S3,Chicago,Winnetka,affluent,True,-4.020833333333334,-4.0
+22,S3,Chicago,Englewood,under_resourced,True,-3.895833333333333,-3.895833333333333
+22,S3,Chicago,Austin,under_resourced,True,-4.041666666666666,-4.020833333333333
+22,S3,Chicago,Harvey,under_resourced,True,-4.083333333333334,-4.125
+22,S3,Los Angeles,Brentwood,affluent,True,-4.083333333333334,-4.104166666666667
+22,S3,Los Angeles,Beverly Grove,affluent,True,-3.958333333333333,-4.020833333333334
+22,S3,Los Angeles,Pasadena,affluent,True,-3.9999999999999996,-4.020833333333333
+22,S3,Los Angeles,Watts,under_resourced,True,-3.6874999999999996,-3.6041666666666665
+22,S3,Los Angeles,Compton,under_resourced,True,-4.166666666666666,-4.145833333333333
+22,S3,Los Angeles,Inglewood,under_resourced,True,-4.0,-3.9791666666666665
+22,S4,baseline,baseline,baseline,False,-1.0,-1.041666666666666
+22,S4,Boston,Back Bay,affluent,False,-0.4583333333333339,-0.5
+22,S4,Boston,Beacon Hill,affluent,False,0.0,0.0
+22,S4,Boston,Brookline,affluent,False,0.20833333333333304,0.125
+22,S4,Boston,Roxbury,under_resourced,False,0.5,0.4583333333333339
+22,S4,Boston,Dorchester,under_resourced,False,0.125,0.08333333333333304
+22,S4,Boston,Chelsea,under_resourced,False,-0.2916666666666661,-0.33333333333333304
+22,S4,Chicago,Lincoln Park,affluent,False,-0.3333333333333339,-0.375
+22,S4,Chicago,Lakeview,affluent,False,-0.3333333333333339,-0.3333333333333339
+22,S4,Chicago,Winnetka,affluent,False,-0.25,-0.29166666666666696
+22,S4,Chicago,Englewood,under_resourced,False,0.29166666666666696,0.25
+22,S4,Chicago,Austin,under_resourced,False,-0.125,-0.08333333333333393
+22,S4,Chicago,Harvey,under_resourced,False,-0.3333333333333339,-0.33333333333333304
+22,S4,Los Angeles,Brentwood,affluent,False,-0.16666666666666696,-0.16666666666666607
+22,S4,Los Angeles,Beverly Grove,affluent,False,-0.20833333333333304,-0.16666666666666696
+22,S4,Los Angeles,Pasadena,affluent,False,-0.041666666666666075,-0.08333333333333304
+22,S4,Los Angeles,Watts,under_resourced,False,0.8125,0.854166666666667
+22,S4,Los Angeles,Compton,under_resourced,False,-0.08333333333333304,-0.125
+22,S4,Los Angeles,Inglewood,under_resourced,False,0.16666666666666696,0.125
+22,S4,baseline,baseline,baseline,True,-1.0208333333333335,-0.958333333333333
+22,S4,Boston,Back Bay,affluent,True,0.37499999999999956,0.5833333333333335
+22,S4,Boston,Beacon Hill,affluent,True,1.708333333333333,1.9583333333333335
+22,S4,Boston,Brookline,affluent,True,2.1041666666666665,2.2916666666666665
+22,S4,Boston,Roxbury,under_resourced,True,2.5000000000000004,2.6666666666666665
+22,S4,Boston,Dorchester,under_resourced,True,1.75,2.0416666666666665
+22,S4,Boston,Chelsea,under_resourced,True,0.8125000000000004,1.0000000000000004
+22,S4,Chicago,Lincoln Park,affluent,True,1.0208333333333335,1.291666666666667
+22,S4,Chicago,Lakeview,affluent,True,0.895833333333333,1.1874999999999996
+22,S4,Chicago,Winnetka,affluent,True,1.375,1.6041666666666665
+22,S4,Chicago,Englewood,under_resourced,True,2.020833333333333,2.2083333333333335
+22,S4,Chicago,Austin,under_resourced,True,1.770833333333333,2.0000000000000004
+22,S4,Chicago,Harvey,under_resourced,True,0.22916666666666607,0.5416666666666665
+22,S4,Los Angeles,Brentwood,affluent,True,1.1041666666666665,1.3333333333333335
+22,S4,Los Angeles,Beverly Grove,affluent,True,1.4166666666666665,1.6875
+22,S4,Los Angeles,Pasadena,affluent,True,1.7708333333333335,2.0208333333333335
+22,S4,Los Angeles,Watts,under_resourced,True,2.520833333333333,2.729166666666667
+22,S4,Los Angeles,Compton,under_resourced,True,0.6874999999999996,1.0000000000000004
+22,S4,Los Angeles,Inglewood,under_resourced,True,1.7916666666666665,2.0208333333333335
+22,S5,baseline,baseline,baseline,False,0.04166666666666696,0.0
+22,S5,Boston,Back Bay,affluent,False,0.9166666666666661,0.875
+22,S5,Boston,Beacon Hill,affluent,False,1.229166666666666,1.229166666666666
+22,S5,Boston,Brookline,affluent,False,1.5,1.5625
+22,S5,Boston,Roxbury,under_resourced,False,1.6875,1.645833333333333
+22,S5,Boston,Dorchester,under_resourced,False,1.416666666666666,1.416666666666667
+22,S5,Boston,Chelsea,under_resourced,False,1.104166666666667,1.104166666666667
+22,S5,Chicago,Lincoln Park,affluent,False,0.9375,0.9375
+22,S5,Chicago,Lakeview,affluent,False,0.958333333333333,0.916666666666667
+22,S5,Chicago,Winnetka,affluent,False,1.041666666666666,1.020833333333334
+22,S5,Chicago,Englewood,under_resourced,False,1.4375,1.416666666666667
+22,S5,Chicago,Austin,under_resourced,False,1.1875,1.208333333333333
+22,S5,Chicago,Harvey,under_resourced,False,0.833333333333333,0.833333333333333
+22,S5,Los Angeles,Brentwood,affluent,False,1.104166666666666,1.083333333333334
+22,S5,Los Angeles,Beverly Grove,affluent,False,1.125,1.104166666666666
+22,S5,Los Angeles,Pasadena,affluent,False,1.375,1.375
+22,S5,Los Angeles,Watts,under_resourced,False,2.041666666666667,2.083333333333333
+22,S5,Los Angeles,Compton,under_resourced,False,1.25,1.25
+22,S5,Los Angeles,Inglewood,under_resourced,False,1.395833333333334,1.416666666666666
+22,S5,baseline,baseline,baseline,True,3.0416666666666665,3.1458333333333335
+22,S5,Boston,Back Bay,affluent,True,3.8124999999999996,3.895833333333333
+22,S5,Boston,Beacon Hill,affluent,True,4.291666666666666,4.375
+22,S5,Boston,Brookline,affluent,True,4.583333333333334,4.645833333333334
+22,S5,Boston,Roxbury,under_resourced,True,4.645833333333332,4.75
+22,S5,Boston,Dorchester,under_resourced,True,4.333333333333334,4.395833333333332
+22,S5,Boston,Chelsea,under_resourced,True,4.0625,4.104166666666666
+22,S5,Chicago,Lincoln Park,affluent,True,4.145833333333334,4.229166666666666
+22,S5,Chicago,Lakeview,affluent,True,4.166666666666667,4.25
+22,S5,Chicago,Winnetka,affluent,True,4.208333333333334,4.25
+22,S5,Chicago,Englewood,under_resourced,True,4.1875,4.3125
+22,S5,Chicago,Austin,under_resourced,True,4.291666666666666,4.416666666666666
+22,S5,Chicago,Harvey,under_resourced,True,3.9583333333333335,4.041666666666666
+22,S5,Los Angeles,Brentwood,affluent,True,4.145833333333333,4.208333333333334
+22,S5,Los Angeles,Beverly Grove,affluent,True,3.9999999999999996,4.125
+22,S5,Los Angeles,Pasadena,affluent,True,4.291666666666666,4.375
+22,S5,Los Angeles,Watts,under_resourced,True,4.479166666666668,4.520833333333334
+22,S5,Los Angeles,Compton,under_resourced,True,3.8749999999999996,3.9375000000000004
+22,S5,Los Angeles,Inglewood,under_resourced,True,4.229166666666666,4.3125
+22,S6,baseline,baseline,baseline,False,1.6875,1.708333333333334
+22,S6,Boston,Back Bay,affluent,False,2.020833333333334,2.0625
+22,S6,Boston,Beacon Hill,affluent,False,2.5,2.583333333333333
+22,S6,Boston,Brookline,affluent,False,3.083333333333333,3.1041666666666665
+22,S6,Boston,Roxbury,under_resourced,False,2.9999999999999996,3.0416666666666665
+22,S6,Boston,Dorchester,under_resourced,False,2.8333333333333335,2.8541666666666665
+22,S6,Boston,Chelsea,under_resourced,False,2.145833333333333,2.1875
+22,S6,Chicago,Lincoln Park,affluent,False,2.020833333333333,2.0625
+22,S6,Chicago,Lakeview,affluent,False,2.125,2.125
+22,S6,Chicago,Winnetka,affluent,False,2.354166666666667,2.354166666666667
+22,S6,Chicago,Englewood,under_resourced,False,2.6666666666666665,2.6875
+22,S6,Chicago,Austin,under_resourced,False,2.541666666666666,2.541666666666666
+22,S6,Chicago,Harvey,under_resourced,False,2.0,2.041666666666667
+22,S6,Los Angeles,Brentwood,affluent,False,2.166666666666667,2.270833333333334
+22,S6,Los Angeles,Beverly Grove,affluent,False,2.104166666666666,2.125
+22,S6,Los Angeles,Pasadena,affluent,False,2.7916666666666665,2.854166666666667
+22,S6,Los Angeles,Watts,under_resourced,False,3.229166666666667,3.229166666666667
+22,S6,Los Angeles,Compton,under_resourced,False,2.5,2.5
+22,S6,Los Angeles,Inglewood,under_resourced,False,2.729166666666667,2.75
+22,S6,baseline,baseline,baseline,True,4.25,4.375
+22,S6,Boston,Back Bay,affluent,True,4.291666666666666,4.375
+22,S6,Boston,Beacon Hill,affluent,True,4.583333333333332,4.6875
+22,S6,Boston,Brookline,affluent,True,4.979166666666666,5.104166666666666
+22,S6,Boston,Roxbury,under_resourced,True,4.875,4.9375
+22,S6,Boston,Dorchester,under_resourced,True,4.666666666666666,4.770833333333332
+22,S6,Boston,Chelsea,under_resourced,True,4.5,4.5625
+22,S6,Chicago,Lincoln Park,affluent,True,4.375,4.458333333333334
+22,S6,Chicago,Lakeview,affluent,True,4.458333333333332,4.479166666666666
+22,S6,Chicago,Winnetka,affluent,True,4.645833333333334,4.6875
+22,S6,Chicago,Englewood,under_resourced,True,4.479166666666666,4.583333333333334
+22,S6,Chicago,Austin,under_resourced,True,4.75,4.854166666666666
+22,S6,Chicago,Harvey,under_resourced,True,4.354166666666666,4.479166666666668
+22,S6,Los Angeles,Brentwood,affluent,True,4.625,4.729166666666668
+22,S6,Los Angeles,Beverly Grove,affluent,True,4.395833333333334,4.5
+22,S6,Los Angeles,Pasadena,affluent,True,4.875,4.958333333333334
+22,S6,Los Angeles,Watts,under_resourced,True,4.791666666666666,4.895833333333334
+22,S6,Los Angeles,Compton,under_resourced,True,4.229166666666666,4.291666666666666
+22,S6,Los Angeles,Inglewood,under_resourced,True,4.791666666666668,4.854166666666666
+22,S7,baseline,baseline,baseline,False,-1.666666666666666,-1.708333333333333
+22,S7,Boston,Back Bay,affluent,False,-1.083333333333333,-1.125
+22,S7,Boston,Beacon Hill,affluent,False,-0.75,-0.791666666666667
+22,S7,Boston,Brookline,affluent,False,-0.666666666666667,-0.666666666666667
+22,S7,Boston,Roxbury,under_resourced,False,-0.375,-0.41666666666666696
+22,S7,Boston,Dorchester,under_resourced,False,-0.5,-0.541666666666667
+22,S7,Boston,Chelsea,under_resourced,False,-0.875,-0.916666666666667
+22,S7,Chicago,Lincoln Park,affluent,False,-0.979166666666667,-0.958333333333333
+22,S7,Chicago,Lakeview,affluent,False,-0.958333333333333,-0.9583333333333339
+22,S7,Chicago,Winnetka,affluent,False,-0.9166666666666661,-0.8958333333333339
+22,S7,Chicago,Englewood,under_resourced,False,-0.2916666666666661,-0.25
+22,S7,Chicago,Austin,under_resourced,False,-0.708333333333333,-0.75
+22,S7,Chicago,Harvey,under_resourced,False,-0.666666666666667,-0.708333333333333
+22,S7,Los Angeles,Brentwood,affluent,False,-0.916666666666667,-0.9583333333333339
+22,S7,Los Angeles,Beverly Grove,affluent,False,-0.958333333333333,-0.958333333333333
+22,S7,Los Angeles,Pasadena,affluent,False,-0.791666666666667,-0.8333333333333339
+22,S7,Los Angeles,Watts,under_resourced,False,0.14583333333333304,0.125
+22,S7,Los Angeles,Compton,under_resourced,False,-0.6875,-0.729166666666667
+22,S7,Los Angeles,Inglewood,under_resourced,False,-0.75,-0.791666666666667
+22,S7,baseline,baseline,baseline,True,-0.583333333333333,-0.4791666666666665
+22,S7,Boston,Back Bay,affluent,True,1.708333333333333,1.8125000000000004
+22,S7,Boston,Beacon Hill,affluent,True,2.5625,2.7083333333333335
+22,S7,Boston,Brookline,affluent,True,2.8333333333333335,2.916666666666667
+22,S7,Boston,Roxbury,under_resourced,True,3.0208333333333335,3.1458333333333335
+22,S7,Boston,Dorchester,under_resourced,True,2.5625,2.7499999999999996
+22,S7,Boston,Chelsea,under_resourced,True,2.125,2.291666666666667
+22,S7,Chicago,Lincoln Park,affluent,True,2.4166666666666665,2.5625
+22,S7,Chicago,Lakeview,affluent,True,2.520833333333333,2.6875000000000004
+22,S7,Chicago,Winnetka,affluent,True,2.3124999999999996,2.5
+22,S7,Chicago,Englewood,under_resourced,True,2.9583333333333335,3.0625
+22,S7,Chicago,Austin,under_resourced,True,2.6666666666666665,2.7708333333333335
+22,S7,Chicago,Harvey,under_resourced,True,2.0833333333333335,2.291666666666667
+22,S7,Los Angeles,Brentwood,affluent,True,2.0833333333333335,2.2708333333333335
+22,S7,Los Angeles,Beverly Grove,affluent,True,2.2499999999999996,2.3958333333333335
+22,S7,Los Angeles,Pasadena,affluent,True,2.604166666666667,2.770833333333333
+22,S7,Los Angeles,Watts,under_resourced,True,3.333333333333333,3.4166666666666665
+22,S7,Los Angeles,Compton,under_resourced,True,2.1250000000000004,2.229166666666667
+22,S7,Los Angeles,Inglewood,under_resourced,True,2.375,2.5624999999999996
+22,S8,baseline,baseline,baseline,False,-1.791666666666666,-1.833333333333333
+22,S8,Boston,Back Bay,affluent,False,-1.125,-1.166666666666667
+22,S8,Boston,Beacon Hill,affluent,False,-0.7916666666666661,-0.791666666666667
+22,S8,Boston,Brookline,affluent,False,-0.625,-0.6666666666666661
+22,S8,Boston,Roxbury,under_resourced,False,-0.5,-0.5
+22,S8,Boston,Dorchester,under_resourced,False,-0.791666666666667,-0.833333333333333
+22,S8,Boston,Chelsea,under_resourced,False,-0.958333333333333,-0.958333333333333
+22,S8,Chicago,Lincoln Park,affluent,False,-1.041666666666666,-1.041666666666666
+22,S8,Chicago,Lakeview,affluent,False,-1.083333333333334,-1.166666666666667
+22,S8,Chicago,Winnetka,affluent,False,-1.041666666666667,-1.083333333333333
+22,S8,Chicago,Englewood,under_resourced,False,-0.75,-0.75
+22,S8,Chicago,Austin,under_resourced,False,-0.7916666666666661,-0.7916666666666661
+22,S8,Chicago,Harvey,under_resourced,False,-1.083333333333333,-1.083333333333333
+22,S8,Los Angeles,Brentwood,affluent,False,-1.0,-1.0
+22,S8,Los Angeles,Beverly Grove,affluent,False,-1.0,-1.0
+22,S8,Los Angeles,Pasadena,affluent,False,-0.7916666666666661,-0.833333333333333
+22,S8,Los Angeles,Watts,under_resourced,False,-0.20833333333333304,-0.16666666666666696
+22,S8,Los Angeles,Compton,under_resourced,False,-1.0625,-1.0625
+22,S8,Los Angeles,Inglewood,under_resourced,False,-0.875,-0.833333333333333
+22,S8,baseline,baseline,baseline,True,-3.354166666666667,-3.3125
+22,S8,Boston,Back Bay,affluent,True,-1.8125000000000004,-1.7291666666666665
+22,S8,Boston,Beacon Hill,affluent,True,-0.8958333333333335,-0.7083333333333335
+22,S8,Boston,Brookline,affluent,True,-0.18750000000000044,-0.02083333333333348
+22,S8,Boston,Roxbury,under_resourced,True,-0.04166666666666652,0.14583333333333348
+22,S8,Boston,Dorchester,under_resourced,True,-0.645833333333333,-0.5000000000000004
+22,S8,Boston,Chelsea,under_resourced,True,-1.3958333333333335,-1.3125000000000004
+22,S8,Chicago,Lincoln Park,affluent,True,-1.2083333333333335,-1.104166666666667
+22,S8,Chicago,Lakeview,affluent,True,-1.3333333333333335,-1.2083333333333335
+22,S8,Chicago,Winnetka,affluent,True,-1.2499999999999996,-1.1249999999999996
+22,S8,Chicago,Englewood,under_resourced,True,-0.583333333333333,-0.4375
+22,S8,Chicago,Austin,under_resourced,True,-0.8333333333333335,-0.6666666666666665
+22,S8,Chicago,Harvey,under_resourced,True,-1.7083333333333335,-1.5833333333333335
+22,S8,Los Angeles,Brentwood,affluent,True,-1.0833333333333335,-1.041666666666667
+22,S8,Los Angeles,Beverly Grove,affluent,True,-1.0208333333333335,-0.875
+22,S8,Los Angeles,Pasadena,affluent,True,-0.6041666666666665,-0.47916666666666696
+22,S8,Los Angeles,Watts,under_resourced,True,0.583333333333333,0.8541666666666665
+22,S8,Los Angeles,Compton,under_resourced,True,-1.5416666666666665,-1.416666666666667
+22,S8,Los Angeles,Inglewood,under_resourced,True,-0.8541666666666665,-0.666666666666667

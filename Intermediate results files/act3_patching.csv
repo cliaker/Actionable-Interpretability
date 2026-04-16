@@ -1,0 +1,217 @@
+scenario_id,city,layer,direction,target_name,source_name,target_valence,base_pref,patched_pref,delta_patch
+S1,Boston,20,under→affluent,Back Bay,Roxbury,affluent,-1.041666666666666,-1.083333333333333,-0.04166666666666696
+S1,Boston,20,affluent→under,Roxbury,Back Bay,under_resourced,-0.375,-0.45833333333333304,-0.08333333333333304
+S1,Boston,22,under→affluent,Back Bay,Roxbury,affluent,-1.041666666666666,-1.083333333333333,-0.04166666666666696
+S1,Boston,22,affluent→under,Roxbury,Back Bay,under_resourced,-0.375,-0.375,0.0
+S1,Boston,20,under→affluent,Back Bay,Dorchester,affluent,-1.041666666666666,-1.041666666666666,0.0
+S1,Boston,20,affluent→under,Dorchester,Back Bay,under_resourced,-0.625,-0.708333333333333,-0.08333333333333304
+S1,Boston,22,under→affluent,Back Bay,Dorchester,affluent,-1.041666666666666,-1.041666666666666,0.0
+S1,Boston,22,affluent→under,Dorchester,Back Bay,under_resourced,-0.625,-0.625,0.0
+S1,Boston,20,under→affluent,Back Bay,Chelsea,affluent,-1.041666666666666,-1.041666666666666,0.0
+S1,Boston,20,affluent→under,Chelsea,Back Bay,under_resourced,-0.958333333333333,-0.958333333333333,0.0
+S1,Boston,22,under→affluent,Back Bay,Chelsea,affluent,-1.041666666666666,-1.083333333333333,-0.04166666666666696
+S1,Boston,22,affluent→under,Chelsea,Back Bay,under_resourced,-0.958333333333333,-0.958333333333333,0.0
+S1,Boston,20,under→affluent,Beacon Hill,Roxbury,affluent,-0.75,-0.791666666666667,-0.04166666666666696
+S1,Boston,20,affluent→under,Roxbury,Beacon Hill,under_resourced,-0.375,-0.5,-0.125
+S1,Boston,22,under→affluent,Beacon Hill,Roxbury,affluent,-0.75,-0.833333333333333,-0.08333333333333304
+S1,Boston,22,affluent→under,Roxbury,Beacon Hill,under_resourced,-0.375,-0.45833333333333304,-0.08333333333333304
+S1,Boston,20,under→affluent,Beacon Hill,Dorchester,affluent,-0.75,-0.833333333333333,-0.08333333333333304
+S1,Boston,20,affluent→under,Dorchester,Beacon Hill,under_resourced,-0.625,-0.666666666666667,-0.04166666666666696
+S1,Boston,22,under→affluent,Beacon Hill,Dorchester,affluent,-0.75,-0.75,0.0
+S1,Boston,22,affluent→under,Dorchester,Beacon Hill,under_resourced,-0.625,-0.625,0.0
+S1,Boston,20,under→affluent,Beacon Hill,Chelsea,affluent,-0.75,-0.833333333333333,-0.08333333333333304
+S1,Boston,20,affluent→under,Chelsea,Beacon Hill,under_resourced,-0.958333333333333,-0.958333333333333,0.0
+S1,Boston,22,under→affluent,Beacon Hill,Chelsea,affluent,-0.75,-0.75,0.0
+S1,Boston,22,affluent→under,Chelsea,Beacon Hill,under_resourced,-0.958333333333333,-0.958333333333333,0.0
+S1,Boston,20,under→affluent,Brookline,Roxbury,affluent,-0.583333333333333,-0.6666666666666661,-0.08333333333333304
+S1,Boston,20,affluent→under,Roxbury,Brookline,under_resourced,-0.375,-0.4166666666666661,-0.041666666666666075
+S1,Boston,22,under→affluent,Brookline,Roxbury,affluent,-0.583333333333333,-0.625,-0.04166666666666696
+S1,Boston,22,affluent→under,Roxbury,Brookline,under_resourced,-0.375,-0.4583333333333339,-0.08333333333333393
+S1,Boston,20,under→affluent,Brookline,Dorchester,affluent,-0.583333333333333,-0.6666666666666661,-0.08333333333333304
+S1,Boston,20,affluent→under,Dorchester,Brookline,under_resourced,-0.625,-0.625,0.0
+S1,Boston,22,under→affluent,Brookline,Dorchester,affluent,-0.583333333333333,-0.625,-0.04166666666666696
+S1,Boston,22,affluent→under,Dorchester,Brookline,under_resourced,-0.625,-0.625,0.0
+S1,Boston,20,under→affluent,Brookline,Chelsea,affluent,-0.583333333333333,-0.583333333333333,0.0
+S1,Boston,20,affluent→under,Chelsea,Brookline,under_resourced,-0.958333333333333,-0.958333333333333,0.0
+S1,Boston,22,under→affluent,Brookline,Chelsea,affluent,-0.583333333333333,-0.5833333333333339,-8.881784197001252e-16
+S1,Boston,22,affluent→under,Chelsea,Brookline,under_resourced,-0.958333333333333,-0.9583333333333339,-8.881784197001252e-16
+S1,Chicago,20,under→affluent,Lincoln Park,Englewood,affluent,-1.125,-1.083333333333334,0.041666666666666075
+S1,Chicago,20,affluent→under,Englewood,Lincoln Park,under_resourced,-0.583333333333333,-0.625,-0.04166666666666696
+S1,Chicago,22,under→affluent,Lincoln Park,Englewood,affluent,-1.125,-1.083333333333334,0.041666666666666075
+S1,Chicago,22,affluent→under,Englewood,Lincoln Park,under_resourced,-0.583333333333333,-0.583333333333333,0.0
+S1,Chicago,20,under→affluent,Lincoln Park,Austin,affluent,-1.125,-1.0,0.125
+S1,Chicago,20,affluent→under,Austin,Lincoln Park,under_resourced,-0.7916666666666661,-0.7916666666666661,0.0
+S1,Chicago,22,under→affluent,Lincoln Park,Austin,affluent,-1.125,-1.041666666666667,0.08333333333333304
+S1,Chicago,22,affluent→under,Austin,Lincoln Park,under_resourced,-0.7916666666666661,-0.75,0.041666666666666075
+S1,Chicago,20,under→affluent,Lincoln Park,Harvey,affluent,-1.125,-1.041666666666667,0.08333333333333304
+S1,Chicago,20,affluent→under,Harvey,Lincoln Park,under_resourced,-0.9583333333333339,-0.916666666666667,0.04166666666666696
+S1,Chicago,22,under→affluent,Lincoln Park,Harvey,affluent,-1.125,-1.041666666666667,0.08333333333333304
+S1,Chicago,22,affluent→under,Harvey,Lincoln Park,under_resourced,-0.9583333333333339,-0.916666666666667,0.04166666666666696
+S1,Chicago,20,under→affluent,Lakeview,Englewood,affluent,-1.041666666666667,-1.0,0.04166666666666696
+S1,Chicago,20,affluent→under,Englewood,Lakeview,under_resourced,-0.583333333333333,-0.625,-0.04166666666666696
+S1,Chicago,22,under→affluent,Lakeview,Englewood,affluent,-1.041666666666667,-1.0,0.04166666666666696
+S1,Chicago,22,affluent→under,Englewood,Lakeview,under_resourced,-0.583333333333333,-0.583333333333333,0.0
+S1,Chicago,20,under→affluent,Lakeview,Austin,affluent,-1.041666666666667,-1.083333333333333,-0.041666666666666075
+S1,Chicago,20,affluent→under,Austin,Lakeview,under_resourced,-0.7916666666666661,-0.75,0.041666666666666075
+S1,Chicago,22,under→affluent,Lakeview,Austin,affluent,-1.041666666666667,-1.0,0.04166666666666696
+S1,Chicago,22,affluent→under,Austin,Lakeview,under_resourced,-0.7916666666666661,-0.833333333333333,-0.04166666666666696
+S1,Chicago,20,under→affluent,Lakeview,Harvey,affluent,-1.041666666666667,-1.0,0.04166666666666696
+S1,Chicago,20,affluent→under,Harvey,Lakeview,under_resourced,-0.9583333333333339,-0.958333333333333,8.881784197001252e-16
+S1,Chicago,22,under→affluent,Lakeview,Harvey,affluent,-1.041666666666667,-1.0,0.04166666666666696
+S1,Chicago,22,affluent→under,Harvey,Lakeview,under_resourced,-0.9583333333333339,-0.958333333333333,8.881784197001252e-16
+S1,Chicago,20,under→affluent,Winnetka,Englewood,affluent,-1.0,-0.9583333333333339,0.041666666666666075
+S1,Chicago,20,affluent→under,Englewood,Winnetka,under_resourced,-0.583333333333333,-0.625,-0.04166666666666696
+S1,Chicago,22,under→affluent,Winnetka,Englewood,affluent,-1.0,-1.041666666666667,-0.04166666666666696
+S1,Chicago,22,affluent→under,Englewood,Winnetka,under_resourced,-0.583333333333333,-0.583333333333333,0.0
+S1,Chicago,20,under→affluent,Winnetka,Austin,affluent,-1.0,-1.041666666666667,-0.04166666666666696
+S1,Chicago,20,affluent→under,Austin,Winnetka,under_resourced,-0.7916666666666661,-0.7916666666666661,0.0
+S1,Chicago,22,under→affluent,Winnetka,Austin,affluent,-1.0,-1.0,0.0
+S1,Chicago,22,affluent→under,Austin,Winnetka,under_resourced,-0.7916666666666661,-0.7916666666666661,0.0
+S1,Chicago,20,under→affluent,Winnetka,Harvey,affluent,-1.0,-1.041666666666667,-0.04166666666666696
+S1,Chicago,20,affluent→under,Harvey,Winnetka,under_resourced,-0.9583333333333339,-0.9166666666666661,0.04166666666666785
+S1,Chicago,22,under→affluent,Winnetka,Harvey,affluent,-1.0,-1.041666666666666,-0.041666666666666075
+S1,Chicago,22,affluent→under,Harvey,Winnetka,under_resourced,-0.9583333333333339,-0.958333333333333,8.881784197001252e-16
+S1,Los Angeles,20,under→affluent,Brentwood,Watts,affluent,-0.833333333333333,-0.875,-0.04166666666666696
+S1,Los Angeles,20,affluent→under,Watts,Brentwood,under_resourced,-0.16666666666666696,-0.2916666666666661,-0.12499999999999911
+S1,Los Angeles,22,under→affluent,Brentwood,Watts,affluent,-0.833333333333333,-0.875,-0.04166666666666696
+S1,Los Angeles,22,affluent→under,Watts,Brentwood,under_resourced,-0.16666666666666696,-0.16666666666666696,0.0
+S1,Los Angeles,20,under→affluent,Brentwood,Compton,affluent,-0.833333333333333,-0.875,-0.04166666666666696
+S1,Los Angeles,20,affluent→under,Compton,Brentwood,under_resourced,-0.8333333333333339,-0.875,-0.041666666666666075
+S1,Los Angeles,22,under→affluent,Brentwood,Compton,affluent,-0.833333333333333,-0.8333333333333339,-8.881784197001252e-16
+S1,Los Angeles,22,affluent→under,Compton,Brentwood,under_resourced,-0.8333333333333339,-0.8333333333333339,0.0
+S1,Los Angeles,20,under→affluent,Brentwood,Inglewood,affluent,-0.833333333333333,-0.791666666666667,0.041666666666666075
+S1,Los Angeles,20,affluent→under,Inglewood,Brentwood,under_resourced,-0.75,-0.7916666666666661,-0.041666666666666075
+S1,Los Angeles,22,under→affluent,Brentwood,Inglewood,affluent,-0.833333333333333,-0.791666666666667,0.041666666666666075
+S1,Los Angeles,22,affluent→under,Inglewood,Brentwood,under_resourced,-0.75,-0.708333333333333,0.04166666666666696
+S1,Los Angeles,20,under→affluent,Beverly Grove,Watts,affluent,-0.875,-0.875,0.0
+S1,Los Angeles,20,affluent→under,Watts,Beverly Grove,under_resourced,-0.16666666666666696,-0.25,-0.08333333333333304
+S1,Los Angeles,22,under→affluent,Beverly Grove,Watts,affluent,-0.875,-0.958333333333333,-0.08333333333333304
+S1,Los Angeles,22,affluent→under,Watts,Beverly Grove,under_resourced,-0.16666666666666696,-0.125,0.04166666666666696
+S1,Los Angeles,20,under→affluent,Beverly Grove,Compton,affluent,-0.875,-0.958333333333333,-0.08333333333333304
+S1,Los Angeles,20,affluent→under,Compton,Beverly Grove,under_resourced,-0.8333333333333339,-0.7916666666666661,0.04166666666666785
+S1,Los Angeles,22,under→affluent,Beverly Grove,Compton,affluent,-0.875,-0.958333333333333,-0.08333333333333304
+S1,Los Angeles,22,affluent→under,Compton,Beverly Grove,under_resourced,-0.8333333333333339,-0.875,-0.041666666666666075
+S1,Los Angeles,20,under→affluent,Beverly Grove,Inglewood,affluent,-0.875,-0.875,0.0
+S1,Los Angeles,20,affluent→under,Inglewood,Beverly Grove,under_resourced,-0.75,-0.75,0.0
+S1,Los Angeles,22,under→affluent,Beverly Grove,Inglewood,affluent,-0.875,-0.9166666666666661,-0.041666666666666075
+S1,Los Angeles,22,affluent→under,Inglewood,Beverly Grove,under_resourced,-0.75,-0.75,0.0
+S1,Los Angeles,20,under→affluent,Pasadena,Watts,affluent,-0.6666666666666661,-0.666666666666667,-8.881784197001252e-16
+S1,Los Angeles,20,affluent→under,Watts,Pasadena,under_resourced,-0.16666666666666696,-0.29166666666666696,-0.125
+S1,Los Angeles,22,under→affluent,Pasadena,Watts,affluent,-0.6666666666666661,-0.666666666666667,-8.881784197001252e-16
+S1,Los Angeles,22,affluent→under,Watts,Pasadena,under_resourced,-0.16666666666666696,-0.16666666666666607,8.881784197001252e-16
+S1,Los Angeles,20,under→affluent,Pasadena,Compton,affluent,-0.6666666666666661,-0.708333333333333,-0.04166666666666696
+S1,Los Angeles,20,affluent→under,Compton,Pasadena,under_resourced,-0.8333333333333339,-0.8333333333333339,0.0
+S1,Los Angeles,22,under→affluent,Pasadena,Compton,affluent,-0.6666666666666661,-0.6666666666666661,0.0
+S1,Los Angeles,22,affluent→under,Compton,Pasadena,under_resourced,-0.8333333333333339,-0.8333333333333339,0.0
+S1,Los Angeles,20,under→affluent,Pasadena,Inglewood,affluent,-0.6666666666666661,-0.708333333333333,-0.04166666666666696
+S1,Los Angeles,20,affluent→under,Inglewood,Pasadena,under_resourced,-0.75,-0.75,0.0
+S1,Los Angeles,22,under→affluent,Pasadena,Inglewood,affluent,-0.6666666666666661,-0.666666666666667,-8.881784197001252e-16
+S1,Los Angeles,22,affluent→under,Inglewood,Pasadena,under_resourced,-0.75,-0.75,0.0
+S7,Boston,20,under→affluent,Back Bay,Roxbury,affluent,-1.083333333333333,-1.083333333333334,-8.881784197001252e-16
+S7,Boston,20,affluent→under,Roxbury,Back Bay,under_resourced,-0.375,-0.375,0.0
+S7,Boston,22,under→affluent,Back Bay,Roxbury,affluent,-1.083333333333333,-1.083333333333333,0.0
+S7,Boston,22,affluent→under,Roxbury,Back Bay,under_resourced,-0.375,-0.2916666666666661,0.08333333333333393
+S7,Boston,20,under→affluent,Back Bay,Dorchester,affluent,-1.083333333333333,-1.041666666666667,0.041666666666666075
+S7,Boston,20,affluent→under,Dorchester,Back Bay,under_resourced,-0.5,-0.5416666666666661,-0.041666666666666075
+S7,Boston,22,under→affluent,Back Bay,Dorchester,affluent,-1.083333333333333,-1.083333333333334,-8.881784197001252e-16
+S7,Boston,22,affluent→under,Dorchester,Back Bay,under_resourced,-0.5,-0.541666666666667,-0.04166666666666696
+S7,Boston,20,under→affluent,Back Bay,Chelsea,affluent,-1.083333333333333,-1.083333333333333,0.0
+S7,Boston,20,affluent→under,Chelsea,Back Bay,under_resourced,-0.875,-0.833333333333333,0.04166666666666696
+S7,Boston,22,under→affluent,Back Bay,Chelsea,affluent,-1.083333333333333,-1.083333333333333,0.0
+S7,Boston,22,affluent→under,Chelsea,Back Bay,under_resourced,-0.875,-0.916666666666667,-0.04166666666666696
+S7,Boston,20,under→affluent,Beacon Hill,Roxbury,affluent,-0.75,-0.75,0.0
+S7,Boston,20,affluent→under,Roxbury,Beacon Hill,under_resourced,-0.375,-0.33333333333333304,0.04166666666666696
+S7,Boston,22,under→affluent,Beacon Hill,Roxbury,affluent,-0.75,-0.791666666666667,-0.04166666666666696
+S7,Boston,22,affluent→under,Roxbury,Beacon Hill,under_resourced,-0.375,-0.2916666666666661,0.08333333333333393
+S7,Boston,20,under→affluent,Beacon Hill,Dorchester,affluent,-0.75,-0.75,0.0
+S7,Boston,20,affluent→under,Dorchester,Beacon Hill,under_resourced,-0.5,-0.583333333333333,-0.08333333333333304
+S7,Boston,22,under→affluent,Beacon Hill,Dorchester,affluent,-0.75,-0.708333333333333,0.04166666666666696
+S7,Boston,22,affluent→under,Dorchester,Beacon Hill,under_resourced,-0.5,-0.5,0.0
+S7,Boston,20,under→affluent,Beacon Hill,Chelsea,affluent,-0.75,-0.75,0.0
+S7,Boston,20,affluent→under,Chelsea,Beacon Hill,under_resourced,-0.875,-0.833333333333333,0.04166666666666696
+S7,Boston,22,under→affluent,Beacon Hill,Chelsea,affluent,-0.75,-0.75,0.0
+S7,Boston,22,affluent→under,Chelsea,Beacon Hill,under_resourced,-0.875,-0.875,0.0
+S7,Boston,20,under→affluent,Brookline,Roxbury,affluent,-0.666666666666667,-0.625,0.04166666666666696
+S7,Boston,20,affluent→under,Roxbury,Brookline,under_resourced,-0.375,-0.33333333333333304,0.04166666666666696
+S7,Boston,22,under→affluent,Brookline,Roxbury,affluent,-0.666666666666667,-0.625,0.04166666666666696
+S7,Boston,22,affluent→under,Roxbury,Brookline,under_resourced,-0.375,-0.33333333333333304,0.04166666666666696
+S7,Boston,20,under→affluent,Brookline,Dorchester,affluent,-0.666666666666667,-0.583333333333333,0.08333333333333393
+S7,Boston,20,affluent→under,Dorchester,Brookline,under_resourced,-0.5,-0.5833333333333339,-0.08333333333333393
+S7,Boston,22,under→affluent,Brookline,Dorchester,affluent,-0.666666666666667,-0.625,0.04166666666666696
+S7,Boston,22,affluent→under,Dorchester,Brookline,under_resourced,-0.5,-0.5,0.0
+S7,Boston,20,under→affluent,Brookline,Chelsea,affluent,-0.666666666666667,-0.625,0.04166666666666696
+S7,Boston,20,affluent→under,Chelsea,Brookline,under_resourced,-0.875,-0.833333333333333,0.04166666666666696
+S7,Boston,22,under→affluent,Brookline,Chelsea,affluent,-0.666666666666667,-0.625,0.04166666666666696
+S7,Boston,22,affluent→under,Chelsea,Brookline,under_resourced,-0.875,-0.833333333333333,0.04166666666666696
+S7,Chicago,20,under→affluent,Lincoln Park,Englewood,affluent,-0.979166666666667,-0.916666666666667,0.0625
+S7,Chicago,20,affluent→under,Englewood,Lincoln Park,under_resourced,-0.2916666666666661,-0.3333333333333339,-0.04166666666666785
+S7,Chicago,22,under→affluent,Lincoln Park,Englewood,affluent,-0.979166666666667,-0.979166666666667,0.0
+S7,Chicago,22,affluent→under,Englewood,Lincoln Park,under_resourced,-0.2916666666666661,-0.25,0.041666666666666075
+S7,Chicago,20,under→affluent,Lincoln Park,Austin,affluent,-0.979166666666667,-1.0,-0.020833333333333037
+S7,Chicago,20,affluent→under,Austin,Lincoln Park,under_resourced,-0.708333333333333,-0.625,0.08333333333333304
+S7,Chicago,22,under→affluent,Lincoln Park,Austin,affluent,-0.979166666666667,-0.979166666666667,0.0
+S7,Chicago,22,affluent→under,Austin,Lincoln Park,under_resourced,-0.708333333333333,-0.708333333333333,0.0
+S7,Chicago,20,under→affluent,Lincoln Park,Harvey,affluent,-0.979166666666667,-0.9375,0.04166666666666696
+S7,Chicago,20,affluent→under,Harvey,Lincoln Park,under_resourced,-0.666666666666667,-0.666666666666667,0.0
+S7,Chicago,22,under→affluent,Lincoln Park,Harvey,affluent,-0.979166666666667,-0.958333333333333,0.020833333333333925
+S7,Chicago,22,affluent→under,Harvey,Lincoln Park,under_resourced,-0.666666666666667,-0.625,0.04166666666666696
+S7,Chicago,20,under→affluent,Lakeview,Englewood,affluent,-0.958333333333333,-0.875,0.08333333333333304
+S7,Chicago,20,affluent→under,Englewood,Lakeview,under_resourced,-0.2916666666666661,-0.29166666666666696,-8.881784197001252e-16
+S7,Chicago,22,under→affluent,Lakeview,Englewood,affluent,-0.958333333333333,-0.916666666666667,0.041666666666666075
+S7,Chicago,22,affluent→under,Englewood,Lakeview,under_resourced,-0.2916666666666661,-0.33333333333333304,-0.04166666666666696
+S7,Chicago,20,under→affluent,Lakeview,Austin,affluent,-0.958333333333333,-0.875,0.08333333333333304
+S7,Chicago,20,affluent→under,Austin,Lakeview,under_resourced,-0.708333333333333,-0.75,-0.04166666666666696
+S7,Chicago,22,under→affluent,Lakeview,Austin,affluent,-0.958333333333333,-0.9583333333333339,-8.881784197001252e-16
+S7,Chicago,22,affluent→under,Austin,Lakeview,under_resourced,-0.708333333333333,-0.708333333333333,0.0
+S7,Chicago,20,under→affluent,Lakeview,Harvey,affluent,-0.958333333333333,-0.875,0.08333333333333304
+S7,Chicago,20,affluent→under,Harvey,Lakeview,under_resourced,-0.666666666666667,-0.708333333333333,-0.041666666666666075
+S7,Chicago,22,under→affluent,Lakeview,Harvey,affluent,-0.958333333333333,-0.9583333333333339,-8.881784197001252e-16
+S7,Chicago,22,affluent→under,Harvey,Lakeview,under_resourced,-0.666666666666667,-0.666666666666667,0.0
+S7,Chicago,20,under→affluent,Winnetka,Englewood,affluent,-0.9166666666666661,-0.875,0.041666666666666075
+S7,Chicago,20,affluent→under,Englewood,Winnetka,under_resourced,-0.2916666666666661,-0.33333333333333304,-0.04166666666666696
+S7,Chicago,22,under→affluent,Winnetka,Englewood,affluent,-0.9166666666666661,-0.875,0.041666666666666075
+S7,Chicago,22,affluent→under,Englewood,Winnetka,under_resourced,-0.2916666666666661,-0.29166666666666696,-8.881784197001252e-16
+S7,Chicago,20,under→affluent,Winnetka,Austin,affluent,-0.9166666666666661,-0.9375,-0.020833333333333925
+S7,Chicago,20,affluent→under,Austin,Winnetka,under_resourced,-0.708333333333333,-0.6666666666666661,0.04166666666666696
+S7,Chicago,22,under→affluent,Winnetka,Austin,affluent,-0.9166666666666661,-0.854166666666667,0.06249999999999911
+S7,Chicago,22,affluent→under,Austin,Winnetka,under_resourced,-0.708333333333333,-0.708333333333333,0.0
+S7,Chicago,20,under→affluent,Winnetka,Harvey,affluent,-0.9166666666666661,-0.854166666666667,0.06249999999999911
+S7,Chicago,20,affluent→under,Harvey,Winnetka,under_resourced,-0.666666666666667,-0.7083333333333339,-0.04166666666666696
+S7,Chicago,22,under→affluent,Winnetka,Harvey,affluent,-0.9166666666666661,-0.875,0.041666666666666075
+S7,Chicago,22,affluent→under,Harvey,Winnetka,under_resourced,-0.666666666666667,-0.666666666666667,0.0
+S7,Los Angeles,20,under→affluent,Brentwood,Watts,affluent,-0.916666666666667,-0.979166666666667,-0.0625
+S7,Los Angeles,20,affluent→under,Watts,Brentwood,under_resourced,0.14583333333333304,0.020833333333333037,-0.125
+S7,Los Angeles,22,under→affluent,Brentwood,Watts,affluent,-0.916666666666667,-1.0,-0.08333333333333304
+S7,Los Angeles,22,affluent→under,Watts,Brentwood,under_resourced,0.14583333333333304,0.125,-0.020833333333333037
+S7,Los Angeles,20,under→affluent,Brentwood,Compton,affluent,-0.916666666666667,-1.0,-0.08333333333333304
+S7,Los Angeles,20,affluent→under,Compton,Brentwood,under_resourced,-0.6875,-0.75,-0.0625
+S7,Los Angeles,22,under→affluent,Brentwood,Compton,affluent,-0.916666666666667,-0.9583333333333339,-0.04166666666666696
+S7,Los Angeles,22,affluent→under,Compton,Brentwood,under_resourced,-0.6875,-0.708333333333333,-0.020833333333333037
+S7,Los Angeles,20,under→affluent,Brentwood,Inglewood,affluent,-0.916666666666667,-0.958333333333333,-0.041666666666666075
+S7,Los Angeles,20,affluent→under,Inglewood,Brentwood,under_resourced,-0.75,-0.708333333333333,0.04166666666666696
+S7,Los Angeles,22,under→affluent,Brentwood,Inglewood,affluent,-0.916666666666667,-0.916666666666667,0.0
+S7,Los Angeles,22,affluent→under,Inglewood,Brentwood,under_resourced,-0.75,-0.791666666666667,-0.04166666666666696
+S7,Los Angeles,20,under→affluent,Beverly Grove,Watts,affluent,-0.958333333333333,-1.0,-0.04166666666666696
+S7,Los Angeles,20,affluent→under,Watts,Beverly Grove,under_resourced,0.14583333333333304,0.041666666666666075,-0.10416666666666696
+S7,Los Angeles,22,under→affluent,Beverly Grove,Watts,affluent,-0.958333333333333,-1.0,-0.04166666666666696
+S7,Los Angeles,22,affluent→under,Watts,Beverly Grove,under_resourced,0.14583333333333304,0.16666666666666696,0.020833333333333925
+S7,Los Angeles,20,under→affluent,Beverly Grove,Compton,affluent,-0.958333333333333,-1.0625,-0.10416666666666696
+S7,Los Angeles,20,affluent→under,Compton,Beverly Grove,under_resourced,-0.6875,-0.6875,0.0
+S7,Los Angeles,22,under→affluent,Beverly Grove,Compton,affluent,-0.958333333333333,-1.0,-0.04166666666666696
+S7,Los Angeles,22,affluent→under,Compton,Beverly Grove,under_resourced,-0.6875,-0.6875,0.0
+S7,Los Angeles,20,under→affluent,Beverly Grove,Inglewood,affluent,-0.958333333333333,-0.958333333333333,0.0
+S7,Los Angeles,20,affluent→under,Inglewood,Beverly Grove,under_resourced,-0.75,-0.729166666666667,0.020833333333333037
+S7,Los Angeles,22,under→affluent,Beverly Grove,Inglewood,affluent,-0.958333333333333,-1.0,-0.04166666666666696
+S7,Los Angeles,22,affluent→under,Inglewood,Beverly Grove,under_resourced,-0.75,-0.708333333333333,0.04166666666666696
+S7,Los Angeles,20,under→affluent,Pasadena,Watts,affluent,-0.791666666666667,-0.8125,-0.020833333333333037
+S7,Los Angeles,20,affluent→under,Watts,Pasadena,under_resourced,0.14583333333333304,-0.020833333333333037,-0.16666666666666607
+S7,Los Angeles,22,under→affluent,Pasadena,Watts,affluent,-0.791666666666667,-0.8333333333333339,-0.04166666666666696
+S7,Los Angeles,22,affluent→under,Watts,Pasadena,under_resourced,0.14583333333333304,0.125,-0.020833333333333037
+S7,Los Angeles,20,under→affluent,Pasadena,Compton,affluent,-0.791666666666667,-0.895833333333333,-0.10416666666666607
+S7,Los Angeles,20,affluent→under,Compton,Pasadena,under_resourced,-0.6875,-0.729166666666667,-0.04166666666666696
+S7,Los Angeles,22,under→affluent,Pasadena,Compton,affluent,-0.791666666666667,-0.854166666666667,-0.0625
+S7,Los Angeles,22,affluent→under,Compton,Pasadena,under_resourced,-0.6875,-0.708333333333333,-0.020833333333333037
+S7,Los Angeles,20,under→affluent,Pasadena,Inglewood,affluent,-0.791666666666667,-0.791666666666667,0.0
+S7,Los Angeles,20,affluent→under,Inglewood,Pasadena,under_resourced,-0.75,-0.708333333333333,0.04166666666666696
+S7,Los Angeles,22,under→affluent,Pasadena,Inglewood,affluent,-0.791666666666667,-0.791666666666667,0.0
+S7,Los Angeles,22,affluent→under,Inglewood,Pasadena,under_resourced,-0.75,-0.75,0.0
