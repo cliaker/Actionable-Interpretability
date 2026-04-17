@@ -142,10 +142,10 @@ Additionally, `hf_transfer` is installed for faster model downloads.
 If you use this work, please cite:
 
 ```
-@misc{neighborhood-framing-bias-2025,
+@misc{neighborhood-framing-bias-2026,
   title={Place-Based Framing Bias in LLMs: Mechanistic Interpretability of Neighborhood-Driven Policy Recommendations},
   author={Chengyu, Abhishek},
-  year={2025},
+  year={2026},
   url={https://github.com/cliaker/Actionable-Interpretability}
 }
 ```
