@@ -2,31 +2,31 @@
 
 > **Do neighborhood names cause language models to recommend different policy strategies for the same public safety problem?**
 
-This project investigates how Gemma-2-9B-IT encodes and processes U.S. neighborhood names — and whether these place-based associations systematically shift the model's policy recommendations toward punitive ("control") or community-oriented ("prevention") strategies. Using techniques from mechanistic interpretability (linear probing, activation patching, activation steering, projection-based debiasing), we trace the causal pathway of this bias through the model's internal representations and test whether it can be surgically removed at inference time.
+This project investigates how Gemma-2-9B-IT encodes and processes U.S. neighborhood names, and whether these place-based associations systematically shift the model's policy recommendations toward punitive ("control") or community-oriented ("prevention") strategies. Using techniques from mechanistic interpretability (linear probing, activation patching, activation steering, prompt instruction, additive and projection debiasing), we trace the causal pathway of this bias through the model's internal representations and test whether it can be surgically removed at inference time.
 
 ## Key Findings
 
-1. **Neighborhood names shift policy framing.** Under-resourced neighborhood names (e.g., Roxbury, Englewood, Watts) push the model ~0.19 log-prob units further toward "prevention" framing than affluent names (e.g., Back Bay, Lincoln Park, Brentwood) — consistently across 8 safety scenarios, 3 cities, and multiple prompt templates.
+1. **Neighborhood names shift policy framing.** Under-resourced neighborhood names (e.g., Roxbury, Englewood, Watts) push the model ~0.19 log-prob units further toward "prevention" framing than affluent names (e.g., Back Bay, Lincoln Park, Brentwood). This pattern is consistent across 8 safety scenarios, 3 cities, and multiple prompt templates.
 
-2. **A computational transition zone exists at layers 20–22.** Linear probes achieve ≥0.94 accuracy on a control/prevention axis across all layers, but the correlation between probe scores and behavioral bias undergoes a dramatic sign flip between layer 20 (r = 0.62) and layer 22 (r = −0.42) at the answer position — revealing an active internal rewriting of place-based signals.
+2. **A computational transition zone exists at layers 20–22.** Linear probes achieve ≥0.94 accuracy on a control/prevention axis across all layers, but the correlation between probe scores and behavioral bias undergoes a dramatic sign flip between layer 20 (r = 0.62) and layer 22 (r = −0.42) at the answer position. It reveals an active internal rewriting of place-based signals.
 
-3. **Activation steering can move overall preferences but cannot selectively close the bias gap.** Steering at the answer position produces strong dose-response shifts in absolute policy preference, but affects affluent and under-resourced conditions equally — the 0.19-unit gap remains.
+3. **Activation steering can move overall preferences but cannot selectively close the bias gap.** Steering at the answer position produces strong dose-response shifts in absolute policy preference, but affects affluent and under-resourced conditions equally. The 0.19 gap remains.
 
-4. **Three debiasing methods all fail (an informative negative result).** Prompt-based instruction, additive steering, and projection-based debiasing are unable to selectively remove the valence-specific differential. The bias is distributed across high-dimensional representations, not encoded along a single linear direction — setting a concrete boundary on current representation engineering methods.
+4. **Three debiasing methods all fail (an informative negative result).** Prompt-based instruction, additive steering, and projection-based debiasing are unable to selectively remove the valence specific differential. The bias is distributed across high-dimensional representations, not encoded along a single linear direction. Although debias fails, it sets a concrete boundary on current representation engineering methods.
 
 ## Experimental Design
 
-The experiment follows a four-chapter structure, each building on the previous:
+The experiment follows a four chapter structure:
 
 ### Chapter 1 — Behavioral Measurement
 
 Establishes the phenomenon: does the model treat neighborhoods differently?
 
-- **Task**: Forced-choice policy recommendation (control vs. prevention strategy) for 8 race-neutral urban safety scenarios.
+- **Task**: Forced-choice policy recommendation (control vs. prevention strategy) for 8 de-context urban safety scenarios.
 - **Metric**: `prevention_minus_control` — the difference in average log-probabilities between the two completions.
 - **Conditions**:
   - **Baseline**: No neighborhood context provided.
-  - **Name**: 18 real neighborhood names (3 cities × 3 affluent + 3 under-resourced), each inserted via 2 prompt templates with order-swapped ablation.
+  - **Name**: 18 real neighborhood names (3 cities × (3 affluent + 3 under-resourced)), each inserted via 2 prompt templates with order-swapped ablation.
   - **Proxy**: Socioeconomic descriptors (housing stability, upkeep, community infrastructure) without explicit place names.
   - **Race ablation**: Explicit racial demographics appended to scenarios.
 - **Statistical test**: Permutation test on `delta_from_baseline` (under-resourced vs. affluent).
@@ -64,7 +64,7 @@ All Chapter 1–2 experiments are replicated on Gemma-2-9B-base (non-instruction
 
 ```
 .
-├── Final_exp__1_.ipynb          # Main experiment notebook (run on Google Colab)
+├── CS7180_Final.ipynb          # Main experiment notebook (run on Google Colab Pro)
 ├── README.md
 ├── LICENSE
 ├── Intermediate results files/  # Saved outputs (created at runtime)
@@ -88,14 +88,14 @@ All Chapter 1–2 experiments are replicated on Gemma-2-9B-base (non-instruction
 | **IT Model** | `unsloth/gemma-2-9b-it-bnb-4bit` (Gemma-2-9B-IT, 4-bit NF4 quantization) |
 | **Base Model** | `unsloth/gemma-2-9b-bnb-4bit` (Gemma-2-9B, 4-bit NF4 quantization) |
 | **Neighborhoods** | 18 real U.S. neighborhoods across Boston, Chicago, and Los Angeles (9 affluent, 9 under-resourced) |
-| **Scenarios** | 8 race-neutral urban safety vignettes (assaults, property damage, theft, vandalism, etc.) |
+| **Scenarios** | 8 de-context urban safety vignettes (assaults, property damage, theft, vandalism, etc.) |
 | **Probe training data** | 100 balanced sentences (50 control-framed, 50 prevention-framed) |
 
 ## How to Run
 
 ### Prerequisites
 
-- A Google Colab environment with GPU (T4 or above recommended; A100 for faster runs).
+- A Google Colab Pro environment with GPU (L4 or above recommended; A100 for faster runs).
 - A Hugging Face account with access to Gemma-2 models (requires accepting the license at [google/gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)).
 
 ### Steps
@@ -107,11 +107,11 @@ All Chapter 1–2 experiments are replicated on Gemma-2-9B-base (non-instruction
 3. **Mount Google Drive** — results are checkpointed to `~/drive/MyDrive/neighborhood_framing_experiment/`. Modify `SAVE_DIR` if you prefer a different path.
 
 4. **Run cells sequentially.** The notebook is organized into four chapters:
-   - **Ch1 (Cells 3–28)**: Behavioral experiments. ~30–45 min on T4.
-   - **Ch2 (Cells 29–41)**: Probe training & layer sweep. ~20–30 min.
-   - **Ch3 (Cells 42–53)**: Activation patching & steering. ~30–45 min.
-   - **Base model comparison (Cells 54–60)**: Releases IT model, loads base, re-runs Ch1–2. ~40 min.
-   - **Ch4 (Cells 61–85)**: Debiasing experiments. ~60 min.
+   - **Ch1 (Cells 3–28)**: Behavioral experiments.
+   - **Ch2 (Cells 29–41)**: Probe training & layer sweep.
+   - **Ch3 (Cells 42–53)**: Activation patching & steering.
+   - **Base model comparison (Cells 54–60)**: Releases IT model, loads base, re-runs Ch1–2.
+   - **Ch4 (Cells 61–85)**: Debiasing experiments.
 
 5. **Note on memory**: The notebook manages GPU memory by releasing models between the IT and base model phases. If running on a 16GB GPU, avoid loading both models simultaneously.
 
