@@ -66,12 +66,19 @@ All Chapter 1–2 experiments are replicated on Gemma-2-9B-base (non-instruction
 .
 ├── Final_exp__1_.ipynb          # Main experiment notebook (run on Google Colab)
 ├── README.md
-└── Intermediate results/   # Saved outputs (created at runtime)
-    ├── act1_checkpoint.json           # Ch1 config & baseline map
-    ├── act2_probe_accuracy_it.csv     # Probe accuracy per layer (IT model)
-    ├── act3_checkpoint.json           # Causal experiment config
-    ├── act4_config.json               # Debiasing config & results
-    └── final_summary.json             # Cross-chapter summary
+├── LICENSE
+├── Intermediate results files/  # Saved outputs (created at runtime)
+│   ├── act1_checkpoint.json           # Ch1 config & baseline map
+│   ├── act2_probe_accuracy_it.csv     # Probe accuracy per layer (IT model)
+│   ├── act3_checkpoint.json           # Causal experiment config
+│   ├── act4_config.json               # Debiasing config & results
+│   ├── final_summary.json             # Cross-chapter summary
+│   └── ...                            # Additional output files
+├── Pilot test/                  # Early pilot experiments
+│   └── ...
+└── SAE_explore/                 # SAE feature exploration
+    ├── SAE_Appendix.ipynb
+    └── README.md
 ```
 
 ## Model & Data
