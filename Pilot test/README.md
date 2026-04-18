@@ -1,6 +1,6 @@
 # Pilot Tests
 
-This folder contains three pilot notebooks that iteratively developed the experimental methodology, metrics, and mechanistic tools used in the final experiment (`Final_exp__1_.ipynb`). Each pilot tested specific hypotheses, encountered failures or surprises, and directly shaped design decisions for the next iteration.
+This folder contains three pilot notebooks that iteratively developed the experimental methodology, metrics, and some mechanistic tools used in the final experiment. Each pilot tested specific hypotheses, encountered failures or surprises, and directly shaped design decisions for the final experiment.
 
 ---
 
@@ -9,7 +9,7 @@ This folder contains three pilot notebooks that iteratively developed the experi
 | Notebook | Model | Purpose |
 |---|---|---|
 | `Actionable_Interp_pilot_gemma_2b.ipynb` | Gemma-2-2B-IT | Established the framing axis via linear probes; tested and rejected multiple behavioral measurement approaches; identified continuation log-probability as the viable metric |
-| `Actionable_Interp_pilot_gemma_9b.ipynb` | Gemma-2-9B-IT + Base | Scaled to 9B; introduced neighborhood names (Condition D) and descriptive proxy contexts; discovered representational dissociation at the name token; ran base vs. IT comparison |
+| `Actionable_Interp_pilot_gemma_9b.ipynb` | Gemma-2-9B-IT + Base | Scaled to 9B; introduced neighborhood names and descriptive proxy contexts; discovered representational dissociation at the name token; ran base vs. IT comparison |
 | `Gemma9b_Audit_pilot_test.ipynb` | Gemma-2-9B-IT + Base | Expanded to 3 cities × 12 neighborhoods; formalized the multi-position representational sweep; ran initial activation patching and steering demos; established the experimental blueprint for the final notebook |
 
 ---
@@ -65,10 +65,10 @@ The 2B model showed consistent directional effects (community context → more p
 The descriptive proxy conditions (housing, upkeep, community infrastructure) produced effects, but `community_infra_weak` pushed the model *more* toward prevention than `community_infra_strong` — suggesting the model reads weak infrastructure as a signal for supportive intervention. The proxy effects did not mirror the affluent/under-resourced gradient seen with actual neighborhood names. This confirmed that place names carry richer socioeconomic associations than can be captured by simple descriptive bundles, motivating the name-centric design of the final experiment.
 
 **→ Why ZIP codes were dropped.**
-ZIP codes produced uniform effects regardless of the actual socioeconomic valence of the area (~+2.48 for all). The model's place-based associations are name-driven, not number-driven. ZIP codes were removed from the final experiment.
+ZIP codes produced uniform effects regardless of the actual socioeconomic valence of the area (~+2.48 for all). The model's place-based associations are name driven, not number driven. ZIP codes were removed from the final experiment.
 
 **→ The discovery of representational dissociation.**
-When probing at the neighborhood name token (layer 20), the probe scores moved in the *opposite* direction from behavioral output: Roxbury's probe score was −0.90 (control-leaning) while its behavioral delta was +3.13 (prevention-leaning). This "representational dissociation" — where internal representation and external behavior diverge — became a central question for the final experiment's multi-position layer sweep.
+When probing at the neighborhood name token (layer 20), the probe scores moved in the *opposite* direction from behavioral output: Roxbury's probe score was −0.90 (control-leaning) while its behavioral delta was +3.13 (prevention-leaning). This "representational dissociation", where internal representation and external behavior diverge became a central question for the final experiment's multi-position layer sweep.
 
 **→ Base vs. IT comparison revealed the bias is a pretraining artifact.**
 The base model already showed a 1.8× ratio of under-resourced to affluent prevention shifts; IT amplified this ~5–6× uniformly while preserving the relative ordering. This finding was replicated more rigorously in the final experiment and informed the narrative that RLHF/instruction tuning amplifies but does not create the place-based bias.
@@ -114,7 +114,7 @@ This pilot only tested layer 20. The findings — particularly the weak answer-p
 The patching demo at `name_first` produced small but directionally consistent effects: patching under-resourced → affluent shifted toward control, and vice versa. Combined with the correlation evidence, this confirmed `name_first` as having nonzero causal leverage, and became the patching site in the final experiment.
 
 **→ Why answer-position steering was also tested in the final experiment.**
-The pilot's steering demo at the answer position produced weak, inconsistent effects — but only tested a few prompts with a single alpha value. The final experiment systematically swept alpha values at both `name_first` and `answer` positions, discovering that answer-position steering actually has stronger dose-response effects than name_first steering (contradicting this pilot's preliminary conclusion).
+The pilot's steering demo at the answer position produced weak, inconsistent effects. But it only tested a few prompts with a single alpha value. The final experiment systematically swept alpha values at both `name_first` and `answer` positions, discovering that answer-position steering actually has stronger dose-response effects than name_first steering (contradicting this pilot's preliminary conclusion).
 
 **→ Why descriptive proxies became a separate "negative control" condition.**
 The pilot confirmed that proxy effects do not mirror name effects: affluent-like proxies sometimes produced larger shifts than under-resourced-like proxies, and the ordering was inconsistent across proxy families. In the final experiment, proxies were retained as a negative control to demonstrate that the name effect cannot be trivially explained by surface-level socioeconomic descriptions.
@@ -129,7 +129,7 @@ The pilot used neighborhoods with varying token counts (1–2 subtokens) and var
 | Design Decision | Pilot Where Tested | What Was Learned | Final Experiment Choice |
 |---|---|---|---|
 | Behavioral metric | Pilot 1 (2B) | Single-token logits have severe label/order bias | Continuation log-probability with order-swap averaging |
-| Strategy labels | Pilot 1 (2B) | Value-laden labels trigger alignment artifacts | Neutral labels ("Immediate control" / "Preventive stabilization") |
+| Strategy labels | Pilot 1 (2B) | Value-laden labels trigger alignment artifacts | Neutral labels ("Aggregate control" / "Preventive stabilization") |
 | Model scale | Pilot 1 (2B) | 2B effects too small, alignment-dominated | Gemma-2-9B-IT (4-bit quantized) |
 | Best probe layer | Pilots 1 & 2 | Layer 20 on both 2B and 9B | Layer 20 as anchor; expanded to 10-layer sweep |
 | Probe training size | Pilot 2 (9B) | 60 sentences → 0.875 accuracy on 9B | Expanded to 100 sentences → ≥0.94 accuracy |
@@ -144,7 +144,7 @@ The pilot used neighborhoods with varying token counts (1–2 subtokens) and var
 
 ## How to Read These Notebooks
 
-These are working research notebooks with iterative, exploratory code. They contain dead ends, commented-out experiments, and inline notes (often in Chinese) reflecting real-time analysis decisions. They are not cleaned for reproduction — the final experiment notebook consolidates all validated methods into a single reproducible pipeline.
+These are working research notebooks with iterative, exploratory code. They contain dead ends, commented-out experiments, and inline notes. They are not cleaned for reproduction. Te final experiment notebook consolidates all validated methods into a single reproducible pipeline.
 
 The recommended reading order is:
 
